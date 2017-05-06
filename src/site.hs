@@ -57,10 +57,10 @@ main = hakyll $ do
                 >>= relativizeUrls
 
 
-    match "index-it.html" $ do
+    match "index-en.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "mica/enote/it/*"
+            posts <- recentFirst =<< loadAll "mica/enote/en/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     defaultContext
@@ -73,7 +73,7 @@ main = hakyll $ do
     match "index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "mica/enote/en/*"
+            posts <- recentFirst =<< loadAll "mica/enote/it/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     defaultContext
