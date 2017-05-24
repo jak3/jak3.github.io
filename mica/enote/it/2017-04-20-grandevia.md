@@ -5,16 +5,10 @@
 ## Alimentazione
 
 * Smettere di mangiare prima di essere sazi
-> Colazione da re, pranzo da mercante e cena da povero.
-> La colazione mangiala tu, il pranzo dividilo con un amico e la cena donala.
 * Digiunare, evita di mangiare poco e spesso. Non fare lavorare sempre lo stomaco.
 * Ingerisci il cibo fino che sei pieno a 3/4
 * Gli uomini possono vivere mangiando 1/4, con gli altri 3/4 campano i dottori.
-* **ref** [Siddharta](https://www.goodreads.com/book/show/52036.Siddhartha)
 * TRF (Time Restricted Feeding) Abbassa del 30% Kcal per pasto.
-
-> Digiunare e' il più grande rimedio, il dottore interiore - Filippo Paracelso
-
 * Digiuno 2/3 volte a settimana, dove con digiuno si intende:
 
     1. Mangiare vegetali cotti/crudi (evitando tuberi come patate) conditi con
@@ -91,26 +85,11 @@
   e l'ossigenazione dei muscoli, la fluidità, la sensibilità e la facilità con
   cui eseguiamo i movimenti
 
-> La meditazione deve cominciare con il corpo. Esso e' il veicolo del se', che, se
-> non controllato nei suoi desideri, ostacola la vera meditazione - Iyengar
-
 ## Meditazione
 
 * Vibrazioni emesse dalla parola "OM" inibiscono attività del sistema limbico,
   importante per il controllo delle emozioni.
-
-> Una vita senza ricerca non e' degna di essere vissuta
-
-* **ref** [Tao te chin - Lao Tzu](https://www.goodreads.com/book/show/67896.Tao_Te_Ching)
-
-> Le vide del Cielo possono essere penetrate senza affacciarsi alla finestra
-
 * Meditare: Non e' richiesto tempio, chiesa, scritture.. niente verrà con noi.
-
-> Solo nel finito e' espresso l'infinito, e nel temporale l'eterno.
-
-* **ref** [The philosophy of spinoza - Ratner J](https://www.goodreads.com/book/show/2340397.The_Philosophy_of_Spinoza)
-
 * Stadi dello Yoga (secondo Patañjali):
 
     1. Esteriori
@@ -130,28 +109,6 @@
 
 * Ataraxia = imperturbabilità di spirito
 
-> Controlla i tuoi pensieri, diverranno le tue parole, verifica le tue parole,
-> perché diverranno le tue azioni; controlla le tue azioni, diverranno le tue
-> abitudini, correggi le tue abitudini, formeranno il tuo carattere; controlla
-> il tuo carattere perché diventerà il tuo destino. - Testi sacri Veda
-
-* **ref** [Gong Ting Xian - Longevità e preservazione della vita](https://www.amazon.com/Longevity-Life-Preservation-Chinese-MING/dp/753772606X)
-
-> Può essere difficile cambiare il mondo ma e' sempre possibile cambiare il modo
-> con cui lo guardiamo - Matthieu Ricard
-
-* **ref** [Sun Simiao](https://en.wikipedia.org/wiki/Sun_Simiao)
-
-> Se qualcosa ti fa arrabbiare, dovresti pensare cosa sia più importante: quella
-> cosa o la tua salute? In un istante, se sei saggio, la rabbia scomparirà. -
-> Cao Tingdong
-
-> La cosa importante e' non innervosirsi mai per nessuna cosa... -  Liu Yan Shi (I discorsi di Sun)
-
-> Nel coltivare corpo, mente e spirito si dovrebbero enfatizzare: essere
-> estroversi, leali e di larghe vedute. Non eccessivamente contenti per gli
-> elogi ne eccessivamente arrabbiati quando ci biasimano. Rimanere composti.
-
 ## Altri consigli
 
 * Vitamina D importantissima. In estate bastano 5-15 minuti al sole senza crema
@@ -162,6 +119,68 @@
 * Amory Lovins, esperto in efficienza energetica. [Reinventing
   Fire](https://www.goodreads.com/book/show/12742309-reinventing-fire)
 
+## Aforismi
+
+> Colazione da re, pranzo da mercante e cena da povero.
+
+---
+
+> La colazione mangiala tu, il pranzo dividilo con un amico e la cena donala.
+
+---
+
+> Digiunare e' il più grande rimedio, il dottore interiore - Filippo Paracelso
+
+---
+
+> La meditazione deve cominciare con il corpo. Esso e' il veicolo del se', che, se
+> non controllato nei suoi desideri, ostacola la vera meditazione - Iyengar
+
+---
+
+> Una vita senza ricerca non e' degna di essere vissuta
+
+---
+
+> Le vide del Cielo possono essere penetrate senza affacciarsi alla finestra
+
+---
+
+> Solo nel finito e' espresso l'infinito, e nel temporale l'eterno.
+
+---
+
+> Controlla i tuoi pensieri, diverranno le tue parole, verifica le tue parole,
+> perché diverranno le tue azioni; controlla le tue azioni, diverranno le tue
+> abitudini, correggi le tue abitudini, formeranno il tuo carattere; controlla
+> il tuo carattere perché diventerà il tuo destino. - Testi sacri Veda
+
+---
+
+> Può essere difficile cambiare il mondo ma e' sempre possibile cambiare il modo
+> con cui lo guardiamo - Matthieu Ricard
+
+---
+
+> Se qualcosa ti fa arrabbiare, dovresti pensare cosa sia più importante: quella
+> cosa o la tua salute? In un istante, se sei saggio, la rabbia scomparirà. -
+> Cao Tingdong
+
+---
+
+> La cosa importante e' non innervosirsi mai per nessuna cosa... -  Liu Yan Shi (I discorsi di Sun)
+
+---
+
+> Nel coltivare corpo, mente e spirito si dovrebbero enfatizzare: essere
+> estroversi, leali e di larghe vedute. Non eccessivamente contenti per gli
+> elogi ne eccessivamente arrabbiati quando ci biasimano. Rimanere composti.
+
 ## Riferimenti
 
 * [La grande via](http://www.lagrandevia.it/la-grande-via/)
+* [Siddharta](https://www.goodreads.com/book/show/52036.Siddhartha)
+* [Tao te chin - Lao Tzu](https://www.goodreads.com/book/show/67896.Tao_Te_Ching)
+* [The philosophy of spinoza - Ratner J](https://www.goodreads.com/book/show/2340397.The_Philosophy_of_Spinoza)
+* [Gong Ting Xian - Longevità e preservazione della vita](https://www.amazon.com/Longevity-Life-Preservation-Chinese-MING/dp/753772606X)
+* [Sun Simiao](https://en.wikipedia.org/wiki/Sun_Simiao)
