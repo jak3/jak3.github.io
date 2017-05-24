@@ -4,18 +4,20 @@ title: About
 
 .. check http://stackoverflow.com/questions/6518788/rest-strikethrough
 .. role:: strike
-   :class: stike
+.. role:: right
 
 .. contents::
     :depth: 2
 
-My name is **Giacomo Mantani**, I am born in `Cesena <https://en.wikipedia.org/wiki/Cesena>`_ in 1992. I have
-always had many passions such as:
+My name is **Giacomo Mantani**, I am born in `Cesena
+<https://en.wikipedia.org/wiki/Cesena>`_ in 1992. I have always had many
+passions such as:
 
-* :strike:`Parkour`
-* :strike:`Skateboarding`
-* :strike:`Tuning (car)`
-* :strike:`Utras Cesena`
+.. * :strike:`Parkour`
+.. * :strike:`Skateboarding`
+.. * :strike:`Tuning (car)`
+.. * :strike:`Utras Cesena`
+
 * Cooking
 * Farming
 * Free climbing
@@ -34,6 +36,8 @@ I admire all people that pursue *something*. I love hear their experiences and
 thoughts and something I keep these *things* with me inspecting them deeply.
 
 I enjoy reading, philosophying and stay close to nature.
+
+:right:`Giacomo Mantani`
 
 Profiles
 --------
