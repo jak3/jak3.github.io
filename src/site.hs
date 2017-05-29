@@ -114,7 +114,7 @@ indexBehavior l = do
 postBehavior :: Language -> Rules ()
 postBehavior l = do
   route   $ setExtension "html"
-  compile $ pandocCompilerWith withLinkAtt defaultHakyllWriterOptions
+  compile $ pandocCompilerWith withLinkAtt withToc
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/post.html") (postCtxWithLanguage l)
       >>= loadAndApplyTemplate "templates/default.html"                                  (postCtxWithLanguage l)
@@ -124,6 +124,10 @@ postBehavior l = do
     withLinkAtt = defaultHakyllReaderOptions
       { readerDefaultImageExtension = "+link_attributes"
       }
+    withToc = defaultHakyllWriterOptions
+        { writerTableOfContents = True
+        , writerTemplate        = Just "$toc$\n$body$"
+        }
 
 globalBehavior :: Language -> Rules ()
 globalBehavior l = do
