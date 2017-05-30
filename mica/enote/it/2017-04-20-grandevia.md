@@ -9,7 +9,7 @@
 * Ingerisci il cibo fino che sei pieno a 3/4
 * Gli uomini possono vivere mangiando 1/4, con gli altri 3/4 campano i dottori.
 * TRF (Time Restricted Feeding) Abbassa del 30% Kcal per pasto.
-* Digiuno 2/3 volte a settimana, dove con digiuno si intende:
+* Digiuno 2 o 3 volte a settimana, dove con digiuno si intende:
 
     1. Mangiare vegetali cotti/crudi (evitando tuberi come patate) conditi con
        olio EVO (1 tbs max 2 al giorno), limone o aceto
@@ -18,11 +18,11 @@
 
 * Avere un po' di fame fa bene, produce grelina (ormone contro le infiammazioni).
 * Momento migliore per fare colazione dalle 7 alle 9
-* Col grano saraceno si possono fare polenta e soba
+* Col grano saraceno si puo' preparare anche la polenta
 * La segale ha un basso indice glicemico
 * Fagioli di soia hanno più proteine del parmigiano
 * I legumi alzano i livelli di HDL, da mangiare almeno 2/4 volte a settimana
-* Riso e lenticchie
+* Riso integrale e lenticchie, piatto perfetto
 * Consocia malti con creme di mandorle, nocciole, sesamo (SPIEGARE MOTIVO)
 * Sale max 2,4g al giorno
 * Zucchero (di ogni genere) no primi 2 anni di vita. Bianco, no tutta la vita.
@@ -142,7 +142,7 @@
 
 ---
 
-> Le vide del Cielo possono essere penetrate senza affacciarsi alla finestra
+> Le vie del Cielo possono essere penetrate senza affacciarsi alla finestra
 
 ---
 
