@@ -25,7 +25,10 @@
 * Soybean has more proteins than parmigiano
 * Legumes raise HDL levels, you must eat them at least 2 or 4 times a week
 * Raw rice and lentils is a balance dish
-* Use malts and almond/hazelnut/sesame cremes together
+* Use malts and almond/hazelnut/sesame cremes together. Malts have high glycemia
+  index but do not have fructose. Eat them with healthy fat as
+  almon/hazelnut/sesame cremes decrease glucose absorption time. It useful eat
+  them with legumes also.
 * Daily salt upper bound: 2,4g
 * Do not give sugar (in every form) to babies until 2 years old. White sugar if
   possible NEVER.

@@ -23,7 +23,11 @@
 * Fagioli di soia hanno più proteine del parmigiano
 * I legumi alzano i livelli di HDL, da mangiare almeno 2/4 volte a settimana
 * Riso integrale e lenticchie, piatto perfetto
-* Consocia malti con creme di mandorle, nocciole, sesamo (SPIEGARE MOTIVO)
+* Consocia malti con creme di mandorle, nocciole, sesamo. Il malto ha un indice
+  glicemico alto ma non contiene fruttosio. Mescolarlo con grassi di buona
+  qualità come le creme di nocciola, mandorla o sesamo ha l' effetto di ridurre
+  la velocità di assorbimento del glucosio. Utile anche l' associazione con i
+  legumi.
 * Sale max 2,4g al giorno
 * Zucchero (di ogni genere) no primi 2 anni di vita. Bianco, no tutta la vita.
 * Cibo con cui si alimenta la madre in gravidanza piacerà poi al bambino.
