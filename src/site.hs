@@ -63,18 +63,24 @@ languageContext l = map (\ (k, v) -> constField k v)
 
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateField "created" "%d %b %Y" `mappend`
+    modificationTimeField "modified" "%d %b %Y" `mappend`
     defaultContext
 
 defaultCtxWithLanguage :: Language -> Context String
 defaultCtxWithLanguage l = mconcat $ languageContext l ++ [defaultContext]
 
 postCtxWithLanguage :: Language -> Context String
-postCtxWithLanguage l = mconcat $ [dateField "date" "%B %e, %Y"]
-                        ++ [defaultCtxWithLanguage l]
+postCtxWithLanguage l = mconcat $ [
+                                    dateField "created" "%d %b %Y",
+                                    modificationTimeField "modified" "%d %b %Y",
+                                    defaultCtxWithLanguage l
+                                  ]
 
-indexCtx l posts = mconcat $ [listField "posts" postCtx (return posts)]
-                   ++ [defaultCtxWithLanguage l]
+indexCtx l posts = mconcat $ [
+                                listField "posts" postCtx (return posts),
+                                defaultCtxWithLanguage l
+                             ]
 
 -- }}}
 
