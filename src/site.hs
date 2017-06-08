@@ -123,6 +123,7 @@ postBehavior l = do
   compile $ pandocCompilerWith withLinkAtt withToc
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/post.html") (postCtxWithLanguage l)
+      >>= loadAndApplyTemplate "templates/disqus.html"                                    defaultContext
       >>= loadAndApplyTemplate "templates/default.html"                                  (postCtxWithLanguage l)
       >>= relativizeUrls
       >>= removeIndexHtml
