@@ -30,7 +30,7 @@ elencarne alcune che hanno fatto parte del mio cammino abbiamo:
 * Yoga
 
 Sono pesce-tariano dal 2014 e da allora ho cominciato un percorso di
-consapevolezza che tutt' ora cerco di crescere.
+consapevolezza che tutt' ora cerco di accrescere.
 
 Ammiro moltissimo tutte quelle persone che perseguono nella loro vita
 *qualcosa*. Mi piace sentirle parlare di quello che gli piace fare e spesso mi
