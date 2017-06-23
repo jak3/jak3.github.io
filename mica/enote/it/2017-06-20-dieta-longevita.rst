@@ -3,17 +3,15 @@ La dieta della longevità
 
 .. image:: https://images-na.ssl-images-amazon.com/images/I/51e9kyV6xML._SX328_BO1,204,203,200_.jpg
 
-Introduzione
-------------
-
-Spesso in merito all'alimentazione tutti si ritengono un po' esperti. Credo che
+Spesso in merito all' alimentazione tutti si ritengono degli esperti. Credo che
 sia dovuto al fatto che tutti hanno una determinata **esperienza** nel nutrirsi.
-Se non vi sono, al momento problemi, potrebbe sembrare che come si e' sempre
-mangiato fino al momento del proprio esame di coscienza sia giusto. Come fa
-notare l'autore pero', riuscire a sopravvivere mangiando quello che siamo
-abituati non ci rende esperti di nutrizione. Nemmeno qualche anno di studio o un
-paio di esami di alimentazione bastano a poter indicare con certezza quale sia
-la dieta migliore. E' bene quindi cercare pareri da esperti che:
+Se non si sono ancora presentati problemi, potrebbe sembrare che come ci si sta
+alimentando sia giusto. Come fa notare l' autore del libro però, riuscire a
+sopravvivere mangiando quello che siamo abituati non ci rende esperti di
+nutrizione. Nemmeno qualche anno di studio o un paio di esami di alimentazione
+bastano a poter indicare con certezza quale sia la dieta migliore.
+
+Come evidenzia nel libro l' autore, è bene cercare pareri da esperti che:
 
 1. siano medici o dottori di ricerca specializzati in campi che hanno a che fare
    con la nutrizione (nutrizionisti, biochimici, medici interni...)
@@ -22,7 +20,7 @@ la dieta migliore. E' bene quindi cercare pareri da esperti che:
    rimetterci pesantemente se commettono errori o sostengono tesi scarsamente
    dimostrate
 3. siano esperti in diversi campi di studio e di sperimentazione
-   L'autore evidenzia come il suo percorso si basa su 5 pilastri quali:
+   L' autore evidenzia come il suo percorso si basa su 5 pilastri quali:
 
    a. Ricerca di base e la *Juventologia*/biogerontologia
    b. Epidemiologia
@@ -37,8 +35,8 @@ Conoscenze di base
 ------------------
 
 ``Proteine``: con carboidrati e grassi uno dei 3 macronutrienti principali. La
-maggior parte e' composta da catene di amminoacidi, la cui sequenza determina la
-funzione. Le proteine svolgono una vasta gamma di funzioni all'interno degli
+maggior parte è composta da catene di amminoacidi, la cui sequenza determina la
+funzione. Le proteine svolgono una vasta gamma di funzioni all' interno degli
 organismi viventi, tra cui la catalisi delle reazioni metaboliche, funzione di
 sintesi come replicazione del DNA, la risposta agli stimoli e il trasporto di
 molecole da un luogo ad un altro
@@ -49,28 +47,28 @@ Sono chiamati anche carboidrati (da "idrati di carbonio") o saccaridi.
 Possono essere in forma semplice (zucchero) o complessa (verdure e cereali
 integrali). Questi ultimi devono essere scissi per essere assorbiti.
 
-L'**indice glicemico** si riferisce all'effetto di un cibo sui livelli di glucosio
+L' **indice glicemico** si riferisce all' effetto di un cibo sui livelli di glucosio
 nel sangue.
-Il **carico glicemico** e' una misura più indicativa che dice la quantità e le
+Il **carico glicemico** è una misura più indicativa che dice la quantità e le
 caratteristiche dei carboidrati ingeriti. Utile quindi prestarci più
 attenzione.
 http://www.siditalia.it/divulgazione/alimentazione-e-diabete
 
 I glucidi hanno numerose funzioni biologiche, tra cui quella di fonte energetica
-e trasporto dell'energia (esempio: amido, glicogeno) e sono anche noti come
+e trasporto dell' energia (esempio: amido, glicogeno) e sono anche noti come
 componenti strutturali della cellulosa nelle piante e della cartilagine negli
 animali. Inoltre giocano un ruolo fondamentale nel sistema immunitario, nella
 fertilità e nello sviluppo biologico.
 
 ``Lipidi`` o ``grassi``: energia immagazzinata. Ruolo in strutture e funzioni
-cellulari, in particolare nella formazione della membrana che separa l'interno
+cellulari, in particolare nella formazione della membrana che separa l' interno
 della cellula dal sangue e nella formazione degli ormoni, tra cui gli steroidi.
 Assimilati perlopiù sotto forma di trigliceridi. Possono essere saturi o
 insaturi (monoinsaturi o polinsaturi come omega-3 e omega-6 chiamati grassi
-essenziali perché il corpo umano non e' in grado di produrli ma sono necessari
+essenziali perché il corpo umano non è in grado di produrli ma sono necessari
 per il suo buon funzionamento.
 
-``Vitamine e minerali``: modo migliore per assumerne il giusto apporto e' tramite
+``Vitamine e minerali``: modo migliore per assumerne il giusto apporto è tramite
 una dieta ricca di verdure, pesce, cereali integrali e frutta a guscio. Indicato
 alle volte integrare la vitamina D, non sintetizzata in assenza di luce solare
 dal nostro organismo. Anche la vitamina B12 nel caso di vegani e/o persone
@@ -86,11 +84,12 @@ Linee guida
    aggiunta di pesce.
 2. Frequenza dei pasti = 2 volte al giorno se con problemi di peso e meno di 65
    anni.
-3. Limitazione oraria dei pasti = mangiare nell'arco di 12 ore
+3. Limitazione oraria dei pasti = mangiare nell' arco di 12 ore
 4. Sottoporsi periodicamente ad una dieta mima digiuno
-5. Movimento ed esercizio fisico (TODO collegamento grandevia), camminare tutti
-   i giorni e preferire l'utilizzo dei muscoli a quello dei motori (TODO vedi
-   http://www.mrmoneymustache.com/2011/12/05/muscle-over-motor/)
+5. Movimento ed esercizio fisico (punti fondamentali anche per il libro `La
+   Grande Via <https://jak3.github.io/mica/enote/en/2017-05-29-grandevia.html>`_),
+   camminare tutti i giorni e preferire l' utilizzo dei muscoli a quello dei
+   motori (come riporta saggiamente `MMM <http://www.mrmoneymustache.com/2011/12/05/muscle-over-motor/>`_)
 
 Consigli generici
 -----------------
@@ -104,9 +103,9 @@ Consigli generici
 
 * Nel capitolo 2 sono presentate alcune delle domande che l' autore invita a
   fasi per capire e studiare il fenomeno dell' invecchiamento. Viene evidenziato
-  l'interesse per ridurne gli effetti e le cause cercando di rimanere giovani
+  l' interesse per ridurne gli effetti e le cause cercando di rimanere giovani
   più a lungo. Infatti, restando giovani ed in salute per più tempo, si vive
-  più a lungo **in salute**. Ed e' la salute il concetto chiave. Obbiettivo e'
+  più a lungo **in salute**. Ed è la salute il concetto chiave. Obbiettivo è
   quindi quello di riuscire ad arrivare a morire sani.
   Viene cosi coniato il termine *Juventologia*, ovvero studio della
   "giovinezza".
@@ -114,7 +113,7 @@ Consigli generici
 * Agire curando cancro, malattie cardiovascolari e diabete si possono guadagnare
   stimando circa 12 anni. Agendo sulla longevità 30.
 
-* Come evidenzia nel suo talk Gilbert [#]_, e' un illusione che mangiare sempre e
+* Come evidenzia nel suo talk Gilbert [#]_, è un illusione che mangiare sempre e
   quello che vogliamo ci renda più felici.
 
 * La ricerca ha evidenziato che coloro che praticano attività fisica moderata
@@ -128,7 +127,7 @@ Consigli generici
 
 * Per ottimizzare la crescita muscolare meglio assumere proteine tra 1 e 2 ore
   dopo aver compiuto esercizi di resistenza come sollevamento pesi o le
-  flessioni. La sintesi muscolare ideale avviene quando il peso sollevato e' tra
+  flessioni. La sintesi muscolare ideale avviene quando il peso sollevato è tra
   il 60 e il 75% del massimo che la persona riesce a sollevare/premere.
 
 * Capitolo 7: Alimentazione e Dieta Mima-Digiuno nella prevenzione e terapia dei
@@ -144,9 +143,9 @@ Consigli generici
   dell' Alzheimer e di altre malattie neurodegenerative
 
 * Il consumo moderato di caffè svolge una funzione protettiva nei confronti
-  dell'Alzheimer (oltre come già dimostrato per il Parkinson)
+  dell' Alzheimer (oltre come già dimostrato per il Parkinson)
 
-* L'olio di cocco contiene alte quantità di grassi saturi ma, a differenza di
+* L' olio di cocco contiene alte quantità di grassi saturi ma, a differenza di
   altri grassi saturi alimentari composti in prevalenza di acidi grassi a catena
   lunga, contiene un alto livello di acidi grassi a catena media (detti MCFA). I
   MCFA si convertono facilmente in corpi chetonici, molecole che vengono
@@ -157,8 +156,8 @@ Consigli generici
 * Capitolo 11: Alimentazione e Dieta Mima-Digiuno nella prevenzione e terapia
   delle malattie infiammatorie e autoimmuni
 
-Agire tramite l'alimentazione
------------------------------
+Agire tramite l' alimentazione
+------------------------------
 
 * Tor-S6K, GH-IGF1 (Proteine) e Ras-PKA (Zuccheri) influenzano i geni e la via
   metabolica accellerando l' invecchiamento e lo sviluppo di malattie come il
@@ -168,14 +167,17 @@ Agire tramite l'alimentazione
   Saggio: "Perché pensa sia giusto prendere delle decisioni fondamentali, da
   cui potrebbe dipendere la possibilità che lei o suo figlio vi ammaliate di
   cancro, diabete, disturbi cardio-vascolari e di molte altre malattie,
-  basandosi sull'idea che bisogna 'mangiare nella giusta misura?"
-  Da notare come **tutto** e **giusta misura** siano termini ambigui privi di
-  significato.
+  basandosi sull' idea che bisogna mangiare nella giusta misura?"
+
+  **Aggiungo**: *Perchè non farsi domande?*
+
+Da notare come **tutto** e **giusta misura** siano termini ambigui privi di
+significato.
 
 Dieta della longevità
 ---------------------
 
-* Dieta vegana/pescetariana: adottate un'alimentazione che si avvicini il più
+* Dieta vegana/pescetariana: adottate un' alimentazione che si avvicini il più
   possibile ad una dieta al 100% a base vegetale e di pesce (2-3 pasti la
   settimana) evitando quello contenente alte percentuali di mercurio.
   Prediligere quello con alti contenuti di omega-3/6 e/o vitamina B12 come
@@ -194,24 +196,25 @@ Dieta della longevità
 * Povera di zuccheri
 * Povera di carboidrati come pasta, riso, pane e succhi di frutta.
 * Assumere ogni 2-3 giorni complessi vitaminici e minerali in pillole e
-  dell'olio di pesce per gli omega-3.
+  dell' olio di pesce per gli omega-3.
 * Consumare quantità relativamente alte di olio di oliva (50-100ml al giorno) e
-  un pugno di noci, o mandorle o nocciole (Ottime in menopausa, vedi grande via
-  TODO).
+  un pugno di noci, o mandorle o nocciole (Ottime in menopausa, vedi consigli
+  nel libro `La Grande Via <https://jak3.github.io/mica/enote/en/2017-05-29-grandevia.html>`_).
 * Mangiare selezionando i giusti ingredienti tra quelli che mangiavano i nostri
   antenati.
 * Fare 2 pasti al giorno + 1 spuntino (basso tenore calorico ma nutriente).
   Differentemente da quello che spesso si sente in giro, non vi sono evidenze
   scientifiche che mangiare poco e spesso sia meglio. Persino negli anziani.
   Gli anziani o i malati, per evitare problemi digestivi, meglio se il pasto
-  più importante e' frazionato in 2 pasti più piccoli. Ideale: colazione,
+  più importante è frazionato in 2 pasti più piccoli. Ideale: colazione,
   pranzo o cena, spuntino pomeridiano di 100 calorie e meno di 3-5 grammi di
   zucchero, spuntino di 100 calorie e meno di 3-5 grammi di zucchero al posto
   del pranzo o della cena.
 * Ridurre le ore della giornata in cui mangiare. **Time Restricted Feeding**
-  (Vedi Post Grande Via TODO). Mangiare nell'arco di 12 ore o meno. Meglio se 10
-  ore o meno.
-* Praticare periodicamente un digiuno prolungato (se eta' < 65-70 anni e non
+  (discusso anche nel libro `La Grande Via
+  <https://jak3.github.io/mica/enote/en/2017-05-29-grandevia.html>`_). Mangiare
+  nell' arco di 12 ore o meno. Meglio se 10 ore o meno.
+* Praticare periodicamente un digiuno prolungato (se età < 65-70 anni e non
   deperito, malnutrito o affette da patologie). OK dieta mima digiuno.
 * Tenere sotto controllo la circonferenza addominale, che per gli uomini non
   deve superare i 102 cm e per le donne gli 89 cm. Sopra tali soglie, raddoppia
@@ -224,7 +227,7 @@ Dieta Mima-Digiuno
 
 * fornisce abbastanza calorie per essere più sicura del digiuno completo e quindi
   praticata senza supervisione di un medico specializzato
-* e' basata sulla dieta della longevità
+* è basata sulla dieta della longevità
 * efficace quanto il digiuno completo
 
 Obiettivi:
@@ -233,7 +236,7 @@ Obiettivi:
 * abbassare il livello di glucosio
 * aumento livelli del sottoprodotto della scomposizione dei grassi (corpi
   chetonici)
-* aumento livelli dell'inibitore del fattore di crescita IGFBP-1
+* aumento livelli dell' inibitore del fattore di crescita IGFBP-1
 
 il che porta a:
 
@@ -241,12 +244,12 @@ il che porta a:
 * incentivare la rigenerazione delle cellule attraverso la bonifica delle loro
   componenti danneggiate
 * eliminare le cellule danneggiate di molti organi e sistemi e sostituirle con
-  cellule di nuova generazione mediante l'attivazione delle cellule staminali
+  cellule di nuova generazione mediante l' attivazione delle cellule staminali
 * promuovere un processo che bruciasse il grasso addominale e continuasse a
-  farlo anche dopo che la persona fosse ritornata all'alimentazione normale
+  farlo anche dopo che la persona fosse ritornata all' alimentazione normale
   senza ridurre la massa muscolare.
 
-Da pagina 130 a pagina 135 l'autore risponde a domande quali:
+Da pagina 130 a pagina 135 l' autore risponde a domande quali:
 
 * Chi la può fare
 * Chi non la può fare
