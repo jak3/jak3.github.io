@@ -1,4 +1,3 @@
---------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import        Hakyll
 
@@ -140,6 +139,7 @@ globalBehavior :: Language -> Rules ()
 globalBehavior l = do
   route   $ setExtension "html"
   compile $ pandocCompiler
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/donation.html") (defaultCtxWithLanguage l)
       >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
       >>= relativizeUrls
 

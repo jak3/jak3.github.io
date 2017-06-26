@@ -17,14 +17,17 @@ passions such as:
 .. * :strike:`Skateboarding`
 .. * :strike:`Tuning (car)`
 .. * :strike:`Utras Cesena`
+.. * :strike:`Street Workout`
 
 * Cooking
 * Farming
 * Free climbing
 * Information Security
+* Naturopathy
 * Nutrition
+* Phylosophy
 * Programming
-* Street Workout
+* Reading
 * Tai Chi Chuan
 * Wellness
 * Yoga

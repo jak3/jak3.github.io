@@ -22,8 +22,11 @@ elencarne alcune che hanno fatto parte del mio cammino abbiamo:
 * Alimentazione
 * Autoproduzione
 * Benessere psico-fisico
-* Cucinare
+* Cucina
+* Filosofia
 * Free climbing
+* Lettura
+* Naturopatia
 * Programmazione
 * Sicurezza informatica
 * Tai Chi Chuan
