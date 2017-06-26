@@ -3,8 +3,8 @@ La dieta della longevità
 
 .. image:: https://images-na.ssl-images-amazon.com/images/I/51e9kyV6xML._SX328_BO1,204,203,200_.jpg
 
-Persona Media: "Credo che la cosa migliore sia mangiare tutto nella giusta
-misura". Io però mi son sempre chiesto: *Perchè non farsi domande?* Vorrei fare
+Persona Media: *"Credo che la cosa migliore sia mangiare tutto nella giusta
+misura"*. Io però mi son sempre chiesto: *Perchè non farsi domande?* Vorrei fare
 notare come **tutto** e **giusta misura** siano termini ambigui e privi di
 significato intrinseco.
 
