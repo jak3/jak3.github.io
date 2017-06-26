@@ -3,6 +3,11 @@ La dieta della longevità
 
 .. image:: https://images-na.ssl-images-amazon.com/images/I/51e9kyV6xML._SX328_BO1,204,203,200_.jpg
 
+Persona Media: "Credo che la cosa migliore sia mangiare tutto nella giusta
+misura". Io però mi son sempre chiesto: *Perchè non farsi domande?* Vorrei fare
+notare come **tutto** e **giusta misura** siano termini ambigui e privi di
+significato intrinseco.
+
 Spesso in merito all' alimentazione tutti si ritengono degli esperti. Credo che
 sia dovuto al fatto che tutti hanno una determinata **esperienza** nel nutrirsi.
 Se non si sono ancora presentati problemi, potrebbe sembrare che come ci si sta
@@ -87,7 +92,7 @@ Linee guida
 3. Limitazione oraria dei pasti = mangiare nell' arco di 12 ore
 4. Sottoporsi periodicamente ad una dieta mima digiuno
 5. Movimento ed esercizio fisico (punti fondamentali anche per il libro `La
-   Grande Via <https://jak3.github.io/mica/enote/en/2017-05-29-grandevia.html>`_),
+   Grande Via <https://jak3.github.io/mica/enote/it/2017-04-20-grandevia.html>`_),
    camminare tutti i giorni e preferire l' utilizzo dei muscoli a quello dei
    motori (come riporta saggiamente `MMM <http://www.mrmoneymustache.com/2011/12/05/muscle-over-motor/>`_)
 
@@ -100,6 +105,10 @@ Consigli generici
   - una vita più lunga
   - aumento coordinamento motorio
   - aumento forza muscolare
+
+* Tor-S6K, GH-IGF1 (Proteine) e Ras-PKA (Zuccheri) influenzano i geni e la via
+  metabolica accellerando l' invecchiamento e lo sviluppo di malattie come il
+  cancro.
 
 * Nel capitolo 2 sono presentate alcune delle domande che l' autore invita a
   fasi per capire e studiare il fenomeno dell' invecchiamento. Viene evidenziato
@@ -156,24 +165,6 @@ Consigli generici
 * Capitolo 11: Alimentazione e Dieta Mima-Digiuno nella prevenzione e terapia
   delle malattie infiammatorie e autoimmuni
 
-Agire tramite l' alimentazione
-------------------------------
-
-* Tor-S6K, GH-IGF1 (Proteine) e Ras-PKA (Zuccheri) influenzano i geni e la via
-  metabolica accellerando l' invecchiamento e lo sviluppo di malattie come il
-  cancro.
-* Persona Media: "Credo che la cosa migliore sia mangiare tutto nella giusta
-  misura".
-  Saggio: "Perché pensa sia giusto prendere delle decisioni fondamentali, da
-  cui potrebbe dipendere la possibilità che lei o suo figlio vi ammaliate di
-  cancro, diabete, disturbi cardio-vascolari e di molte altre malattie,
-  basandosi sull' idea che bisogna mangiare nella giusta misura?"
-
-  **Aggiungo**: *Perchè non farsi domande?*
-
-Da notare come **tutto** e **giusta misura** siano termini ambigui privi di
-significato.
-
 Dieta della longevità
 ---------------------
 
@@ -199,7 +190,7 @@ Dieta della longevità
   dell' olio di pesce per gli omega-3.
 * Consumare quantità relativamente alte di olio di oliva (50-100ml al giorno) e
   un pugno di noci, o mandorle o nocciole (Ottime in menopausa, vedi consigli
-  nel libro `La Grande Via <https://jak3.github.io/mica/enote/en/2017-05-29-grandevia.html>`_).
+  nel libro `La Grande Via <https://jak3.github.io/mica/enote/it/2017-04-20-grandevia.html>`_).
 * Mangiare selezionando i giusti ingredienti tra quelli che mangiavano i nostri
   antenati.
 * Fare 2 pasti al giorno + 1 spuntino (basso tenore calorico ma nutriente).
@@ -212,7 +203,7 @@ Dieta della longevità
   del pranzo o della cena.
 * Ridurre le ore della giornata in cui mangiare. **Time Restricted Feeding**
   (discusso anche nel libro `La Grande Via
-  <https://jak3.github.io/mica/enote/en/2017-05-29-grandevia.html>`_). Mangiare
+  <https://jak3.github.io/mica/enote/it/2017-04-20-grandevia.html>`_). Mangiare
   nell' arco di 12 ore o meno. Meglio se 10 ore o meno.
 * Praticare periodicamente un digiuno prolungato (se età < 65-70 anni e non
   deperito, malnutrito o affette da patologie). OK dieta mima digiuno.
