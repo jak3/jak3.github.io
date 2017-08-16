@@ -22,6 +22,7 @@ passions such as:
 * Cooking
 * Farming
 * Free climbing
+* Hiking
 * Information Security
 * Naturopathy
 * Nutrition

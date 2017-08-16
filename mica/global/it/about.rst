@@ -25,6 +25,7 @@ elencarne alcune che hanno fatto parte del mio cammino abbiamo:
 * Cucina
 * Filosofia
 * Free climbing
+* Hiking (escursionismo)
 * Lettura
 * Naturopatia
 * Programmazione
