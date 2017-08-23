@@ -34,6 +34,7 @@ main = hakyll $ do
       match (fromGlob $ "index-" ++ slang ++ ".html"    )  $ indexBehavior lang
       match (fromGlob $ "mica/enote/" ++ slang ++ "/*"  )  $ postBehavior  lang
       match (fromGlob $ "mica/global/" ++ slang ++ "/*" )  $ globalBehavior lang
+      match (fromGlob $ "mica/review/" ++ slang ++ "/*"  )  $ postBehavior  lang
 
       create [fromFilePath ("gen/" ++ slang ++ "/archive.html")]  (archiveBehavior          lang)
       create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]       (feedBehavior renderRss   lang)
