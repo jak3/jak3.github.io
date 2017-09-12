@@ -20,18 +20,24 @@ elencarne alcune che hanno fatto parte del mio cammino abbiamo:
 .. * Street Workout
 
 * Alimentazione
+* Arrampicata/Free climbing
 * Autoproduzione
 * Benessere psico-fisico
 * Cucina
 * Filosofia
-* Free climbing
-* Hiking (escursionismo)
 * Lettura
 * Naturopatia
 * Programmazione
 * Sicurezza informatica
 * Tai Chi Chuan
+* Trekking/Hiking (escursionismo)
 * Yoga
+
+Sono lo sviluppatore principale nonché ideatore del servizio online `Starly
+<https://starly-info.github.io>`_. Al suo interno si può già trovare una
+newsletter gratuita, di nome `Vimly <https://starly-info.github.io/newsletter/en/2017-08-18-vim.html>`_, sull'editor di testo `Vim <www.vim.org>`_.
+La newsletter consiste in email giornaliere con porzioni del manuale ufficiale
+(`:help`) più una parte pratica contenente esercizi, domande e risposte.
 
 Sono pesce-tariano dal 2014 e da allora ho cominciato un percorso di
 consapevolezza che tutt' ora cerco di accrescere.

@@ -22,7 +22,6 @@ passions such as:
 * Cooking
 * Farming
 * Free climbing
-* Hiking
 * Information Security
 * Naturopathy
 * Nutrition
@@ -30,8 +29,18 @@ passions such as:
 * Programming
 * Reading
 * Tai Chi Chuan
+* Trekking/Hiking
 * Wellness
 * Yoga
+
+I am the developer and maintainer of `Starly <https://starly-info.github.io>`_,
+an online free service that deliver knowledge by email. At the moment the first
+newsletter is about the text editor `Vim <www.vim.org>`_ and it is called `Vimly
+<https://starly-info.github.io/newsletter/en/2017-08-18-vim.html>`_.  Vimly help
+you learn and better understand how Vim works, his awesome functionalities and
+much more. Vimly delivers **knowledge pills** (chunks of the official `:help`
+file) and **practice** sections where you can find exercises, questions and
+answers.
 
 I am pescetarian since 2014. I have started a journey of overall awareness
 continues to grow.
