@@ -36,9 +36,13 @@ main = hakyll $ do
       match (fromGlob $ "mica/global/" ++ slang ++ "/*" )  $ globalBehavior lang
       match (fromGlob $ "mica/review/" ++ slang ++ "/*"  )  $ postBehavior  lang
 
-      create [fromFilePath ("gen/" ++ slang ++ "/archive.html")]  (archiveBehavior          lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]       (feedBehavior renderRss   lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/atom.xml")]      (feedBehavior renderAtom  lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/enote-archive.html")] (archiveBehavior          "enote" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]           (feedBehavior renderRss   "enote" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/atom.xml")]          (feedBehavior renderAtom  "enote" lang)
+
+      create [fromFilePath ("gen/" ++ slang ++ "/review-archive.html")] (archiveBehavior         "review" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/review-rss.xml")]      (feedBehavior renderRss  "review" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/review-atom.xml")]     (feedBehavior renderAtom "review" lang)
 
     match "templates/*" $ compile templateCompiler
     match "templates/*/*.html" $ compile templateCompiler
@@ -77,8 +81,9 @@ postCtxWithLanguage l = mconcat $ [
                                     defaultCtxWithLanguage l
                                   ]
 
-indexCtx l posts = mconcat $ [
-                                listField "posts" postCtx (return posts),
+indexCtx l posts reviews = mconcat $ [
+                                listField "posts"   postCtx (return posts),
+                                listField "reviews" postCtx (return reviews),
                                 defaultCtxWithLanguage l
                              ]
 
@@ -109,7 +114,8 @@ indexBehavior l = do
   route idRoute
   compile $ do
       posts <- recentFirst =<< loadAll (fromGlob $ "mica/enote/" ++ (show l) ++ "/*")
-      let ctx = indexCtx l posts
+      reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show l) ++ "/*")
+      let ctx = indexCtx l posts reviews
 
       getResourceBody
           >>= applyAsTemplate ctx
@@ -144,30 +150,30 @@ globalBehavior l = do
       >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
       >>= relativizeUrls
 
-archiveBehavior :: Language -> Rules ()
-archiveBehavior language = do
+archiveBehavior :: String -> Language -> Rules ()
+archiveBehavior dirSubject language = do
     route idRoute
     compile $ do
-        posts <- recentFirst =<< loadAll (fromGlob $ "mica/enote/" ++ (show language) ++ "/*")
+        posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/" ++ (show language) ++ "/*")
+        reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show language) ++ "/*")
         --let ctx = listField "posts" postCtx (return posts)
-        let ctx = indexCtx language posts
+        let ctx = indexCtx language posts reviews
 
         makeItem ""
             >>= loadAndApplyTemplate langTemplate ctx
             >>= loadAndApplyTemplate "templates/default.html" ctx
             >>= relativizeUrls
       where
-        langTemplate = fromFilePath $ "templates/" ++ (show language) ++ "/archive.html"
-
+        langTemplate = fromFilePath $ "templates/" ++ (show language) ++ "/" ++ dirSubject ++ "-archive.html"
 
 feedBehavior :: (FeedConfiguration
                   -> Context String
                   -> [Item String]
-                  -> Compiler (Item String)) -> Language -> Rules ()
-feedBehavior render language = do
+                  -> Compiler (Item String)) -> String -> Language -> Rules ()
+feedBehavior render dirSubject language = do
     route idRoute
     compile $
-        loadAllSnapshots (fromGlob $ "mica/enote/" ++ (show language) ++ "/*") "content"
+        loadAllSnapshots (fromGlob $ "mica/" ++ dirSubject ++ "/" ++ (show language) ++ "/*") "content"
         >>= fmap (take 10) . recentFirst
         >>= mapM (applyFilter protectCDATA)
         >>= render (feedConfig language) feedCtx
