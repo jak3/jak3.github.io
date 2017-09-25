@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>condensō [en]</title>
+        <link>https://jak3.github.io</link>
+        <description><![CDATA[GM's e-notecard system]]></description>
+        <atom:link href="https://jak3.github.io/gen/en/review-rss.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Wed, 06 Sep 2017 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>2017-09-06-kombucha</title>
+    <link>https://jak3.github.io/mica/review/en/2017-09-06-kombucha.html</link>
+    <description><![CDATA[<ul>
+<li><a href="#kombucha-healthy-beverage-and-natural-remedy-from-the-far-east">Kombucha: Healthy Beverage And Natural Remedy from the Far East</a></li>
+</ul>
+<h1 id="kombucha-healthy-beverage-and-natural-remedy-from-the-far-east">Kombucha: Healthy Beverage And Natural Remedy from the Far East</h1>
+<p><img src="https://images-na.ssl-images-amazon.com/images/I/71RrRHVrvnL.jpg" alt="image" width="250" /></p>
+<p>The point of reference for Kombucha fans and lover.</p>
+<p>The author was able to gather and share with readers tons of information such as: applications history details, hints for production, alternative recipes and He did it easily and in a comprehensible way.</p>
+<p>References are from all the different cultures that have in common this special beverage in their daily lives.</p>
+<p>Useful read to both beginners and experts. It is also helpful for inquiring minds that does not want to produce the tea by themselves.</p>
+<p>I really appreciated quotes and the author’s philosophical thoughts that go along with the book.</p>]]></description>
+    <pubDate>Wed, 06 Sep 2017 00:00:00 UT</pubDate>
+    <guid>https://jak3.github.io/mica/review/en/2017-09-06-kombucha.html</guid>
+    <dc:creator>Giacomo Mantani</dc:creator>
+</item>
+
+    </channel>
+</rss>
