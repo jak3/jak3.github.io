@@ -31,14 +31,14 @@ main = hakyll $ do
     forM_ langs $ \lang -> do
       let slang = show lang
 
-      match (fromGlob $ "index-" ++ slang ++ ".html"    )  $ indexBehavior lang
-      match (fromGlob $ "mica/enote/" ++ slang ++ "/*"  )  $ postBehavior  lang
+      match (fromGlob $ "index-" ++ slang ++ ".html"    )  $ indexBehavior  lang
+      match (fromGlob $ "mica/enote/" ++ slang ++ "/*"  )  $ postBehavior   lang
       match (fromGlob $ "mica/global/" ++ slang ++ "/*" )  $ globalBehavior lang
-      match (fromGlob $ "mica/review/" ++ slang ++ "/*"  )  $ postBehavior  lang
+      match (fromGlob $ "mica/review/" ++ slang ++ "/*" )  $ reviewBehavior lang
 
       create [fromFilePath ("gen/" ++ slang ++ "/enote-archive.html")] (archiveBehavior          "enote" lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]           (feedBehavior renderRss   "enote" lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/atom.xml")]          (feedBehavior renderAtom  "enote" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]            (feedBehavior renderRss   "enote" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/atom.xml")]           (feedBehavior renderAtom  "enote" lang)
 
       create [fromFilePath ("gen/" ++ slang ++ "/review-archive.html")] (archiveBehavior         "review" lang)
       create [fromFilePath ("gen/" ++ slang ++ "/review-rss.xml")]      (feedBehavior renderRss  "review" lang)
@@ -141,6 +141,21 @@ postBehavior l = do
         { writerTableOfContents = True
         , writerTemplate        = Just "$toc$\n$body$"
         }
+
+reviewBehavior :: Language -> Rules ()
+reviewBehavior l = do
+  route   $ setExtension "html"
+  compile $ pandocCompilerWith withLinkAtt defaultHakyllWriterOptions
+      >>= saveSnapshot "content"
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/review.html") (postCtxWithLanguage l)
+      >>= loadAndApplyTemplate "templates/disqus.html"                                      defaultContext
+      >>= loadAndApplyTemplate "templates/default.html"                                    (postCtxWithLanguage l)
+      >>= relativizeUrls
+      >>= removeIndexHtml
+  where
+    withLinkAtt = defaultHakyllReaderOptions
+      { readerDefaultImageExtension = "+link_attributes"
+      }
 
 globalBehavior :: Language -> Rules ()
 globalBehavior l = do

@@ -1,6 +1,6 @@
-****************************************************************
-The Zen Teaching of Bodhidharma The Zen Teaching of Bodhidharma
-****************************************************************
+*******************************
+The Zen Teaching of Bodhidharma
+*******************************
 
 .. image:: https://images.gr-assets.com/books/1386924996l/238863.jpg
 
