@@ -25,6 +25,10 @@ main = hakyll $ do
         route   idRoute
         compile $ compressCssCompiler >>= relativizeUrls
 
+    match "static/img/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     -- Default index page (a version index-LANGUAGE must exist)
     match "index.html" $ indexBehavior Italian
 
@@ -161,6 +165,7 @@ globalBehavior :: Language -> Rules ()
 globalBehavior l = do
   route   $ setExtension "html"
   compile $ pandocCompiler
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/social.html")   (defaultCtxWithLanguage l)
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/donation.html") (defaultCtxWithLanguage l)
       >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
       >>= relativizeUrls

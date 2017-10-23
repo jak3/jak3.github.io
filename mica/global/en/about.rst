@@ -51,9 +51,3 @@ thoughts and something I keep these *things* with me inspecting them deeply.
 I enjoy reading, philosophying and stay close to nature.
 
 :right:`Giacomo Mantani`
-
-Profiles
---------
-
-* `GoodReads <https://www.goodreads.com/user/show/9318617-giacomo-mantani>`_.
-* `GitHub <https://github.com/jak3>`_.

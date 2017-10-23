@@ -49,9 +49,3 @@ ci affascino, al punto di internare queste *cose* e continuare ad approfondirle.
 Amo leggere, filosofeggiare e stare a diretto contatto con la natura.
 
 :right:`Giacomo Mantani`
-
-Profili in rete
----------------
-
-* `GoodReads <https://www.goodreads.com/user/show/9318617-giacomo-mantani>`_.
-* `GitHub <https://github.com/jak3>`_.
