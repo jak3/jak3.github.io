@@ -7,7 +7,7 @@ license:                BSD3
 license-file:           LICENSE
 author:                 Giacomo Mantani
 maintainer:             giacomo.mantani@gmail.com
-copyright:              Copyleft: 2016 Giacomo Mantani
+copyright:              Giacomo Mantani
 category:               Web
 build-type:             Simple
 extra-source-files:     README.md
