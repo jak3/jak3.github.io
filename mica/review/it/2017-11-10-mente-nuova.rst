@@ -30,7 +30,7 @@ opinione senza però insistere troppo a proprio favore, lasciando che sia il
 lettore a fronte di tutte le informazioni esposte a farsi una propria idea.
 
 Penrose è incline ad una matematica platonica assoluta, esterna ed eterna non
-fondata su criteri umani. I concetti matematici hanno una proprie esistenza
+fondata su criteri umani. I concetti matematici hanno una propria esistenza
 atemporale, non dipendente dalla società umana né da particolari oggetti fisici.
 
 Ci domanda infatti, *"Secondo voi, l'insieme di Mendelbrot esisteva o no prima
@@ -42,8 +42,8 @@ e matematiche, sono risultati leggermente pesanti nonostante l' esposizione
 semplice e chiara.
 
 Ritengo però che sia sempre meglio ricevere più informazioni che ne meno, sarà
-poi il singolo lettore a saltare o leggere velocemente quelle che meno gli
-interessano. Un testo consigliato a tutti i neofiti *e non*.
+poi il singolo lettore a saltare o leggere velocemente le parti note. Un testo
+consigliato a tutti i neofiti *e non*.
 
 
   A mio modo di vedere.. (*Principio antropico*) la natura dell'universo in cui
@@ -51,7 +51,7 @@ interessano. Un testo consigliato a tutti i neofiti *e non*.
   come noi stessi debbano essere realmente presenti per osservarlo.
 
 
-  Tutta l'informazione esiste da sempre
+  Tutta l'informazione esiste da sempre.
 
 
   A volte i bambini vedono cose con chiarezza che si confondono e si oscurano
