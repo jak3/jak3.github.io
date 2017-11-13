@@ -10,8 +10,7 @@ title: About
     :depth: 2
 
 My name is **Giacomo Mantani**, I am born in `Cesena
-<https://en.wikipedia.org/wiki/Cesena>`_ in 1992. I have always had many
-passions such as:
+<https://en.wikipedia.org/wiki/Cesena>`_ in 1992. I have a lot of passions:
 
 .. * :strike:`Parkour`
 .. * :strike:`Skateboarding`
@@ -25,13 +24,13 @@ passions such as:
 * Information Security
 * Naturopathy
 * Nutrition
-* Phylosophy
-* Programming
+* Philosophy
+* Developing
 * Reading
-* Tai Chi Chuan
+* Tai Chi Chuan & Qi Gong
 * Trekking/Hiking
 * Wellness
-* Yoga
+* Yoga (as a philosophy not merely as training exercises for your body)
 
 I am the developer and maintainer of `Starly <https://starly-info.github.io>`_,
 an online free service that deliver knowledge by email. At the moment the first
@@ -42,12 +41,13 @@ much more. Vimly delivers **knowledge pills** (chunks of the official `:help`
 file) and **practice** sections where you can find exercises, questions and
 answers.
 
-I am pescetarian since 2014. I have started a journey of overall awareness
-continues to grow.
+I am pescetarian since 2014. I have started a journey of overall awareness that
+continues to grow day by day.
 
-I admire all people that pursue *something*. I love hear their experiences and
-thoughts and something I keep these *things* with me inspecting them deeply.
+I admire all people that pursue *something*. I love hearing their experiences
+and thoughts about what they love to do. Often, I carry with me their likes and
+soon or later I deepen these *things* by my own.
 
-I enjoy reading, philosophying and stay close to nature.
+I enjoy reading, discussing, sharing knowledge and stay close to nature.
 
 :right:`Giacomo Mantani`

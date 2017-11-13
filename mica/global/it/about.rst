@@ -10,8 +10,8 @@ title: Chi Sono
     :depth: 2
 
 Sono nato a `Cesena <https://en.wikipedia.org/wiki/Cesena>`_ nel 1992, ho sempre
-avuto come caratteristica quella di avere moltissime passioni. Giusto per
-elencarne alcune che hanno fatto parte del mio cammino abbiamo:
+avuto come caratteristica quella di avere moltissime passioni, in cui ho sempre
+messo tutto il mio cuore. Alcune delle quali sono:
 
 .. * :strike:`Parkour`
 .. * :strike:`Skateboarding`
@@ -21,22 +21,24 @@ elencarne alcune che hanno fatto parte del mio cammino abbiamo:
 
 * Alimentazione
 * Arrampicata/Free climbing
-* Autoproduzione
+* Auto-produzione (di ogni cosa, preferisco essere un produttore che ne un
+  consumatore)
 * Benessere psico-fisico
 * Cucina
 * Filosofia
 * Lettura
 * Naturopatia
-* Programmazione
+* Programmazione informatica
 * Sicurezza informatica
-* Tai Chi Chuan
+* Tai Chi Chuan & Qi Gong
 * Trekking/Hiking (escursionismo)
-* Yoga
+* Yoga (non solo dal punto di vista dell' allenamento fisico ma proprio come
+  filosofia)
 
 Sono lo sviluppatore principale nonché ideatore del servizio online `Starly
 <https://starly-info.github.io>`_. Al suo interno si può già trovare una
 newsletter gratuita, di nome `Vimly <https://starly-info.github.io/newsletter/en/2017-08-18-vim.html>`_, sull'editor di testo `Vim <www.vim.org>`_.
-La newsletter consiste in email giornaliere con porzioni del manuale ufficiale
+La newsletter consiste in email periodiche con estratti del manuale ufficiale
 (`:help`) più una parte pratica contenente esercizi, domande e risposte.
 
 Sono pesce-tariano dal 2014 e da allora ho cominciato un percorso di
