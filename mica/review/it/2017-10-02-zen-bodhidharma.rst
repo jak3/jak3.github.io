@@ -1,3 +1,7 @@
+---
+title: The Zen Teaching of Bodhidharma
+---
+
 *******************************
 The Zen Teaching of Bodhidharma
 *******************************

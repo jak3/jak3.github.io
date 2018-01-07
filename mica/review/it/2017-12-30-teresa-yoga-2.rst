@@ -1,3 +1,7 @@
+---
+title: Yoga Integrale, Āsana Volume II (parte prima)
+---
+
 Yoga Integrale: Volume II (parte prima) - Āsana
 ===============================================
 

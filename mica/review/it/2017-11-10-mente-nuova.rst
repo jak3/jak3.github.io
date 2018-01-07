@@ -1,3 +1,7 @@
+---
+title: La mente nuova dell'imperatore
+---
+
 ****************************************************************************
 La mente nuova dell'imperatore: La mente, i computer e le leggi della fisica
 ****************************************************************************

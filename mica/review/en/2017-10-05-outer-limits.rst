@@ -1,3 +1,7 @@
+---
+title: The Outer Limits of Reason
+---
+
 **************************
 The Outer Limits of Reason
 **************************

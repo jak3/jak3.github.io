@@ -1,3 +1,7 @@
+---
+title: I Ching Il Libro dei Mutamenti
+---
+
 ******************************
 I Ching Il Libro dei Mutamenti
 ******************************

@@ -1,3 +1,7 @@
+---
+title: L' Insegnamento Del Saggio Egizio Ptahhotep
+---
+
 L' Insegnamento Del Saggio Egizio Ptahhotep
 -------------------------------------------
 
