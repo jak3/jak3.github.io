@@ -20,9 +20,11 @@ strana lettura che si portava spesso con sé. Pensavo fosse un racconto, una
 storia completamente inventata e dalla quale non avrei appreso nulla di
 interessante.
 
-Poi il 5 Dicembre 2017, *Padre* mi porta una copia nuova del libro. Sa che mi
-sto interessando e sto cercando *qualcosa* ciò che lui è molti anni che
-persegue. Una conoscenza di un mondo non visibile ai più.
+Il 5 Dicembre 2017, le cose cambiarono. *Padre* mi porta una copia nuova del
+libro. Le sue, ne ha più di una, sono tutte sottolineate. Non vuole giustamente
+influenzare la mia attenzione. E' consapevole del mio cammino, del mio interesse
+e della mia ricerca. Una ricerca che lui è molti anni che persegue. Una
+conoscenza di un mondo non visibile ai più.
 
 Il libro è risultato una lettura ispiratrice, piacevole e ricca di insegnamenti.
 Sagge parole si celano dietro al racconto ed ogni capitolo, mano mano che si
