@@ -39,14 +39,19 @@ main = hakyll $ do
       match (fromGlob $ "mica/enote/" ++ slang ++ "/*"  )  $ postBehavior   lang
       match (fromGlob $ "mica/global/" ++ slang ++ "/*" )  $ globalBehavior lang
       match (fromGlob $ "mica/review/" ++ slang ++ "/*" )  $ reviewBehavior lang
+      match (fromGlob $ "mica/poly/" ++ slang ++ "/*"   )  $ polyBehavior   lang
 
-      create [fromFilePath ("gen/" ++ slang ++ "/enote-archive.html")] (archiveBehavior          "enote" lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]            (feedBehavior renderRss   "enote" lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/atom.xml")]           (feedBehavior renderAtom  "enote" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/enote-archive.html")]  (archiveBehavior         "enote"  lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]             (feedBehavior renderRss  "enote"  lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/atom.xml")]            (feedBehavior renderAtom "enote"  lang)
 
       create [fromFilePath ("gen/" ++ slang ++ "/review-archive.html")] (archiveBehavior         "review" lang)
       create [fromFilePath ("gen/" ++ slang ++ "/review-rss.xml")]      (feedBehavior renderRss  "review" lang)
       create [fromFilePath ("gen/" ++ slang ++ "/review-atom.xml")]     (feedBehavior renderAtom "review" lang)
+
+      create [fromFilePath ("gen/" ++ slang ++ "/poly-archive.html")]   (archiveBehavior         "poly"   lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/poly-rss.xml")]        (feedBehavior renderRss  "poly"   lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/poly-atom.xml")]       (feedBehavior renderAtom "poly"   lang)
 
     match "templates/*" $ compile templateCompiler
     match "templates/*/*.html" $ compile templateCompiler
@@ -85,9 +90,10 @@ postCtxWithLanguage l = mconcat $ [
                                     defaultCtxWithLanguage l
                                   ]
 
-indexCtx l posts reviews = mconcat $ [
+indexCtx l posts reviews polys = mconcat $ [
                                 listField "posts"   postCtx (return posts),
                                 listField "reviews" postCtx (return reviews),
+                                listField "polys"   postCtx (return polys),
                                 defaultCtxWithLanguage l
                              ]
 
@@ -117,9 +123,10 @@ indexBehavior :: Language -> Rules ()
 indexBehavior l = do
   route idRoute
   compile $ do
-      posts <- recentFirst =<< loadAll (fromGlob $ "mica/enote/" ++ (show l) ++ "/*")
+      posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"  ++ (show l) ++ "/*")
       reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show l) ++ "/*")
-      let ctx = indexCtx l posts reviews
+      polys   <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"   ++ (show l) ++ "/*")
+      let ctx = indexCtx l posts reviews polys
 
       getResourceBody
           >>= applyAsTemplate ctx
@@ -161,6 +168,21 @@ reviewBehavior l = do
       { readerDefaultImageExtension = "+link_attributes"
       }
 
+polyBehavior :: Language -> Rules ()
+polyBehavior l = do
+  route   $ setExtension "html"
+  compile $ pandocCompilerWith withLinkAtt defaultHakyllWriterOptions
+      >>= saveSnapshot "content"
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/poly.html") (postCtxWithLanguage l)
+      >>= loadAndApplyTemplate "templates/disqus.html"                                    defaultContext
+      >>= loadAndApplyTemplate "templates/default.html"                                  (postCtxWithLanguage l)
+      >>= relativizeUrls
+      >>= removeIndexHtml
+  where
+    withLinkAtt = defaultHakyllReaderOptions
+      { readerDefaultImageExtension = "+link_attributes"
+      }
+
 globalBehavior :: Language -> Rules ()
 globalBehavior l = do
   route   $ setExtension "html"
@@ -171,20 +193,20 @@ globalBehavior l = do
       >>= relativizeUrls
 
 archiveBehavior :: String -> Language -> Rules ()
-archiveBehavior dirSubject language = do
+archiveBehavior dirSubject l = do
     route idRoute
     compile $ do
-        posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/" ++ (show language) ++ "/*")
-        reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show language) ++ "/*")
-        --let ctx = listField "posts" postCtx (return posts)
-        let ctx = indexCtx language posts reviews
+        posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"  ++ (show l) ++ "/*")
+        reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show l) ++ "/*")
+        polys   <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"   ++ (show l) ++ "/*")
+        let ctx = indexCtx l posts reviews polys
 
         makeItem ""
             >>= loadAndApplyTemplate langTemplate ctx
             >>= loadAndApplyTemplate "templates/default.html" ctx
             >>= relativizeUrls
       where
-        langTemplate = fromFilePath $ "templates/" ++ (show language) ++ "/" ++ dirSubject ++ "-archive.html"
+        langTemplate = fromFilePath $ "templates/" ++ (show l) ++ "/" ++ dirSubject ++ "-archive.html"
 
 feedBehavior :: (FeedConfiguration
                   -> Context String

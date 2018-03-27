@@ -17,16 +17,17 @@ langs = enumFrom English
 
 dbTranslations :: (M.Map Key Translations)
 dbTranslations = M.fromList
-  [ ("language" , M.fromList [(English, "en"        ), (Italian, "it"        )])
-  , ("about"    , M.fromList [(English, "About"     ), (Italian, "Chi sono"  )])
-  , ("contacts" , M.fromList [(English, "Contacts"  ), (Italian, "Contatti"  )])
-  , ("archive"  , M.fromList [(English, "Archive"   ), (Italian, "Archivio"  )])
-  , ("review"   , M.fromList [(English, "Review"    ), (Italian, "Recensioni")])
-  , ("summaries", M.fromList [(English, "Summaries" ), (Italian, "Riassunti" )])
-  , ("made"     , M.fromList [(English, "Made by"   ), (Italian, "Creato da" )])
-  , ("with"     , M.fromList [(English, "with"      ), (Italian, "con"       )])
-  , ("en"       , M.fromList [(English, "English"   ), (Italian, "Inglese"   )])
-  , ("it"       , M.fromList [(English, "Italian"   ), (Italian, "Italiano"  )])
+  [ ("language"     , M.fromList [(English, "en"          ), (Italian, "it"        )])
+  , ("about"        , M.fromList [(English, "About"       ), (Italian, "Chi sono"  )])
+  , ("contacts"     , M.fromList [(English, "Contacts"    ), (Italian, "Contatti"  )])
+  , ("archive"      , M.fromList [(English, "Archive"     ), (Italian, "Archivio"  )])
+  , ("review"       , M.fromList [(English, "Review"      ), (Italian, "Recensioni")])
+  , ("summaries"    , M.fromList [(English, "Summaries"   ), (Italian, "Riassunti" )])
+  , ("translations" , M.fromList [(English, "Translations"), (Italian, "Traduzioni")])
+  , ("made"         , M.fromList [(English, "Made by"     ), (Italian, "Creato da" )])
+  , ("with"         , M.fromList [(English, "with"        ), (Italian, "con"       )])
+  , ("en"           , M.fromList [(English, "English"     ), (Italian, "Inglese"   )])
+  , ("it"           , M.fromList [(English, "Italian"     ), (Italian, "Italiano"  )])
   ]
 
 getTranslation :: Language -> Key -> Maybe Translation
