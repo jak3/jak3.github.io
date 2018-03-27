@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>condensō [en]</title>
+    <link href="https://jak3.github.io/gen/en/poly-atom.xml" rel="self" />
+    <link href="https://jak3.github.io" />
+    <id>https://jak3.github.io/gen/en/poly-atom.xml</id>
+    <author>
+        <name>Giacomo Mantani</name>
+        <email>name.surname on gmail</email>
+    </author>
+    <updated>Unknown</updated>
+    
+</feed>
