@@ -21,6 +21,7 @@ dbTranslations = M.fromList
   , ("about"        , M.fromList [(English, "About"       ), (Italian, "Chi sono"  )])
   , ("contacts"     , M.fromList [(English, "Contacts"    ), (Italian, "Contatti"  )])
   , ("archive"      , M.fromList [(English, "Archive"     ), (Italian, "Archivio"  )])
+  , ("art"          , M.fromList [(English, "Art"         ), (Italian, "Arte"      )])
   , ("review"       , M.fromList [(English, "Review"      ), (Italian, "Recensioni")])
   , ("summaries"    , M.fromList [(English, "Summaries"   ), (Italian, "Riassunti" )])
   , ("translations" , M.fromList [(English, "Translations"), (Italian, "Traduzioni")])
