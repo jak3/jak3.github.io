@@ -21,15 +21,16 @@ My name is **Giacomo Mantani**, I am born in `Cesena
 * Alchemy
 * Cooking
 * Creativity and Arts
+* Developing
 * Farming
 * Free climbing
 * Hermetic Teachings
 * Information Security
 * Kabbalah
+* Music
 * Naturopathy
 * Nutrition
 * Philosophy
-* Developing
 * Reading
 * Reiki
 * Tai Chi Chuan & Qi Gong
