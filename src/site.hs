@@ -186,11 +186,20 @@ polyBehavior l = do
 globalBehavior :: Language -> Rules ()
 globalBehavior l = do
   route   $ setExtension "html"
-  compile $ pandocCompiler
+  compile $ pandocCompilerWith withLinkAtt withToc
+      >>= saveSnapshot "content"
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/social.html")   (defaultCtxWithLanguage l)
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/donation.html") (defaultCtxWithLanguage l)
       >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
       >>= relativizeUrls
+  where
+    withLinkAtt = defaultHakyllReaderOptions
+      { readerDefaultImageExtension = "+link_attributes"
+      }
+    withToc = defaultHakyllWriterOptions
+        { writerTableOfContents = True
+        , writerTemplate        = Just "$toc$\n<hr>\n$body$"
+        }
 
 archiveBehavior :: String -> Language -> Rules ()
 archiveBehavior dirSubject l = do

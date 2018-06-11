@@ -9,6 +9,8 @@ title: About
 .. contents::
     :depth: 2
 
+**THIS IS AN OLD VERSION, IT NEEDS TO BE UPDATED FROM THE ITALIAN PAGE**.
+
 My name is **Giacomo Mantani**, I am born in `Cesena
 <https://en.wikipedia.org/wiki/Cesena>`_ in 1992. I have a lot of passions:
 
