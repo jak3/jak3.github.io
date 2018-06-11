@@ -1,6 +1,9 @@
 Creazioni Artistiche
 ====================
 
+Sono disponibili alcuni schizzi fatti a matita `nella mia pagina personale
+su DeviantArt <https://giacomo-mantani.deviantart.com/gallery/?catpath=scraps>`_.
+
 Alfa - 25 March 2018
 --------------------
 
@@ -15,3 +18,4 @@ Smile - 3 Maggio 2018
 ---------------------
 
 .. image:: https://www.dropbox.com/s/63b46vylwkygkby/smile.jpg?raw=1
+

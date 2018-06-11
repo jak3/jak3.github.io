@@ -1,6 +1,9 @@
 Creative Moments
 ================
 
+Some pencil scraps are available at `my DeviantArt homepage
+<https://giacomo-mantani.deviantart.com/gallery/?catpath=scraps>`_.
+
 Alfa - 25 March 2018
 --------------------
 
