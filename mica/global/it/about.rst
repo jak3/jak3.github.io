@@ -123,9 +123,9 @@ Praticando Tai Chi Chuan e Qi Gong, mi sono avvicinato molto anche alla **Medici
 Tradizionale Cinese** e alla filosofia Taoista che per il momento studio
 autonomamente con la supervisione del mio maestro di Tai Chi Chuan `Claudio Gentili (ArTao) <www.claudiogentili.it>`_.
 
-Sto praticando meditazione **Vipassana**, supervisionato da `Daniele Boscherini (MantraOM) <http://www.mantraom.it/daniele-boscherini/>`_ dopo essermi iscritto
-al suo seminario esperienziale per praticanti, insegnanti o aspiranti
-insegnanti.
+Sto praticando meditazione **Vipassana**,  dopo essermi iscritto al corso
+teorico pratico di `Daniele Boscherini (MantraOM) <http://www.mantraom.it/daniele-boscherini/>`_ per praticanti, insegnanti o
+aspiranti insegnanti.
 
 Tramite le mie svariate letture, ho capito quanto fosse fondamentale la
 **meditazione** nella vita quotidiana. Si potrebbe parlare per anni su ciò che
