@@ -2,6 +2,10 @@
 title: Il Profeta
 ---
 
+**********
+Il Profeta
+**********
+
 .. image:: http://t1.gstatic.com/images?q=tbn:ANd9GcQ4BzhtxF75NMMFiprhUYQCeB8Vc3IbVGYMnRFRqlEVhBcwu5tz
 
 Il Profeta di Kahlil Gibran è stato davvero una sorpresa per me. Ne conoscevo la
