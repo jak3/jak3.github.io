@@ -34,7 +34,7 @@ più una pagina finale non numerata, intitolata in greco Epilogo. Le tavole sono
 firmate: "*Paullus von der Doort Antverp. sculpsit Hamburgi anno a Christo nato
 1595 […]*"; l'ultima ha una firma aggiuntiva: "*HF Vriese pinxit*".
 
-Il lavoro è stato `digitalizzato completamento come parte della collezione
+Il lavoro è stato `digitalizzato completamente come parte della collezione
 digitale dell'Università del Wisconsin
 <http://digicoll.library.wisc.edu/cgi-bin/UWSpecColl/UWSpecColl-idx?id=UWSpecColl.DuveenD0897>`_.
 La quale, è molto grata a Arvid Nelson per una trascrizione preliminare dei
