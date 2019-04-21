@@ -12,11 +12,11 @@ Purana Purusha: Yogiraj Sri Shama Churn Lahiree
 Every *Kriyaban* independent from his/her lineage find insights reading this
 book. Lots of paragraph (transliterated) have been taken directly from Shama
 Churn diaries and memories are reported as it is. I appreciate also the
-glossary, really well detailed. A true teaching the words of this book and I
-must admit that sometimes truth reveal itself against your previous precepts.
-You must be always open minded to changes, evaluate them deeply with your inner
-Self and choose. Personally, I have do some changes to my *sadhana*. I write to
-you some of the phrases that catch my attention into categories:
+glossary, really well detailed. A true teaching in my humble opinion, even if
+sometimes it differs from my previous beliefs and precepts. You should be as
+much as possible open minded to changes and you should evaluate them deeply with
+your inner Self. Personally, while reading this book, I have done some changes
+to my *sadhana*. I write here some of the phrases that catch my attention:
 
 General topics
 --------------
@@ -101,13 +101,13 @@ Who must practice *yogasadhana*
   livelihood. It is improper to depend upon someone for your subsistence. You
   should maintain your family yourself.
 
-- There is no impediment to practice the *yoga*sadhana** for men belonging to
-  any religion or for those adhering to any doctrine. The same soul prevails in
-  all living beings. Therefore there is no impediment for practicing
-  Atma*sadhana*.
+- There is no impediment to practice the *yogasadhana* for men belonging to any
+  religion or for those adhering to any doctrine. The same soul prevails in all
+  living beings. Therefore there is no impediment for practicing *Atmasadhana*.
 
-- Since everything originates from Brahma everyone can be termed as Brahmin
-  Soul-introspection is the principal aim of life, and every sadhaka of the
+- Since everything originates from Brahma everyone can be termed as Brahmin.
+
+- Soul-introspection is the principal aim of life, and every sadhaka of the
   world, without exception can do it.
 
 - Shama Churn illustrate how man though by remaining in the vortex of material
@@ -116,8 +116,8 @@ Who must practice *yogasadhana*
   expressing these ideals verbally to everyone but completely executing this in
   His Own life, He set an example.
 
-- He would remark that the two requisites to practise this immortal
-  *yoga*sadhana** are a human body and a true desire.
+- He would remark that the two requisites to practice this immortal
+  *yogasadhana* are a human body and a true desire.
 
 - None is sinful or sinless. Everyone is equal. Since everyone is the son of
   God, everyone has the right to practice *sadhana*.
@@ -131,20 +131,20 @@ Who must practice *yogasadhana*
 
 - Pure food, easily digestible.
 
-- No bathe at dawn
+- No bathe at dawn.
 
-- Not undertake a rigorous fast
+- Not undertake a rigorous fast.
 
-- Not be awake till very late at night
+- Not be awake till very late at night.
 
-- Do not practice *Kriya* when there is thunders
+- Do not practice *Kriya* when there is thunders.
 
 - *Kriya* in the morning annihilates the sins of the night and *Kriya* in the
-  evening annihilates the sins of the day
+  evening annihilates the sins of the day.
 
-- Women should not practice kriya during menstruation
+- Women should not practice kriya during menstruation.
 
-- Impart *Kriya* to married couples together
+- Impart *Kriya* to married couples together.
 
 - It is better to practice *Atmasadhana* a couple of hours before dawn, for during
   this period nature being calm.
@@ -156,9 +156,10 @@ Who must practice *yogasadhana*
   two actions of *recaka* and *puraka* are internally practiced, an automatic
   *kumbhaka* will result.
 
-- Idol-worship was never practiced by Shama Churn. He would ask people to abide
-  by their respective faiths, would impart afflatus to them and advise them to
-  practice *yoga*sadhana**.
+- Idol-worship was never practiced by Shama Churn.
+
+- He would ask people to abide by their respective faiths, would impart afflatus
+  to them and advise them to practice *yogasadhana*.
 
 - There is no need to take a photograph (of a guru). Otherwise in the future you
   could abandon *sadhana* and start worshiping the photograph and you shouldn't.
@@ -193,5 +194,5 @@ About God
 - Someone exists within you, repeatedly invoke Him.
 
 - A devotee prayed Shama Churn asking "What is God?", Yogiraj enlightened thus
-  "Do you know Who God is? The power by which you asked 'What is God'. He only
-  is God.
+  "Do you know Who God is? The power by which you asked 'What is God'".
+
