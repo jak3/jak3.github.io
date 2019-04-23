@@ -21,15 +21,15 @@ attenzione da parte degli studenti.
 
 Localizzato tra la collezione di Duveen nel dipartimento delle collezioni
 speciali dell' Università del Wisconsin-Madison, risulta una delle rare copie
-della prima edizione di questa opera, probabilmente pubblicata in Hamburg nel
+della prima edizione di questa opera, probabilmente pubblicata ad Amburgo nel
 1595. Ci sono state poi diverse altre edizioni, con tavole addizionali ma che
 mancano del generoso margine e dei colori aggiunti a mano della copia presente
-a Madison.  Vi sono solo altre due copie di questa unica prima edizione,
+a Madison. Vi sono solo altre due copie di questa unica prima edizione,
 descritta da Denis Duveen come "uno dei più importanti libri dell'intera
 letteratura dell'alchimia teosofica e delle scienze occulte".
 
 In dettaglio, l'opera consiste in quattro tavole, incise e colorate a mano più
-un titolo stampato in rilievo, 24 pagine di testo sempre stampato in rilievo
+un titolo stampato in rilievo, 24 pagine di testo sempre stampato in rilievo,
 più una pagina finale non numerata, intitolata in greco Epilogo. Le tavole sono
 firmate: "*Paullus von der Doort Antverp. sculpsit Hamburgi anno a Christo nato
 1595 […]*"; l'ultima ha una firma aggiuntiva: "*HF Vriese pinxit*".
@@ -37,5 +37,5 @@ firmate: "*Paullus von der Doort Antverp. sculpsit Hamburgi anno a Christo nato
 Il lavoro è stato `digitalizzato completamente come parte della collezione
 digitale dell'Università del Wisconsin
 <http://digicoll.library.wisc.edu/cgi-bin/UWSpecColl/UWSpecColl-idx?id=UWSpecColl.DuveenD0897>`_.
-La quale, è molto grata a Arvid Nelson per una trascrizione preliminare dei
-testi abbondanti che si trovavano intorno alle immagini circolari.
+La quale, è molto grata ad Arvid Nelson per una trascrizione preliminare dei
+testi, abbondanti, che si trovavano intorno alle immagini circolari.
