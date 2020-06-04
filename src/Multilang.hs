@@ -18,7 +18,6 @@ langs = enumFrom English
 dbTranslations :: (M.Map Key Translations)
 dbTranslations = M.fromList
   [ ("language"     , M.fromList [(English, "en"          ), (Italian, "it"        )])
-  , ("about"        , M.fromList [(English, "About"       ), (Italian, "Chi sono"  )])
   , ("contacts"     , M.fromList [(English, "Contacts"    ), (Italian, "Contatti"  )])
   , ("archive"      , M.fromList [(English, "Archive"     ), (Italian, "Archivio"  )])
   , ("art"          , M.fromList [(English, "Art"         ), (Italian, "Arte"      )])

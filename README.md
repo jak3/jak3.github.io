@@ -36,3 +36,18 @@ ragioni:
 1. Può essere condiviso
 1. Puoi portare le tue note con te praticamente ovunque
 1. Resiste molto meglio alle intemperie ;)
+
+# Dev
+
+`git checkout develop`
+`stack exec condenso build && stack exec condenso watch`
+`git checkout master`
+`
+rsync -a --filter='P _site/'      \
+         --filter='P _cache/'     \
+         --filter='P .git/'       \
+         --filter='P .gitignore'  \
+         --filter='P .stack-work' \
+         --delete-excluded        \
+         _site/ .
+`
