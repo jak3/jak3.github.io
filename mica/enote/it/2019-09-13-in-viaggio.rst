@@ -6,7 +6,7 @@ title: In Viaggio con un Maestro Sufi
 In Viaggio con un Maestro Sufi
 ******************************
 
-.. image:: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568555908l/48157824._SX318_.jpg
+.. image:: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568555908l/51549589._SX318_SY475_.jpg
 
 Essenze
 -------
