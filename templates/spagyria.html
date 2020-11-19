@@ -1,0 +1,44 @@
+$body$
+
+<script>
+function listAttributes(attributi) {
+  return `
+        <nav class="nav-inline">
+          <ul>
+          $${attributi.map(attributo => `<li>$${attributo}</li>`).join("")}
+          </ul>
+        </nav>
+         `;
+}
+
+function plantTemplate(pianta) {
+  return `
+          <table>
+            <thead class="h4"><tr><th colspan="2" class="text-center">$${pianta.nome}</th></tr></thead>
+            <tbody>
+              <tr class="lead-s text-center">
+                <td>Pianeti</td>
+                <td>$${pianta.pianeti ? listAttributes(pianta.pianeti) : ""}</td>
+              </tr>
+              <tr class="lead-s text-center">
+                <td>Segni</td>
+                <td>$${pianta.segni ? listAttributes(pianta.segni) : ""}</td>
+              </tr>
+              <tr>
+                <td colspan="2"><p>$${pianta.descrizione}</p></td>
+              </tr>
+            </tbody>
+          </table>
+         `;
+}
+
+
+$$(document).ready(function(){
+  $$.getJSON("/static/plants.json", function(plants){
+    $$("#plants").append(`$${plants.map(plantTemplate).join("")}`);
+  });
+});
+</script>
+
+<div id="plants">
+</div>

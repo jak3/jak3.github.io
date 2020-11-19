@@ -2,20 +2,14 @@
 import        Hakyll
 
 import        Control.Monad         (forM_)
-import        Data.Monoid           ((<>))
 import        Data.List             (isInfixOf)
 import        Data.Map              (keys, elems, lookup)
 import        Data.Maybe            (mapMaybe)
 import        Text.Pandoc
-import        System.FilePath.Posix (takeBaseName, takeDirectory, (</>),
-                                      splitFileName)
---import        Data.Ord              (comparing)
---import        System.Locale         (defaultTimeLocale)
+import        System.FilePath.Posix (splitFileName)
 
 import        Config
 import        Multilang
---import        Abbreviations         (abbreviationFilter)
---import        JFilters              (blogFigure, blogImage, highlight)
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -25,7 +19,7 @@ main = hakyll $ do
         route   idRoute
         compile $ compressCssCompiler >>= relativizeUrls
 
-    match "static/img/*" $ do
+    match (fromList ["static/img/*", "static/plants.json" ]) $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -35,11 +29,12 @@ main = hakyll $ do
     forM_ langs $ \lang -> do
       let slang = show lang
 
-      match (fromGlob $ "index-" ++ slang ++ ".html"    )  $ indexBehavior  lang
-      match (fromGlob $ "mica/enote/" ++ slang ++ "/*"  )  $ postBehavior   lang
-      match (fromGlob $ "mica/global/" ++ slang ++ "/*" )  $ globalBehavior lang
-      match (fromGlob $ "mica/review/" ++ slang ++ "/*" )  $ reviewBehavior lang
-      match (fromGlob $ "mica/poly/" ++ slang ++ "/*"   )  $ polyBehavior   lang
+      match (fromGlob $ "index-" ++ slang ++ ".html"            ) $ indexBehavior  lang
+      match (fromGlob $ "mica/enote/" ++ slang ++ "/*"          ) $ postBehavior   lang
+      match (fromGlob $ "mica/global/" ++ slang ++ "/*"         ) $ globalBehavior lang
+      match (fromGlob $ "mica/prj/" ++ slang ++ "/*" ) $ spagyBehavior  lang
+      match (fromGlob $ "mica/review/" ++ slang ++ "/*"         ) $ reviewBehavior lang
+      match (fromGlob $ "mica/poly/" ++ slang ++ "/*"           ) $ polyBehavior   lang
 
       create [fromFilePath ("gen/" ++ slang ++ "/enote-archive.html")]  (archiveBehavior         "enote"  lang)
       create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]             (feedBehavior renderRss  "enote"  lang)
@@ -182,6 +177,16 @@ polyBehavior l = do
     withLinkAtt = defaultHakyllReaderOptions
       { readerDefaultImageExtension = "+link_attributes"
       }
+
+spagyBehavior :: Language -> Rules ()
+spagyBehavior l = do
+  route   $ setExtension "html"
+  compile $ pandocCompiler
+      >>= saveSnapshot "content"
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/spagyria.html")                    (defaultCtxWithLanguage l)
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/donation.html") (defaultCtxWithLanguage l)
+      >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
+      >>= relativizeUrls
 
 globalBehavior :: Language -> Rules ()
 globalBehavior l = do
