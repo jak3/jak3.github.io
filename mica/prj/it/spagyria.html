@@ -41,76 +41,79 @@
                 <nav class="nav-inline text-center no-padding-vertical">
                     <h1 class="color-info-300">cond<i>ensō</i></h1>
                     <ul>
-                      <li><i><a href="../../../index-en.html">Home</a></i></li>
-                      <li><i><a href="../../../mica/global/en/contact.html">Contacts</a></i></li>
-                      <li><i><a href="../../../mica/global/en/art.html">Art</a></i></li>
-                      <li><i><a href="../../../mica/prj/en/spagyria.html">Spagyria</a></i></li>
-                      <li><i><a href="../../../gen/en/review-archive.html">Review</a></i></li>
-                      <li><i><a href="../../../gen/en/enote-archive.html">Summaries</a></i></li>
-                      <li><i><a href="../../../gen/en/poly-archive.html">Translations</a></i></li>
+                      <li><i><a href="../../../index-it.html">Home</a></i></li>
+                      <li><i><a href="../../../mica/global/it/contact.html">Contatti</a></i></li>
+                      <li><i><a href="../../../mica/global/it/art.html">Arte</a></i></li>
+                      <li><i><a href="../../../mica/prj/it/spagyria.html">Spagyria</a></i></li>
+                      <li><i><a href="../../../gen/it/review-archive.html">Recensioni</a></i></li>
+                      <li><i><a href="../../../gen/it/enote-archive.html">Riassunti</a></i></li>
+                      <li><i><a href="../../../gen/it/poly-archive.html">Traduzioni</a></i></li>
                     </ul>
                 </nav>
             </header>
         </div>
 
         <div class="container background-light-500 padding-vertical-s text-justify">
-              
-<hr>
-<ul>
-<li>Email: Name dot Surname at gmail dot com</li>
-</ul>
+              <p>La Spagyria è un’antica arte che porta il praticante a diretto contatto con forze <em>archetipiche</em>, in un <em>Solve et Coagula</em> continuo, di raffinazione in raffinazione, sia del prodotto che del praticante stesso.</p>
+<blockquote>
+<p>Paracelso rimase solo. Prima di spegnere la lanterna e di sedersi nella poltrona consumata, raccolse nell’incavo della mano il piccolo pugno di cenere e disse una parola a bassa voce.</p>
+</blockquote>
 
-<hr>
-<h4 class="text-center">Online Profiles</h4>
-<nav class="nav-inline text-center">
-  <ul>
-    <li>
-      <a href="https://www.goodreads.com/user/show/9318617-giacomo-mantani">
-        <figure>
-          <img width="35px" src="../../../static/img/goodreads-sm.png" alt="image-logo" />
-          <figcaption><p class="text-center">Goodreads<br>( <b>Books</b> )</p></figcaption>
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="https://medium.com/@giacomo.mantani">
-        <figure>
-          <img width="35px" src="../../../static/img/medium.svg" alt="image-logo" />
-          <figcaption><p class="text-center">Medium<br>( <b>Thoughts</b> )</p></figcaption>
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="https://giacomo-mantani.deviantart.com">
-        <figure>
-          <img width="25px" src="../../../static/img/deviantArt.png" alt="image-logo" />
-          <figcaption><p class="text-center">DeviantArt<br>( <b>Artistic creations</b> )</p></figcaption>
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/jak3">
-        <figure>
-          <img width="42px" src="../../../static/img/github.jpg" alt="image-logo" />
-          <figcaption><p class="text-center">Github<br>( <b>Software</b> )</p></figcaption>
-        </figure>
-      </a>
-    </li>
-  </ul>
-</nav>
+<script>
+function listAttributes(attributi) {
+  return `
+        <nav class="nav-inline">
+          <ul>
+          ${attributi.map(attributo => `<li>${attributo}</li>`).join("")}
+          </ul>
+        </nav>
+         `;
+}
+
+function plantTemplate(pianta) {
+  return `
+          <table>
+            <thead class="h4"><tr><th colspan="2" class="text-center">${pianta.nome}</th></tr></thead>
+            <tbody>
+              <tr class="lead-s text-center">
+                <td>Pianeti</td>
+                <td>${pianta.pianeti ? listAttributes(pianta.pianeti) : ""}</td>
+              </tr>
+              <tr class="lead-s text-center">
+                <td>Segni</td>
+                <td>${pianta.segni ? listAttributes(pianta.segni) : ""}</td>
+              </tr>
+              <tr>
+                <td colspan="2"><p>${pianta.descrizione}</p></td>
+              </tr>
+            </tbody>
+          </table>
+         `;
+}
 
 
-<h4 class="text-center">Donations</h4>
+$(document).ready(function(){
+  $.getJSON("/static/plants.json", function(plants){
+    $("#plants").append(`${plants.map(plantTemplate).join("")}`);
+  });
+});
+</script>
 
-It is possible to make a secure donation by <a href="https://paypal.me/GiacomoMantani" style="button
-  button-pill">PayPal.Me</a>. Your help keep this site alive and motivate me to
-produce more content. Thanks.
+<div id="plants">
+</div>
+
+
+<h4 class="text-center">Donazioni</h4>
+
+E' possibile effettuare una donazione sicura tramite il servizio
+<a href="https://paypal.me/GiacomoMantani" style="button
+  button-pill">Paypal.Me</a> a supporto del lavoro svolto. Grazie.
 
         </div>
 
         <div class="container color-info-100 footer padding-vertical-s">
             <footer class="text-right">
-              <em>Made by <a href="../../../mica/global/en/about.html">Giacomo</a> with
+              <em>Creato da <a href="../../../mica/global/it/about.html">Giacomo</a> con
                 <a href="http://www.vim.org" target="_blank">Vim</a>,
                 <a href="http://jaspervdj.be/hakyll" target="_blank">Hakyll</a></em> and ❤
             </footer>
