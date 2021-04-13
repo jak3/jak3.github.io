@@ -22,7 +22,7 @@ dbTranslations = M.fromList
   , ("archive"      , M.fromList [(English, "Archive"     ), (Italian, "Archivio"  )])
   , ("art"          , M.fromList [(English, "Art"         ), (Italian, "Arte"      )])
   , ("review"       , M.fromList [(English, "Review"      ), (Italian, "Recensioni")])
-  , ("summaries"    , M.fromList [(English, "Summaries"   ), (Italian, "Riassunti" )])
+  , ("excerpts"     , M.fromList [(English, "Excerpts"    ), (Italian, "Estratti"  )])
   , ("translations" , M.fromList [(English, "Translations"), (Italian, "Traduzioni")])
   , ("made"         , M.fromList [(English, "Made by"     ), (Italian, "Creato da" )])
   , ("with"         , M.fromList [(English, "with"        ), (Italian, "con"       )])
