@@ -28,6 +28,13 @@ dbTranslations = M.fromList
   , ("with"         , M.fromList [(English, "with"        ), (Italian, "con"       )])
   , ("en"           , M.fromList [(English, "English"     ), (Italian, "Inglese"   )])
   , ("it"           , M.fromList [(English, "Italian"     ), (Italian, "Italiano"  )])
+  , ("notaudio"     , M.fromList [
+
+      (English, "Preview of audio file not supported by your Browser" ),
+      (Italian, "Anteprima del file audio non supportata dal Browser" )
+
+     ]
+    )
   ]
 
 getTranslation :: Language -> Key -> Maybe Translation
