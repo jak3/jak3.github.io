@@ -6,7 +6,7 @@ title: Amphitheatrum sapientiae aeternae (1595)
 Amphitheatrum sapientiae aeternae di Khunrath (1595)
 ****************************************************
 
-.. image:: https://www.library.wisc.edu/specialcollections/wp-content/uploads/sites/17/2015/08/labtxt1750-1024x1022.jpg
+.. image:: https://images.library.wisc.edu/UWSpecColl/EFacs/Alchemy/DuveenD0897/M/0047.jpg
 
 *Amphitheatrum sapientiae aeternae* è un classico alchemico tra i più
 conosciuti di Heinrich Khunrath.  L' opera è intrisa con una strana

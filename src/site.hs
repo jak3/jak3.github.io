@@ -19,7 +19,9 @@ main = hakyll $ do
         route   idRoute
         compile $ compressCssCompiler >>= relativizeUrls
 
-    match ((fromGlob "static/img/*") .||. (fromGlob "static/plants.json")) $ do
+    match ((fromGlob "static/img/*")       .||.
+           (fromGlob "static/plants.json")
+          ) $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -29,12 +31,13 @@ main = hakyll $ do
     forM_ langs $ \lang -> do
       let slang = show lang
 
-      match (fromGlob $ "index-" ++ slang ++ ".html"            ) $ indexBehavior  lang
-      match (fromGlob $ "mica/enote/" ++ slang ++ "/*"          ) $ postBehavior   lang
-      match (fromGlob $ "mica/global/" ++ slang ++ "/*"         ) $ globalBehavior lang
-      match (fromGlob $ "mica/prj/" ++ slang ++ "/*" ) $ spagyBehavior  lang
-      match (fromGlob $ "mica/review/" ++ slang ++ "/*"         ) $ reviewBehavior lang
-      match (fromGlob $ "mica/poly/" ++ slang ++ "/*"           ) $ polyBehavior   lang
+      match (fromGlob $ "index-"        ++ slang ++ ".html" ) $ indexBehavior   lang
+      match (fromGlob $ "mica/enote/"   ++ slang ++ "/*"    ) $ postBehavior    lang
+      match (fromGlob $ "mica/global/"  ++ slang ++ "/*"    ) $ globalBehavior  lang
+      match (fromGlob $ "mica/prj/"     ++ slang ++ "/*"    ) $ spagyBehavior   lang
+      match (fromGlob $ "mica/review/"  ++ slang ++ "/*"    ) $ reviewBehavior  lang
+      match (fromGlob $ "mica/poly/"    ++ slang ++ "/*"    ) $ polyBehavior    lang
+      match (fromGlob $ "mica/podcast/" ++ slang ++ "/*"    ) $ podcastBehaviour lang
 
       create [fromFilePath ("gen/" ++ slang ++ "/enote-archive.html")]  (archiveBehavior         "enote"  lang)
       create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]             (feedBehavior renderRss  "enote"  lang)
@@ -59,45 +62,6 @@ main = hakyll $ do
 applyFilter :: (Monad m, Functor f) => (String -> String) -> f String -> m (f String)
 applyFilter transformator s = return $ fmap transformator s
 
--- }}}
-
-
------------------------------------------------------------------------------{{{
--- Ctx
-
--- replace mappend with mconcat see src/Hakyll/Web/Feed.hs
-languageContext l = map (\ (k, v) -> constField k v)
-                    $ zip (keys dbTranslations) $ mapMaybe (Data.Map.lookup l) (elems dbTranslations)
-
-postCtx :: Context String
-postCtx =
-    dateField "created" "%d %b %Y" `mappend`
-    modificationTimeField "modified" "%d %b %Y" `mappend`
-    defaultContext
-
-defaultCtxWithLanguage :: Language -> Context String
-defaultCtxWithLanguage l = mconcat $ languageContext l ++ [defaultContext]
-
-postCtxWithLanguage :: Language -> Context String
-postCtxWithLanguage l = mconcat $ [
-                                    dateField "created" "%d %b %Y",
-                                    modificationTimeField "modified" "%d %b %Y",
-                                    defaultCtxWithLanguage l
-                                  ]
-
-indexCtx l posts reviews polys = mconcat $ [
-                                listField "posts"   postCtx (return posts),
-                                listField "reviews" postCtx (return reviews),
-                                listField "polys"   postCtx (return polys),
-                                defaultCtxWithLanguage l
-                             ]
-
--- }}}
-
-
------------------------------------------------------------------------------{{{
--- Simplify URL
-
 --- replace url of the form foo/bar/index.html by foo/bar
 removeIndexHtml :: Item String -> Compiler (Item String)
 removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
@@ -110,6 +74,38 @@ removeIndexStr url = case splitFileName url of
 
 -- }}}
 
+
+-----------------------------------------------------------------------------{{{
+-- Ctx
+
+-- replace mappend with mconcat see src/Hakyll/Web/Feed.hs
+languageContext l = map (\ (k, v) -> constField k v)
+                    $ zip (keys dbTranslations) $ mapMaybe (Data.Map.lookup l) (elems dbTranslations)
+
+defaultCtxWithLanguage :: Language -> Context String
+defaultCtxWithLanguage l = mconcat $ languageContext l ++ [defaultContext]
+
+postCtx :: Context String
+postCtx =
+    dateField "created" "%d %b %Y" `mappend`
+    modificationTimeField "modified" "%d %b %Y" `mappend`
+    defaultContext
+
+postCtxWithLanguage :: Language -> Context String
+postCtxWithLanguage l = mconcat $ [
+                                    dateField "created" "%d %b %Y",
+                                    modificationTimeField "modified" "%d %b %Y",
+                                    defaultCtxWithLanguage l
+                                  ]
+
+indexCtx l posts reviews polys = mconcat $ [
+                                              listField "posts"   postCtx (return posts),
+                                              listField "reviews" postCtx (return reviews),
+                                              listField "polys"   postCtx (return polys),
+                                              defaultCtxWithLanguage l
+                                           ]
+
+-- }}}
 
 -----------------------------------------------------------------------------{{{
 -- Behavior
@@ -128,6 +124,13 @@ indexBehavior l = do
           >>= loadAndApplyTemplate "templates/default.html" ctx
           >>= relativizeUrls
 
+podcastBehaviour :: Language -> Rules ()
+podcastBehaviour l = do
+  route idRoute
+  compile $ do
+      getResourceBody
+          >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
+          >>= relativizeUrls
 
 postBehavior :: Language -> Rules ()
 postBehavior l = do
@@ -148,14 +151,14 @@ postBehavior l = do
         , writerTemplate        = Just "$toc$\n$body$"
         }
 
-reviewBehavior :: Language -> Rules ()
-reviewBehavior l = do
+commonBehavior :: Language -> String -> Rules ()
+commonBehavior l template = do
   route   $ setExtension "html"
   compile $ pandocCompilerWith withLinkAtt defaultHakyllWriterOptions
       >>= saveSnapshot "content"
-      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/review.html") (postCtxWithLanguage l)
-      >>= loadAndApplyTemplate "templates/disqus.html"                                      defaultContext
-      >>= loadAndApplyTemplate "templates/default.html"                                    (postCtxWithLanguage l)
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ template) (postCtxWithLanguage l)
+      >>= loadAndApplyTemplate "templates/disqus.html"                                defaultContext
+      >>= loadAndApplyTemplate "templates/default.html"                              (postCtxWithLanguage l)
       >>= relativizeUrls
       >>= removeIndexHtml
   where
@@ -163,20 +166,11 @@ reviewBehavior l = do
       { readerDefaultImageExtension = "+link_attributes"
       }
 
+reviewBehavior :: Language -> Rules ()
+reviewBehavior l = commonBehavior l "/review.html"
+
 polyBehavior :: Language -> Rules ()
-polyBehavior l = do
-  route   $ setExtension "html"
-  compile $ pandocCompilerWith withLinkAtt defaultHakyllWriterOptions
-      >>= saveSnapshot "content"
-      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/poly.html") (postCtxWithLanguage l)
-      >>= loadAndApplyTemplate "templates/disqus.html"                                    defaultContext
-      >>= loadAndApplyTemplate "templates/default.html"                                  (postCtxWithLanguage l)
-      >>= relativizeUrls
-      >>= removeIndexHtml
-  where
-    withLinkAtt = defaultHakyllReaderOptions
-      { readerDefaultImageExtension = "+link_attributes"
-      }
+polyBehavior l = commonBehavior l "/poly.html"
 
 spagyBehavior :: Language -> Rules ()
 spagyBehavior l = do
