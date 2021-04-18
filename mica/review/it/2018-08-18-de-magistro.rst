@@ -63,7 +63,7 @@ Estratti da ricordare
   stesse e dai sensi. Poiché risuonano a chi vede, le stesse parole che
   risuonano a chi non vede.
 
-  S'ha dunque da credere che insegni quello che non sa? Eppure si serve Delle
+  Si ha dunque da credere che insegni quello che non sa? Eppure si serve Delle
   stesse parole di cui potrebbe servirsi anche colui che sa.
 
   Ho imparato che colle parole non si fa nient'altro che stimolare l'uomo ad

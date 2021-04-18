@@ -45,7 +45,7 @@ Citazioni degne di nota
 
 
   Osservare, guardare, ascoltare senza bisogno di interpretare, di giustificare
-  o rigiutare ogni sensazione e impressione.
+  o rifiutare ogni sensazione e impressione.
 
 
   Immaginate una pagina bianca, vuota. Su di essa, nel vostro spazio, attraverso

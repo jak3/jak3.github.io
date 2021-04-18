@@ -22,7 +22,7 @@ title: La Grande Via
 
 * Avere un po' di fame fa bene, produce grelina (ormone contro le infiammazioni).
 * Momento migliore per fare colazione dalle 7 alle 9
-* Col grano saraceno si puo' preparare anche la polenta
+* Col grano saraceno si può preparare anche la polenta
 * La segale ha un basso indice glicemico
 * Fagioli di soia hanno più proteine del parmigiano
 * I legumi alzano i livelli di HDL, da mangiare almeno 2/4 volte a settimana

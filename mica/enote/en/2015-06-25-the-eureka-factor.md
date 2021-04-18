@@ -8,7 +8,7 @@ title: The Eureka Factor
 
 > The ultimate goal of Zen is “satori,” which Japanese scholar D. T. Suzuki explained as “acquiring a new viewpoint for looking into the essence of things.”
 
-> “Flynn effect”—startled the world: Average raw scores have been increasing. The worldwide “new normal” has been getting better and better. We don’t yet know for sure why this is happening, but the numbers don’t lie. People are getting smarter. Aren’t they?18
+> “Flynn effect”—startled the world: Average raw scores have been increasing. The worldwide “new normal” has been getting better and better. We don’t yet know for sure why this is happening, but the numbers don’t lie. People are getting smarter. Aren’t they?
 
 > Fire wasn’t just the problem—it was also the solution. He fought fire with fire. The conceptual restructuring that produces an insight can be relatively simple—in Dodge’s case, a straightforward inversion—or it can be a lens for viewing subtler relationships.
 

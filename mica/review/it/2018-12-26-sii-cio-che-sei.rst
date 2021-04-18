@@ -65,5 +65,3 @@ Parte sesta: **Teoria**
 - Bibliografia
 
 Chi volesse è disponibile `un estratto<https://www.edizionilpuntodincontro.it/pdf/estratti/9788880930044%20-%20Sii%20ci%C3%B2%20che%20sei.pdf>`_, presso l' editore: Il Punto D'Incontro.
-
-

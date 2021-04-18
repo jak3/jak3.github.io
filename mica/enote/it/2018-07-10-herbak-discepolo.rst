@@ -173,7 +173,7 @@ Essenze
 
   La logica è per i ciechi, che tastano la terra col bastone...
 
-  Lo spazio e il tempo sono relativi a ogni stato: la vita di un moscerino, rispetto alla sua coscienza del tempo, è altrettanto lunga che, per un elefante, i numerosi anni della sua esistenza. Per l'anima divina immortale non esiste nè Spazio né Tempo.
+  Lo spazio e il tempo sono relativi a ogni stato: la vita di un moscerino, rispetto alla sua coscienza del tempo, è altrettanto lunga che, per un elefante, i numerosi anni della sua esistenza. Per l'anima divina immortale non esiste né Spazio né Tempo.
 
   Essendo l esterno una creazione dell'interno.
 
