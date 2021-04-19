@@ -51,6 +51,10 @@ main = hakyll $ do
       create [fromFilePath ("gen/" ++ slang ++ "/poly-rss.xml")]        (feedBehavior renderRss  "poly"   lang)
       create [fromFilePath ("gen/" ++ slang ++ "/poly-atom.xml")]       (feedBehavior renderAtom "poly"   lang)
 
+      create [fromFilePath ("gen/" ++ slang ++ "/pod-archive.html")]   (archiveBehavior         "podcast" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/pod-rss.xml")]        (feedBehavior renderRss  "podcast" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/pod-atom.xml")]       (feedBehavior renderAtom "podcast" lang)
+
     match "templates/*" $ compile templateCompiler
     match "templates/*/*.html" $ compile templateCompiler
 
@@ -79,6 +83,7 @@ removeIndexStr url = case splitFileName url of
 -- Ctx
 
 -- replace mappend with mconcat see src/Hakyll/Web/Feed.hs
+languageContext :: Language -> [Context a]
 languageContext l = map (\ (k, v) -> constField k v)
                     $ zip (keys dbTranslations) $ mapMaybe (Data.Map.lookup l) (elems dbTranslations)
 
@@ -87,21 +92,28 @@ defaultCtxWithLanguage l = mconcat $ languageContext l ++ [defaultContext]
 
 postCtx :: Context String
 postCtx =
-    dateField "created" "%d %b %Y" `mappend`
-    modificationTimeField "modified" "%d %b %Y" `mappend`
+    dateField "created" "%d %m %Y" `mappend`
+    modificationTimeField "modified" "%d %m %Y" `mappend`
     defaultContext
 
 postCtxWithLanguage :: Language -> Context String
 postCtxWithLanguage l = mconcat $ [
-                                    dateField "created" "%d %b %Y",
-                                    modificationTimeField "modified" "%d %b %Y",
+                                    dateField "created" "%d %m %Y",
+                                    modificationTimeField "modified" "%d %m %Y",
                                     defaultCtxWithLanguage l
                                   ]
 
-indexCtx l posts reviews polys = mconcat $ [
+indexCtx :: Language
+            -> [Item String]
+            -> [Item String]
+            -> [Item String]
+            -> [Item String]
+            -> Context String
+indexCtx l posts reviews polys pods = mconcat $ [
                                               listField "posts"   postCtx (return posts),
                                               listField "reviews" postCtx (return reviews),
                                               listField "polys"   postCtx (return polys),
+                                              listField "pods" (defaultCtxWithLanguage l) (return pods),
                                               defaultCtxWithLanguage l
                                            ]
 
@@ -117,19 +129,12 @@ indexBehavior l = do
       posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"  ++ (show l) ++ "/*")
       reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show l) ++ "/*")
       polys   <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"   ++ (show l) ++ "/*")
-      let ctx = indexCtx l posts reviews polys
+      pods    <- recentFirst =<< loadAll (fromGlob $ "mica/podcast/"++ (show l) ++ "/*")
+      let ctx = indexCtx l posts reviews polys pods
 
       getResourceBody
           >>= applyAsTemplate ctx
           >>= loadAndApplyTemplate "templates/default.html" ctx
-          >>= relativizeUrls
-
-podcastBehaviour :: Language -> Rules ()
-podcastBehaviour l = do
-  route idRoute
-  compile $ do
-      getResourceBody
-          >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
           >>= relativizeUrls
 
 postBehavior :: Language -> Rules ()
@@ -172,6 +177,9 @@ reviewBehavior l = commonBehavior l "/review.html"
 polyBehavior :: Language -> Rules ()
 polyBehavior l = commonBehavior l "/poly.html"
 
+podcastBehaviour :: Language -> Rules ()
+podcastBehaviour l = commonBehavior l "/pod.html"
+
 spagyBehavior :: Language -> Rules ()
 spagyBehavior l = do
   route   $ setExtension "html"
@@ -207,7 +215,8 @@ archiveBehavior dirSubject l = do
         posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"  ++ (show l) ++ "/*")
         reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show l) ++ "/*")
         polys   <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"   ++ (show l) ++ "/*")
-        let ctx = indexCtx l posts reviews polys
+        pods    <- loadAll (fromGlob $ "mica/podcast/"++ (show l) ++ "/*")
+        let ctx = indexCtx l posts reviews polys pods
 
         makeItem ""
             >>= loadAndApplyTemplate langTemplate ctx
