@@ -57,58 +57,85 @@
         </div>
 
         <div class="container background-light-500 padding-vertical-s text-justify">
-              <p>La Spagyria è un’antica arte che porta il praticante a diretto contatto con forze <em>archetipiche</em>, in un <em>Solve et Coagula</em> continuo, di raffinazione in raffinazione, sia del prodotto che del praticante stesso.</p>
-<blockquote>
-<p>Paracelso rimase solo. Prima di spegnere la lanterna e di sedersi nella poltrona consumata, raccolse nell’incavo della mano il piccolo pugno di cenere e disse una parola a bassa voce.</p>
-</blockquote>
+              <h2>
+Un anno con (da di) Rumi
+</h2>
+<h3>
+Febbraio <audio class="right" controls src="https://www.dropbox.com/s/t611ks6stq2tm6u/Febbraio.m4a?raw=1"> </audio>
+</h3>
+<ul>
+<li>
+Introduzione
+</li>
+<li>
+Proemio
+</li>
+<li>
+Storia del droghiere e del pappagallo, e di come il pappagallo sparse l’olio nella bottega
+</li>
+</ul>
+<p class="text-center">
+﷽
+</p>
+<h3>
+Marzo <audio class="right" controls src="https://www.dropbox.com/s/y38uls6xg0vy0yt/Marzo.m4a?raw=1"> </audio>
+</h3>
+<ul>
+<li>
+Come l’ambasciatore di Bisanzio giunse dal Califfo dei credenti, Umar (che Dio sia soddisfatto di lui), e fu testimone delle qualità di cui Umar (che Dio sia soddisfatto di lui) era dotato
+</li>
+<li>
+Spiegazione del “detto”: Certo, nei nostri giorni di vita, il vostro Signore si fa sentire con certi aliti! E allora preparatevi a riceverli!
+</li>
+<li>
+Come Umar (che Dio sia soddisfatto di lui) gli ordinò di spostare lo sguardo dal luogo dei pianti, che è l’esistenza del sé, al luogo dell’immersione in Dio, che è la non-esistenza del sé
+</li>
+</ul>
+<p class="text-center">
+﷽
+</p>
+<h3>
+Aprile <audio class="right" controls src="https://www.dropbox.com/s/cbl4ibp69udejjc/Aprile.m4a?raw=1"> <span class="math inline"><em>n</em><em>o</em><em>t</em><em>a</em><em>u</em><em>d</em><em>i</em><em>o</em></span> </audio>
+</h3>
+<ul>
+<li>
+Dove si spiega che Mosè e Faraone erano sottomessi entrambi alla Volontà divina, come il veleno e l’antidoto, l’oscurità e la luce; e come Faraone parlò in solitudine con Dio, pregandoLo di non distruggere la sua dignità
+</li>
+<li>
+Sul significato di: “Egli ha fatto confluire i due mari che si incontrano ma non superano una barriera posta fra loro.” [Corano 8:44]
+</li>
+<li>
+Si dimostra che, come il mendicante è innamorato della generosità ed ama il donatore generoso, del pari la generosità del donatore generoso è innamorata del mendicante: se il mendicante avrà più pazienza il donatore generoso verrà alla sua porta; e se chi ha più pazienza è il generoso donatore, il mendicante verrà alla sua porta; ma la pazienza del mendicante è una virtù nel mendicante, mentre nel generoso donatore la pazienza è un difetto
+</li>
+<li>
+La differenza fra colui che è un sufi [darwish] assetato di Dio, e colui che è un falso sufi e desidera ciò che è altri che Lui
+<li>
+Proverbio arabo: “Se fornicate, fatelo con una donna libera, e se rubate, rubate una perla.”
+</li>
+</ul>
+<p class="text-center">
+﷽
+</p>
 
-<script>
-function listAttributes(attributi) {
-  return `
-        <nav class="nav-inline">
-          <ul>
-          ${attributi.map(attributo => `<li>${attributo}</li>`).join("")}
-          </ul>
-        </nav>
-         `;
-}
-
-function plantTemplate(pianta) {
-  return `
-          <table>
-            <thead class="h4"><tr><th colspan="2" class="text-center">${pianta.nome}</th></tr></thead>
-            <tbody>
-              <tr class="lead-s text-center">
-                <td>Pianeti</td>
-                <td>${pianta.pianeti ? listAttributes(pianta.pianeti) : ""}</td>
-              </tr>
-              <tr class="lead-s text-center">
-                <td>Segni</td>
-                <td>${pianta.segni ? listAttributes(pianta.segni) : ""}</td>
-              </tr>
-              <tr>
-                <td colspan="2"><p>${pianta.descrizione}</p></td>
-              </tr>
-            </tbody>
-          </table>
-         `;
-}
+<h3>Commenti</h3>
 
 
-$(document).ready(function(){
-  $.getJSON("/static/plants.json", function(plants){
-    $("#plants").append(`${plants.map(plantTemplate).join("")}`);
-  });
-});
+<div id="disqus_thread"><a href="#disqus_thread" onclick="disqus()">Load comments</a></div>
+
+<script type="text/javascript">
+  var disqus_config = function () {
+    this.page.url = "https://jak3.github.io/mica/podcast/it/2021-02-15-mathnavi.html";
+    this.page.identifier = "Un Anno Con (da di) Rumi";
+  };
+  function disqus() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://condenso.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
 </script>
-
-<div id="plants">
-</div>
-
-
-<center>
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="condenso" data-color="#5F7FFF" data-emoji="🍪" data-font="Cookie" data-text="Ringrazia con Biscotti" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>
-</center>
+<script id="dsq-count-scr" src="//condenso.disqus.com/count.js" async></script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
         </div>
 
