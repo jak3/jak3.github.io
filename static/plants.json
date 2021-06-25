@@ -301,9 +301,10 @@
   },
   {
     "nome": "Sambuco",
-    "pianeti": [],
-    "segni": [],
-    "descrizione": ""
+    "pianeti": ["Luna"],
+    "segni": ["Cancro", "Bilancia"],
+    "descrizione":
+      "Sambucus nigra è una bella pianta che raggiunge un’altezza tra i 2 e i 5 metri, e solo nel tempo, se cresce ulteriormente, sviluppa un tronco abbastanza robusto.  I suoi fiori di color bianco avorio fanno sentire proprio in questo periodo, tra il mese di giugno e il mese di luglio, il loro profumo delicato e un po’ asprigno, e vengono colti per essere aggiunti a dolci casalinghi spesso di antica origine rituale. In settembre al loro posto si vedranno ricchi grappoletti di belle bacche lucide e nere.  Ricche di proprietà antiossidanti e antinfiammatorie, di vitamine e minerali, blandamente lassative e diuretiche, le bacche di Sambuco hanno largo impiego nell’alimentazione umana probabilmente dalla più alta antichità, considerando che il loro nome greco aktè, significava semplicemente “nutrimento”. Ancora oggi vengono raccolte e utilizzate per la preparazione di liquori, come il classico digestivo Sambuca, di vino, tisane, sciroppi e marmellate, ricordando bene però che ogni parte di questa pianta va sempre sottoposta a cottura per eliminare i suoi indesiderati effetti tossici.  Come tutte le piante che la tradizione definisce magiche, va maneggiata con cura, sapienza e rispetto.  Misterioso, anche perché qualcosa di altrettanto magico sembra celarsi nell’intima natura del suo legno, nell’energia delle sue fibre, in cui gli uomini hanno da sempre individuato un profondo rapporto con il segreto del Suono e del suo potere creativo.  Il termine latino sambucus, o sabucus, descrive un particolare tipo di arpa di forma triangolare, visibile in antichi affreschi e citata dai poeti, analoga alla greca sambukè e allo strumento a corde fenicio chiamato sabka. Sambucus era anche un piccolo flauto, fatto appunto con un ramo diritto di Sambuco svuotato all’interno. Il “flauto magico” delle antiche leggende e delle favole di tutti i tempi. Cistite."
   },
   {
     "nome": "Thuja Occidentalis (Tuia)",
@@ -324,6 +325,13 @@
     "pianeti": ["Mercurio", "Venere"],
     "segni": ["Gemelli", "Bilancia", "Scorpione", "Sagittario"],
     "descrizione":
-      "Leggermente velenoso.<br><br> In passato, sotto forma di oleolito era un rimedio contro l'impotenza.  Applicato sul filo dei reni e lungo la spina dorsale.<br><br> Tonica, indicata per debolezze generali, nervosismo, isteria, insufficienze mestruali, antielmintica (contro vermi e parassiti), emicrania, nevralgia.<br><br> Proprietà carminative, spasmolitiche e antiinfiammatorie.<br><br> Le foglie, come per il noce, messe nelle cucce degli animali allontanano pulci e parassiti.<br><br> Abortiva."
+      "Leggermente velenoso.<br><br> In passato, sotto forma di oleolito era un rimedio contro l'impotenza.  Applicato sul filo dei reni e lungo la spina dorsale.<br><br> Tonica, indicata per debolezze generali, nervosismo, isteria, insufficienze mestruali, antielmintica (contro vermi e parassiti), emicrania, nevralgia.<br><br> Proprietà carminative, spasmolitiche e antiinfiammatorie.<br><br> Le foglie, come per il noce, messe nelle cucce degli animali allontanano pulci e parassiti.<br><br> Abortiva. In caso di herpes zoaster, riporre molta attenzione. In alcuni casi potrebbe giovare (dosi omeopatiche) in altri, se per esempio si è avuta la varicella, potrebbe provocare il fuoco di S. Antonio."
+  },
+  {
+    "nome": "Bacopa Monnieri + Tulsi",
+    "pianeti": [],
+    "segni": [],
+    "descrizione":
+      "[Bacopa] anti-convulsioni, anti-depressivo, analgesico, anti-infiammatorio, anti-microbico, anti-ulcerogenico/anti-H. pylori anxiolytic, adattogena, anti-neoplastico, epatoprotettivo, immuno stimolante, nootropo, afrodisiaco, eiaculazione precoce, impotenza sessuale, sterilità, alzheimer, ansia e agitazione nervosa, antiossidante, mancanza di memoria a breve e lungo termine, analgesico o antalgico, asma bronchiale e broncospasmo, astenia o esaurimento e stress, bronchite asmatica, bronchite o affezioni bronchiali, colon irritabile, dispepsia o cattiva digestione, insonnia, meteorismo flatulenza e fermentazioni intestinali, stitichezza o stipsi, artrosi e osteoartrosi, cefalea o mal di testa - emicrania, I bacosidi A e B agiscono aumentando la sintesi proteica nell'ippocampo, la parte del cervello associata alla memoria a lungo termine. I bacosidi A e B agiscono anche sulla trasmissione nervosa e svolgono funzioni antiossidanti, più specificamente a livello cerebrale (area della corteccia frontale e dell'ippocampo). Queste sostanze agirebbero aumentando la produzione di un messaggero: il monossido di azoto. La medicina indiana ha ufficialmente riconosciuto l'efficacia della bacopa.  Nella medicina Ayurvedica è utilizzata per epilessia, asma, ulcere, tumori, ascite, ingrossamento della milza, infiammazioni, lebbra, anemia e gastroenterite.<br><br>[Tulsi] Fegato, influenza, problemi di digestione, dissenteria, gastro-enteriti, intestino, gonfiori, mal di stomaco, coliche, malaria, problemi alle orecchie, mal di testa, raffreddamento, prevenzione all'influenza, morsi di insetti (punture), dermatosi, problemi alla pelle, problemi cardiaci o di pressione.  In eccesso può risultare abortivo e lunghi periodi di assunzione influenzare la produzione di spermatozoi."
   }
 ]
