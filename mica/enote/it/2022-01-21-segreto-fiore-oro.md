@@ -83,10 +83,6 @@ title: Il segreto del fiore d'oro (Carl Gustav Jung, Richard Wilhelm)
 
 > Quando nella meditazione si è presi da sonnolenza, questo è un effetto dell’inerzia; la sonnolenza può essere eliminata solo mediante il respiro. Anche se il respiro che entra ed esce attraverso naso e bocca non è il vero respiro, quest’ultimo è pur sempre in relazione con l’inspirazione e l’espirazione. Quando si siede in meditazione, bisogna dunque mantenere costantemente il cuore in stato di quiete e concentrare la propria forza. Come si arriva ad acquietare il cuore? Mediante il respiro. Ma solo il cuore deve diventare consapevole di quest’immissione ed emissione del respiro, non bisogna percepirlo con le orecchie.
 
-> uso del cuore durante la respirazione. È un uso che non è un uso. Non occorre altro che far cadere, lievissimamente, la luce nell’udito. Questa frase ha un senso segreto.
-
-> ciò non ha bisogno di altre spiegazioni. Bisogna invece ben comprendere il corretto uso del cuore durante la respirazione. È un uso che non è un uso. Non occorre altro che far cadere, lievissimamente, la luce nell’udito. Questa frase ha un senso segreto.
-
 > Bisogna invece ben comprendere il corretto uso del cuore durante la respirazione. È un uso che non è un uso. Non occorre altro che far cadere, lievissimamente, la luce nell’udito. Questa frase ha un senso segreto.
 
 > raggiungere intenzionalmente l’assenza d’ogni intenzione, ecco la giusta via.
