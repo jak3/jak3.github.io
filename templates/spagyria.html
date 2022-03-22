@@ -1,44 +1,46 @@
 $body$
 
 <script>
-function listAttributes(attributi) {
-  return `
-        <nav class="nav-inline">
-          <ul>
-          $${attributi.map(attributo => `<li>$${attributo}</li>`).join("")}
-          </ul>
-        </nav>
-         `;
-}
 
-function plantTemplate(pianta) {
-  return `
-          <table>
-            <thead class="h4"><tr><th colspan="2" class="text-center">$${pianta.nome}</th></tr></thead>
-            <tbody>
-              <tr class="lead-s text-center">
-                <td>Pianeti</td>
-                <td>$${pianta.pianeti ? listAttributes(pianta.pianeti) : ""}</td>
-              </tr>
-              <tr class="lead-s text-center">
-                <td>Segni</td>
-                <td>$${pianta.segni ? listAttributes(pianta.segni) : ""}</td>
-              </tr>
-              <tr>
-                <td colspan="2"><p>$${pianta.descrizione}</p></td>
-              </tr>
-            </tbody>
-          </table>
+  function plantTemplate(pianta) {
+    if(isNaN(pianta.seq))
+      return '';
+    else
+      return `
+  <div class="group group-m group-column border border-radius
+ background-light-50 border-color-success-100 margin-m padding-m" id="pianta-$${pianta.nome}">
+    <ul>
+       <li><h3>$${pianta.nome}</h3></li>
+       $${pianta.pianeti ? `<li>$${pianta.pianeti}</li>` : ""}
+       $${pianta.segni ? `<li>$${pianta.segni}</li>` : ""}
+       <li>$${pianta.descrizione}</li>
+    </ul>
+  </div>
          `;
-}
+    }
 
+  function search_word(){
+      input = document.getElementById('input_w');
+      filter = input.value.toUpperCase();
+      document.querySelectorAll('[id^=pianta]').forEach(pianta => {
+          content = pianta.textContent.replace(/\s+/g, '').toUpperCase()
+          pianta.style.display = content.indexOf(filter) > -1 ? "" : "none";
+        });
+    }
 
 $$(document).ready(function(){
   $$.getJSON("/static/plants.json", function(plants){
-    $$("#plants").append(`$${plants.map(plantTemplate).join("")}`);
+      $$(plants.map(plantTemplate).join("")).appendTo("#plants");
   });
 });
 </script>
+
+<div class="group group-space-evenly group-m margin-m">
+  <ul>
+    <li>Filtra:</li>
+    <li><input type="text" onkeyup="search_word()" placeholder="parola da cercare..." id="input_w"></li>
+  </ul>
+</div>
 
 <div id="plants">
 </div>
