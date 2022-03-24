@@ -11,7 +11,7 @@ modo più sintetizzato possibile il messaggio che voleva trasmettere l'autore.
 
 I concetti fondamentali ripresi sono:
 
-  Noi dobbiamo, una volte er tutte, concepire il tempio faraonico come un seme che
+  Noi dobbiamo, una volte per tutte, concepire il tempio faraonico come un seme che
   ha in gestazione il proprio frutto. Per loro la costruzione deve vivere, Herbert
   Ricke la considera addirittura come "vegetale".La crescita avviene in tre
   dimensioni; una gestazione è una trasformazione costante sino alla perfezione

@@ -20,7 +20,7 @@ main = hakyll $ do
         compile $ compressCssCompiler >>= relativizeUrls
 
     match ((fromGlob "static/img/*")       .||.
-           (fromGlob "static/plants.json")
+           (fromGlob "static/*")
           ) $ do
         route   idRoute
         compile copyFileCompiler
