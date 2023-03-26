@@ -25,6 +25,13 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "static/pages/*" $ do
+        route   idRoute
+        compile $ getResourceBody
+          >>= loadAndApplyTemplate "templates/default.html" ( defaultCtxWithLanguage Italian )
+          >>= relativizeUrls
+
+
     -- Default index page (a version index-LANGUAGE must exist)
     match "index.html" $ indexBehavior Italian
 
@@ -55,8 +62,9 @@ main = hakyll $ do
       create [fromFilePath ("gen/" ++ slang ++ "/pod-rss.xml")]        (feedBehavior renderRss  "podcast" lang)
       create [fromFilePath ("gen/" ++ slang ++ "/pod-atom.xml")]       (feedBehavior renderAtom "podcast" lang)
 
-    match "templates/*" $ compile templateCompiler
-    match "templates/*/*.html" $ compile templateCompiler
+    match ((fromGlob "templates/*")       .||.
+           (fromGlob "templates/*/*.html")
+          ) $ compile templateCompiler
 
 
 -----------------------------------------------------------------------------{{{
