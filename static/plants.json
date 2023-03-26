@@ -2,6 +2,7 @@
   {
     "seq": "1",
     "nome": "Rosa Canina",
+    "nomeef": "Rosa Canina",
     "pianeti": "Venere, Sole",
     "segni": "Ariete, Leone, Bilancia, Toro:libro Stefano",
     "ricetta":
@@ -9,11 +10,12 @@
     "tempi":
       "[+] Raccolta alla fine del percorso del Savio in via Cerchia di San Martino, con Je e Zio Andre.",
     "descrizione":
-      "Disarmonia cuore. In caso di delusioni di varia natura, per un proprio equilibrio emozionale. Sentimenti adeguati alle reali esigenze."
+      "Emostatica, astringente, antianemica, ottima in pericarditi e per abbassare i battiti cardiaci. Viene impiegata nelle litiasi urinarie e per aumentare le difese immunitarie. Utile in casi di afte, anemia, azoospermia, herpes, osteoporosi, artrite, lombalgie e tonsilliti. Ha una blanda azione ipoglicemizzante. Ha proprietà antiinfiammatorie, diuretiche, rinfrescanti, toniche, vermifughe e vitaminizzanti (ricchissima in Vit. C).\n \n Effetto Psicosomatico: Si assume quando il cuore non è in armonia in seguito a delusioni di varia natura. Stimola la ricerca di un proprio equilibrio. Sentimenti adeguati alle reali esigenze.\n \n Uso esterno: Protettivo della pelle, specialmente in presenza di alterazione del microcircolo (capillari). Emolliente, vasoprotettrice e antiinfiammatoria indicata anche per pelli delicate.\n"
   },
   {
     "seq": "2",
     "nome": "Pervinca",
+    "nomeef": "Pervinca",
     "pianeti": "Giove",
     "segni": "Cancro",
     "ricetta":
@@ -26,6 +28,7 @@
   {
     "seq": "3",
     "nome": "Biancospino",
+    "nomeef": "Biancospino",
     "pianeti": "Marte, Venere",
     "segni": "Gemelli, Cancro, Leone",
     "ricetta":
@@ -38,6 +41,7 @@
   {
     "seq": "4",
     "nome": "Salvia Pratensis",
+    "nomeef": "Salvia Sclarea",
     "pianeti": "Giove, Marte",
     "segni": "Scorpione, Sagittario, Capricorno",
     "ricetta":
@@ -50,6 +54,7 @@
   {
     "seq": "5",
     "nome": "Olivo",
+    "nomeef": "Olivo",
     "pianeti": "Sole, Giove Venere Luna",
     "segni": "Cancro, Leone, Acquario",
     "ricetta":
@@ -62,6 +67,7 @@
   {
     "seq": "5b",
     "nome": "Olivo",
+    "nomeef": "Olivo",
     "pianeti": "Sole, Giove Venere Luna",
     "segni": "Cancro, Leone, Acquario",
     "ricetta":
@@ -72,6 +78,7 @@
   {
     "seq": "6",
     "nome": "Malva",
+    "nomeef": "Malva",
     "pianeti": "Giove, Mercurio",
     "segni": "Toro, Scorpione",
     "ricetta":
@@ -84,6 +91,7 @@
   {
     "seq": "F7",
     "nome": "Romice",
+    "nomeef": "",
     "pianeti": "Marte, Luna",
     "segni": "",
     "ricetta":
@@ -94,6 +102,7 @@
   {
     "seq": "8",
     "nome": "Lavanda",
+    "nomeef": "Lavanda",
     "pianeti": "Mercurio, Luna",
     "segni": "Toro, Acquario",
     "ricetta":
@@ -106,6 +115,7 @@
   {
     "seq": "9",
     "nome": "Iperico",
+    "nomeef": "Iperico",
     "pianeti": "Giove, Mercurio",
     "segni": "Sagittario, Acquario",
     "ricetta":
@@ -118,6 +128,7 @@
   {
     "seq": "10",
     "nome": "Melissa",
+    "nomeef": "Melissa",
     "pianeti": "Venere, Giove",
     "segni": "Acquario, Pesci",
     "ricetta":
@@ -128,8 +139,9 @@
       "[+] Raccolta Domenica 24 Giugno, in orario di Giove a Piandispino\n [+] Aggiunto Alcool Venerdì 15 Luglio.\n [+] Prima calcinazione Venerdì 10 Agosto.\n [+] Seconda Calcinazione Domenica 9 Settembre 2018.\n [+] Terza Calcinazione Martedì 9 Ottobre 2018.\n [+] Aggiunto Salnitro Martedì 9 Ottobre 2018.\n [+] Esposta alla Luna Piena il 24 Ottobre 2018.\n"
   },
   {
-    "seq": "10",
+    "seq": "10b",
     "nome": "Melissa",
+    "nomeef": "Melissa",
     "pianeti": "Venere, Giove",
     "segni": "Acquario, Pesci",
     "ricetta":
@@ -140,6 +152,7 @@
   {
     "seq": "F11",
     "nome": "Semi di Zucca",
+    "nomeef": "",
     "ricetta":
       "88   g Semi\n 347  g Acqua Distillata\n 108  g Zucchero Bianco\n g Kombucha ad occhio\n \n X = 347*100/74 = 475\n Alcool = 475-347 = 128g = 163ml\n",
     "tempi":
@@ -148,7 +161,9 @@
   {
     "seq": "12",
     "nome": "Meliloto",
-    "pianeti": "Giove?, Venere?",
+    "nomeef": "Meliloto",
+    "pianeti": "Giove",
+    "segni": "Sagittario",
     "ricetta":
       "130  g Fiori foglie e piccoli fusti\n 673  g Acqua Distillata\n 200  g Zucchero Grezzo Barbabietola\n g Kombucha ad occhio\n 0.495g Salnitro\n \n X = 673*100/74 = 909\n Alcool = 909-673 = 236ml CALCOLO CORRETTO.\n Aggiunto 317 per errore vecchio calcolo.\n",
     "descrizione":
@@ -159,6 +174,7 @@
   {
     "seq": "13",
     "nome": "Achillea",
+    "nomeef": "Achillea Millefoglie",
     "segni": "Mercurio, Luna",
     "ricetta":
       "69   g Fiori foglie e piccoli fusti\n 486  g Acqua Distillata\n 147  g Zucchero Grezzo Barbabietola\n g Kombucha ad occhio\n 0.357g Salnitro\n \n X = 486*100/74 = 657\n Alcool = 657-486 = 171ml CALCOLO CORRETTO.\n Aggiunto 229 per errore vecchio vecchio calcolo.\n",
@@ -170,7 +186,9 @@
   {
     "seq": "14",
     "nome": "Saponaria",
-    "pianeti": "Venere?, Mercurio?",
+    "nomeef": "Saponaria",
+    "pianeti": "Venere",
+    "segni": "Cancro, Bilancia",
     "ricetta":
       "425  g Parte Aerea\n 1800 g Acqua Distillata\n 556  g Zucchero Grezzo Barbabietola\n g Kombucha ad occhio\n 1.275g Salnitro\n \n X = 1800*100/74 = 2432\n Alcool = 2432-1800 = 632ml\n Aggiunti 750ml in quanto il calcolo iniziale che facevo prima di vedere Stefano era sbagliato. Ora qui il calcolo è stato riportato giusto.\n",
     "descrizione":
@@ -181,6 +199,7 @@
   {
     "seq": "15",
     "nome": "Cicoria Intybus",
+    "nomeef": "Cicoria",
     "pianeti": "Sole, Venere-Mercurio",
     "segni": "Gemelli, Leone, Acquario, Pesci",
     "ricetta":
@@ -193,6 +212,7 @@
   {
     "seq": "16",
     "nome": "Cardo Mariano",
+    "nomeef": "Cardo Mariano",
     "pianeti": "Giove",
     "ricetta":
       "50   g Semi\n 414  g Acqua Distillata\n 121  g Zucchero Grezzo Barbabietola\n g Niente\n 0.35 g Sale di Cardo Mariano\n 0.30 g Salnitro\n \n X = 414*100/74 = 567\n Alcool = 567-414 = 153g = 195ml\n",
@@ -204,6 +224,7 @@
   {
     "seq": "17",
     "nome": "Timi",
+    "nomeef": "Timo Volgare",
     "pianeti": "Mercurio",
     "segni": "Vergine, Acquario",
     "ricetta":
@@ -216,6 +237,7 @@
   {
     "seq": "18",
     "nome": "Ortica",
+    "nomeef": "Ortica",
     "pianeti": "Marte, Venere",
     "segni": "Ariete, Bilancia, Sagittario",
     "ricetta":
@@ -228,7 +250,9 @@
   {
     "seq": "19",
     "nome": "Asplenium trichomanes",
-    "pianeti": "Marte, Sole",
+    "nomeef": "",
+    "pianeti": "Luna",
+    "segni": "Cancro, Pesci",
     "ricetta":
       "54   g Pianta intera (soprattutto parte aerea)\n 642  g Acqua Distillata\n 173  g Zucchero Grezzo Canna\n 0.4  g Lievito di Birra Fresco\n 0.434g Salnitro\n \n X = 642*100/74 = 868\n Alcool = 868-642 = 226ml\n",
     "descrizione":
@@ -239,6 +263,7 @@
   {
     "seq": "20",
     "nome": "Equiseto",
+    "nomeef": "Equiseto",
     "pianeti": "Saturno",
     "segni": "Bilancia, Capricorno",
     "ricetta":
@@ -251,7 +276,9 @@
   {
     "seq": "F21",
     "nome": "Solidago",
+    "nomeef": "",
     "pianeti": "Venere",
+    "segni": "",
     "ricetta":
       "1410 g Vaso\n 1898 g Vaso con solidago\n 488  g Solidago (parte aerea)\n 2481 g Acqua Distillata\n 745  g Zucchero (770 barbabietola grezzo, 78 canna grezzo)\n 1,88 g Lievito di Birra Fresco\n \n X = 2481*100/74 = 3353\n Alcool = 3353-2481 = 872ml\n",
     "tempi":
@@ -260,6 +287,7 @@
   {
     "seq": "22",
     "nome": "Ginkgo Biloba",
+    "nomeef": "Ginkgo Biloba",
     "pianeti": "Sole",
     "ricetta":
       "1415 g Vaso\n 1945 g Vaso con pianta\n 530  g Ginkgo Biloba\n 2884 g Acqua Distillata\n 853  g Zucchero canna integrale atado dulce bio conad\n 2,33 g Lievito di Birra Fresco\n 1.55 g Salnitro\n \n X = 2884*100/74 = 3897\n Alcool = 3897-2884 = 1013ml\n",
@@ -271,6 +299,7 @@
   {
     "seq": "23",
     "nome": "Passiflora",
+    "nomeef": "Passiflora Incarnata",
     "pianeti": "Mercurio, Venere Marte",
     "segni": "Gemelli, Pesci",
     "ricetta":
@@ -283,7 +312,9 @@
   {
     "seq": "23",
     "nome": "Luppolo",
-    "pianeti": "Marte, Venere",
+    "nomeef": "Luppolo",
+    "pianeti": "Giove",
+    "segni": "Sagittario, Pesci",
     "ricetta":
       "1410 g Vaso\n 120  g Luppolo\n 1522 g Acqua Distillata\n 410  g Zucchero canna integrale Bio In's + atado dulce bio conad grezzo\n g Lievito di Kombucha\n 0.8  g Salnitro\n \n X = 1522*100/74 = 2056\n Alcool = 2056-1522 = 534ml\n",
     "descrizione":
@@ -294,6 +325,7 @@
   {
     "seq": "24",
     "nome": "Verbena Officinalis",
+    "nomeef": "Verbena Officinale",
     "pianeti": "Mercurio, Giove",
     "segni": "Gemelli, Pesci, Sagittario, Scorpione",
     "ricetta":
@@ -306,6 +338,7 @@
   {
     "seq": "25",
     "nome": "Betulla",
+    "nomeef": "Betulla",
     "pianeti": "Venere, Saturno",
     "segni": "Bilancia, 12",
     "ricetta":
@@ -318,6 +351,7 @@
   {
     "seq": "26",
     "nome": "Rosmarino",
+    "nomeef": "Rosmarino",
     "pianeti": "Sole, Mercurio, Luna, Giove",
     "segni": "Ariete, Leone, Bilancia, Sagittario, Capricorno",
     "ricetta":
@@ -330,6 +364,7 @@
   {
     "seq": "27",
     "nome": "Ippocastano",
+    "nomeef": "Ippocastano",
     "pianeti": "Giove",
     "segni": "Acquario",
     "ricetta":
@@ -342,6 +377,7 @@
   {
     "seq": "28",
     "nome": "Bardana",
+    "nomeef": "Bardana",
     "pianeti": "Venere, Marte",
     "segni": "Bilancia, Capricorno",
     "ricetta":
@@ -353,19 +389,20 @@
   },
   {
     "seq": "29",
-    "nome": "Angelica",
-    "pianeti": "Sole, Giove, Venere, Mercurio, Luna",
-    "segni": "Ariete, Gemelli, Sagittario, Acquario, Pesci",
+    "nome": "Imperatoria",
+    "nomeef": "Imperatoria",
+    "pianeti": "",
+    "segni": "",
     "ricetta":
       "1090 g Vaso\n 295  g Radici di Angelica (1 anno) + uno stelo e alcune foglie\n 1290 g Acqua Distillata\n 396.5g Zucchero canna integrale coop\n 0.99 g Lievito di Birra Fresco\n 1.4  g Salnitro\n \n X = 1290*100/74 = 1743\n Alcool = 1743-1290 = 453ml (Aggiunto 370 perchè gia' molto forte.)\n",
-    "descrizione":
-      "Una delle piante più preziose. Si dice donata dall' Arcangelo Gabriele.  Affaticamento generale, tonifica ipotalamo e stimola l'ipofisi, combatte le insufficienze epatiche, vomiti spasmodici e nei gonfiori di ventre. Contro l' impotenza, mestruazioni insufficienti, leucorree, diuretico, bronchiti croniche, asme ed insonnie nervose. Combatte la difterite. Stimolante sistema linfatico. Coadiuvante ed utile in caso di tubercolosi, disturbi al sistema nervoso periferico. Carminativo, antibatterica, antifunginea (contro la candida in particolare) ed attività immunologica. Aiuta e protegge il fegato dallo stress ossidativo e quindi riduce la produzione di radicali liberi, che influenzano l' invecchiamento.\n \n Uso esterno contro affezioni della bocca, piaghe, fibromi ed epiteliomi.\n \n NOTA: Evitare prolungate esposizioni solari e sovradosaggi in menopausa perchè potrebbe essere abortiva.\n",
+    "descrizione": "",
     "tempi":
       "[+] Raccolta posto segreto Stefano, tra Santa Sofia e Poggio la Lastra. Lungo il fiume sulla destra. Mercoledì 31 Ottobre in mattinata.  (Trovata anche nella strada per andare a Donicilio, passando per Santo Stefano).\n [+] Aggiunto Alcool Sabato 10 Novembre 2018.\n [+] Prima Calcinazione Venerdì 7 Dicembre 2018.\n [+] Aggiunto Sale di Angelica, 7 Dicembre 2018.\n [+] Seconda Calcinazione Sabato 5 Gennaio 2019.\n [+] Terza Calcinazione Domenica 3 Febbraio 2019.\n [+] Aggiunto Salnitro Mercoledì 6 Febbraio 2019.\n [+] Esposto a Luna Piena tra il 20 e il 21 Marzo 2019.\n"
   },
   {
     "seq": "30",
     "nome": "Edera Helix",
+    "nomeef": "Edera Helix",
     "pianeti": "Giove",
     "segni": "Acquario, Bilancia",
     "ricetta":
@@ -378,6 +415,7 @@
   {
     "seq": "31",
     "nome": "Rosa Canina",
+    "nomeef": "Rosa Canina",
     "pianeti": "Venere, Sole",
     "segni": "Ariete, Leone, Bilancia, Toro:libro Stefano",
     "ricetta":
@@ -390,7 +428,9 @@
   {
     "seq": "32",
     "nome": "Vischio",
-    "pianteti": "giallo Sole, bianco Luna",
+    "nomeef": "Vischio",
+    "pianeti": "Venere",
+    "segni": "Bilancia, Sagittario",
     "ricetta":
       "160 g Vischio\n 750 g Acqua Distillata\n 225 g Zucchero canna grazzo Dulcida Ecuador\n 0.56g Lievito di Birra Fresco\n 0.55g Sale di Vischio\n 0.58g Salnitro\n \n X = 750*100/74 = 1013.513513\n Alcool = 1013-750 = 264ml\n",
     "descrizione":
@@ -399,8 +439,9 @@
       "[+] Raccolto Domenica (Sole) il 30 Dicembre 2018, a Monte Mauro (Parco regionale della Vena del Gesso Romagnola). Orario Luna ore 15.50.\n [+] Aggiunto Alcool Circolato, Lunedì 7 Gennaio 2019.\n [+] Prima Calcinazione Domenica 3 Febbraio 2019.\n [+] Aggiunto Sale di Vischio il 4 Febbraio 2019.\n [+] Aggiunto Salnitro Martedì 19 Febbraio 2019.\n [+] Seconda Calcinazione Venerdì 5 Marzo 2019.\n [+] Terza Calcinazione Sabato 4 Maggio 2019.\n [+] Esposta a Luna piena il 18 Maggio 2019.\n"
   },
   {
-    "seq": "33",
+    "seq": "33b",
     "nome": "Biancospino",
+    "nomeef": "Biancospino",
     "pianeti": "Marte, Venere",
     "segni": "Gemelli, Cancro, Leone",
     "ricetta":
@@ -411,7 +452,9 @@
   {
     "seq": "34",
     "nome": "Gallium",
-    "pianeti": "Luna",
+    "nomeef": "Aparine",
+    "pianeti": "Marte",
+    "segni": "Ariete, Scorpione",
     "ricetta":
       "1088 g Vaso\n 606  g Acqua Distillata\n 112  g Gallium\n 143  g Zucchero Bianco (messo il 20%)\n 0,430g Lievito di Birra in panetto\n g Salnitro\n \n X = 606*100/74 = 818.918918918919\n Alcool = 818-606 = 212ml - 60ml\n",
     "descrizione":
@@ -422,6 +465,7 @@
   {
     "seq": "35",
     "nome": "Avena Sativa",
+    "nomeef": "Avena",
     "pianeti": "Marte, Luna perché sensibile al calore",
     "ricetta":
       "1108 g Vaso\n 1106 g Acqua Distillata\n 148 g Avena Sativa\n 313 g Zucchero di Canna Integrale\n 0.78 g Lievito di Birra in panetto\n g Salnitro\n \n X = 1106*100/74 = 1494.594\n Alcool = 1494-1106 = 388ml, aggiunto 380ml\n",
@@ -433,6 +477,9 @@
   {
     "seq": "36",
     "nome": "Aloe (Vera + Arborescens)",
+    "nomeef": "Aloe",
+    "pianeti": "Marte",
+    "segni": "Ariete, Scorpione",
     "ricetta":
       "606 g Vaso\n 253 g Acqua Distillata\n 77 g Aloe Vera\n 10 g Aloe Arborescens\n 85 g Zucchero di Canna Integrale\n .21 g Lievito di Birra in panetto\n g Salnitro\n \n X = 253*100/74 =\n Alcool = 341-253 = 88ml, aggiunti 54ml.\n",
     "tempi":
@@ -441,7 +488,9 @@
   {
     "seq": "37",
     "nome": "Lattuga Virosa",
-    "segni": "Luna",
+    "nomeef": "Lattuga Virosa",
+    "pianeti": "Venere",
+    "segni": "Bilancia, Toro",
     "ricetta":
       "1404 g Vaso\n 1942 g Acqua Distillata\n 351 g Lattuga Virosa\n 520 g Zucchero Bianco\n 50 g Zucchero di Canna Integrale\n 1.43 g Lievito di Birra in panetto\n g Salnitro\n \n X = 1942*100/74 = 2624.324324324\n Alcool = 2624-1942 = 682ml, aggiunto 500.\n",
     "descrizione":
@@ -452,6 +501,7 @@
   {
     "seq": "38",
     "nome": "Camomilla",
+    "nomeef": "Camomilla Matricaria",
     "pianeti": "Sole, Luna Giove Venere Mercurio",
     "segni": "12, Cancro, Sagittario, Acquario, Pesci",
     "ricetta":
@@ -464,7 +514,9 @@
   {
     "seq": "39",
     "nome": "Fumaria",
-    "pianeti": "Luna",
+    "nomeef": "Fumaria",
+    "pianeti": "Venere",
+    "segni": "Bilancia, Toro",
     "descrizione":
       "Distratto. Travasato e perso le dosi giuste. Pensavo troppo. Sono andato al 100% ad occhio.\n \n Affezioni epatobiari, favorisce il buon umore, quindi la longevità neutralizzando la tristezza e la melanconia. Pianta adattogena, aumenta il flusso biliare insufficiente, lo frena quando è in eccesso e non agisce se non vi è necessità.\n \n Sindromi cefalgiche-emicraniche.\n \n Le variazioni del flusso biliare sono spesso origine di nausee, vertigini, pesantezza e dolori all'ipocondrio. Diminuisce astenia in caso di epatite, regressione escomparsa dell'anoressia nei cirrotici. Disturbi intestinali, delle secrezioni salivari, dermatosi. Ripristina l'equilibro dovuto da errori alimentari, specialmente per i bambini. Negli anziani può essere utilizzata in casi di insufficienza digestiva, inappetenza, litiasi non operabili e come preventivo per combattere arteriosclerosi.\n \n La protopina insieme al monometilfumarato hanno dimostrato attività antiepatotossica simile a quella della silimarina. La pianta è indicata quindi per turbe digestive causate da insufficienza epatobiliare con pesantezza post-prandiale, meteorismo, alitosi e stitichezza.\n",
     "tempi":
@@ -473,6 +525,7 @@
   {
     "seq": "40",
     "nome": "Cardo Mariano Sylibum Marianum",
+    "nomeef": "Cardo Mariano",
     "pianeti": "Mercurio, Giove, Sole, Marte",
     "ricetta":
       "695  g Acheni\n 2020 g Acqua Distillata\n 678  g Zucchero, aggiunto 514 di Zucchero Bianco\n 1.614g Lievito di Birra Fresco\n g Sale di Cardo Mariano\n g Salnitro\n \n X = 2020*100/74 = 2729.7297297297296\n Alcool = 2729-2020 = 709\n",
@@ -484,6 +537,7 @@
   {
     "seq": "41",
     "nome": "Alchemilla",
+    "nomeef": "Alchemilla",
     "pianeti": "Venere, Mercurio",
     "descrizione":
       "Osservazione: Ricca di rugiada, che mantiene sulle punte e nel perimetro, goccioline sparse sulla foglia, raccolte in alcune al centro. Non invadente, elastica, contiene fili che ricordano i tendini. Si possono leggermente tirare e mettere in tensione, creando un movimento della pianta/foglia stessa. Odore molto gradevole, i fiori, gialli, nella loro bellezza non si impongono.  Fiduciosi del loro carattere e della loro bellezza non si guardano attorno.  Non amante di un eccesso di sole, cresce bene anche tra altre piante, sta bene nell'umidità senza però assorbirla.\n \n Pianta ricca di tannini, è dotata di attività astringente e antisettica. Utile quindi in caso di forme lievi di diarrea aspecifica e di coliti. In quest'ultimo caso all'azione astringente si abbina l'azione sedativa e antalgia, utile particolarmente nelle forme di intestino irritabile. Impiegata nel trattamento generale del dolore, dalla dismenorrea alle artralgie. I flavonoidi sono anche responsabili delle proprietà diuretiche, depurative e angioprotettrici. Azione anti-elastasi, anti-tipsina e anti-chimotripsina.\n \n In virtù della loro azione estrogenica si dimostra efficace nell'impiego terapeutico per le turbe legate a un'insufficienza ovarica, per sindromi deficitarie dopo isterectomia e ovariectomia, per turbe mestruali della pubertà e per alcune manifestazioni fastidiose che caratterizzano le manifestazioni funzionali della menopausa come vampate di calore, turbe dell'umore, secchezza della mucosa vaginale, ecc. e per la sindrome premestruale.  Alcuni inconvenienti, come per es. le vampate, hanno una stretta relazione con l'ormone ipofisario; altri invece, come prurito, infiammazione pelvica e secchezza vaginale, sono relativi alla caduta del tasso ematico di estrogeni e possono migliorare con l'utilizzo di queste piante. In questi casi la fitoterapia rappresenta una terapia attiva e/o complementare alla terapia ormonale classica.  Le piante estrogeniche e progesterone-like sono: Angelica, Aletris, Erba medica, Salvia, Luppolo, Ginseng, Alchemilla, Verbena, Salsapariglia, Soia, Cimicifuga; l'Ortica ha azione antiandrogena e la Cimicifuga è attiva sulla secrezione dell'ormone ipofisario. L'Agnocasto aumenta la produzione dell'ormone luteinizzante, inibisce il rilascio dell'ormone che stimola il follicolo, portando ad uno spostamento del rapporto a favore degli estrogeni rispetto ai gestageni, producendo effetti ormonali utilizzati contro disturbi connessi alla menopausa; inoltre, sperimentalmente, inibisce la secrezione della prolattina, risultando efficace sia nella sindrome premestruale che nella iperprolattinemia.\n \n Uso esterno: Largo uso come antiemorragico e vasocotrittore. Contenendo tannino azione astringente, antisettica e antiinfiammatoria. Impiegata nelle flogosi della mucosa orofaringea (gengivite, faringite) e per trattare pelli grasse, arrossate, o screpolate.\n \n Diarrea, colite, cicatrizzante, progesterone-like, spasmolitica, antiinfiammatoria, astringente, insufficienza luteinica.\n",
@@ -493,6 +547,7 @@
   {
     "seq": "42",
     "nome": "Aglio Allium Sativum",
+    "nomeef": "Aglio",
     "pianteti": "Marte, Giove Sole",
     "ricetta":
       "1108 g Vaso\n 950  g Acqua\n 383  g Aglio\n 215  g Zucchero Semolato\n \n X = 1333*100/74 = 1801.3513513513512\n Alcool = 1801-1333 = 468, aggiunti 333\n",
@@ -504,6 +559,7 @@
   {
     "seq": "43",
     "nome": "Menta Spicata",
+    "nomeef": "Mentastri",
     "pianeti": "Venere, Mercurio Giove",
     "ricetta":
       "Tutto ad occhio, con un cucchiaio abbondante di jaggary (succo di canna grezzo secco) il restante zucchero bianco.",
@@ -515,6 +571,7 @@
   {
     "seq": "F45",
     "nome": "Ocimum Basilico",
+    "nomeef": "",
     "pianeti": "giove, mercrio luna",
     "descrizione":
       "Tonico (in particolare del fegato e del sistema nervoso centrale), aiuta la digestione, regolarizza la circolazione venosa, leggermente afrodisiaco, antispasmodico in quanto diminuisce l'attività cerebro-spinale dopo averla eccitata. Utile nelle astenie nervose, insonnie e paralisi. Stomachico, cura i fibromi e gli epiteliomi. Ricco di proprietà antiossidanti, contrasta i danni cellulari provocati dai radicali liberi. A tal proposito svolge un ruolo preventivo nei contronti delle malattie cardiovascolari.\n \n Angina, angoscia, emicrania, flogosi, sindrome influenzale, spasmi gastrici, galattogoga, emmennagoghe, tosse. Apporta energia ai reni.\n \n Uso Esterno: Alitosi, collutorio nelle flagosi dell'orofaringe e nella detersione delle ferite superficiali. L'olio essenziale viene utilizzato in frizioni nelle forme reumatiche, nelle punture di insetti e nella cefalee.\n \n Effetto Psicosomatico: Utile alle persone che svolgono normalmente un superlavoro intellettuale o nei momenti in cui siano costretti giocoforza ad attività che risultano lontane dal loro mondo interiore. Plinio lo raccomandava per espellere dal cuore i vapori malinconici.\n \n Meglio evitarne l'impiego in gravidanza, allattamento, pediatria e per tempi prolungati.\n",
@@ -524,7 +581,9 @@
   {
     "seq": "46",
     "nome": "Giuggiolo - Ziziphus jujuba",
-    "pianeti": "Luna",
+    "nomeef": "Giuggiolo Comune",
+    "pianeti": "Mercurio, Luna",
+    "segni": "Gemelli, Vergine",
     "ricetta":
       "1092 g Vaso\n 315  g Giuggiole (compresi noccioli)\n 929  g Acqua Distillata\n 311  g Zucchero canna integrale Mascobado\n .777 g Lievito di Birra Fresco\n .9   g Sale di Giuggiolo\n Ad occhio Salnitro\n \n X = 929*100/74 = 1255.405\n Alcool = 1255 - 929 = 326ml\n",
     "descrizione":
@@ -534,13 +593,17 @@
   },
   {
     "seq": "47",
-    "nome": "Melagrano",
+    "nome": "Melograno",
+    "nomeef": "Melograno",
+    "pianeti": "Marte",
+    "segni": "Ariete, Scorpione",
     "tempi":
       "[+] Raccolte nell'arco di 7 giorni, una al giorno eccetto il Sabato, prese 3.  Totale 10 melagrane. Disposte ad albero della vita, malkut e yesod marce. Hod leggermente. Tutte le altre andavano bene. Ultima e più bella Kheter.  Preparata la tintura il 6 Novembre, schiacciati i chicchi con le mani direttamente in acqua distillata.\n [+] Aggiunto 220 cl alcool circolato Venerdì 22 Novembre 2019. La tintura risulta salata al palato. Primo giorno di 7 passeggiata prima dell'Alba.\n [+] Prima Calcinazione Venerdì 27 Dicembre 2019.\n [+] Seconda Calcinazione Venerdì 24 Gennaio 2020, con Eleonora.\n [+] Terza Calcinazione Domenica 23 Febbraio 2020, ore 11/12 (Saturno, Giove).\n [+] Aggiunto Salnitro ed esposta a Luna piena in data 09 Marzo 2020."
   },
   {
     "seq": "48",
     "nome": "Salice, Salix Alba",
+    "nomeef": "Salice",
     "pianeti": "Sole",
     "segni": "Leone, Scorpione, Sagittario",
     "ricetta":
@@ -553,8 +616,9 @@
   {
     "seq": "49",
     "nome": "Pulmonaria Officinalis",
-    "pianteti": "saturno, giove mercurio",
-    "segni": "gemelli, scorpione",
+    "nomeef": "Polmonaria",
+    "pianteti": "Saturno, giove mercurio",
+    "segni": "Acquario, Capricorno",
     "ricetta":
       "190  g Polmonaria (fiori e foglie)\n 1465 g Acqua Distillata\n 413  g Zucchero canna integrale Mascobado\n 1    g Lievito di Birra Fresco\n g Salnitro\n \n X = 1465*100/74 = 1979.729\n Alcool = 1979 - 1465 = 514ml\n",
     "descrizione":
@@ -565,6 +629,7 @@
   {
     "seq": "50",
     "nome": "Rosmarino",
+    "nomeef": "Rosmarino",
     "pianeti": "Sole, Mercurio, Luna, Giove",
     "segni": "Ariete, Leone, Bilancia Sagittario Capricorno",
     "ricetta":
@@ -575,6 +640,7 @@
   {
     "seq": "51",
     "nome": "Tiglio - Tilia",
+    "nomeef": "Tiglio Officinale",
     "pianeti": "Giove, Venere Mercurio",
     "segni": "Toro, Gemelli, Bilancia, Acquario",
     "ricetta":
@@ -587,6 +653,7 @@
   {
     "seq": "52",
     "nome": "Tiglio - Tilia",
+    "nomeef": "Tiglio Officinale",
     "pianeti": "Giove, Venere Mercurio",
     "segni": "Toro, Gemelli, Bilancia, Acquario",
     "tempi":
@@ -595,6 +662,7 @@
   {
     "seq": "53",
     "nome": "Sambuco",
+    "nomeef": "Sambuco",
     "pianeti": "Luna",
     "segni": "Cancro, Bilancia",
     "descrizione":
@@ -605,7 +673,9 @@
   {
     "seq": "54",
     "nome": "Thuja Occidentalis",
-    "pianeti": "saturno, venere",
+    "nomeef": "Thuja",
+    "pianeti": "Saturno, venere",
+    "segni": "Capricorno, Acquario",
     "ricetta":
       "140   g Tuia, Stobili e cime (foglie e rametti)\n 395   g Acqua Distillata\n 108   g Zucchero Bianco Caramellato\n 25    g Zucchero Bianco\n 0.334 g Lievito di Birra Fresco\n g Salnitro\n \n 395*100/88= 395*100/88=448\n Alcool = 448 - 395 = 53ml\n",
     "descrizione":
@@ -616,6 +686,7 @@
   {
     "seq": "55",
     "nome": "Artemisia Absenthium - Assenzio",
+    "nomeef": "Assenzio Romano",
     "pianeti": "marte, giove",
     "segni": "Scorpione, 12",
     "ricetta":
@@ -628,6 +699,7 @@
   {
     "seq": "56",
     "nome": "Tanaceto",
+    "nomeef": "Tanaceto",
     "pianeti": "mercurio, venere",
     "segni": "Gemelli, Bilancia, Scorpione, Sagittario",
     "ricetta":
@@ -640,6 +712,7 @@
   {
     "seq": "57",
     "nome": "Cicoria",
+    "nomeef": "Cicoria",
     "pianeti": "Sole, Venere-Mercurio",
     "segni": "Gemelli, Leone, Acquario, Pesci",
     "ricetta":
@@ -650,6 +723,7 @@
   {
     "seq": "58",
     "nome": "Bacopa (Brahmi) + Tulsi",
+    "nomeef": "Bacopa",
     "ricetta":
       "278  g Piante 2100 g Acqua 500  g Zucchero 3    g Lievito di Birra fresco 2100*100/88=2386 Alcool = 2386 - 2100 = 286ml",
     "descrizione":
@@ -660,7 +734,9 @@
   {
     "seq": "59",
     "nome": "Borsa del Pastore",
-    "pianeti": "saturno",
+    "nomeef": "Borsa Pastore",
+    "pianeti": "Saturno",
+    "segni": "Capricorno, Acquario",
     "ricetta":
       "60  g Pianta, parti aeree 600 g Acqua Sorgente 165 g Zucchero .44 g Lievito birra fresco 600*100/88=681 Alcool = 681 - 600 = 81ml",
     "descrizione":
@@ -671,6 +747,9 @@
   {
     "seq": "60",
     "nome": "Elicriso",
+    "nomeef": "Elicriso",
+    "pianeti": "Sole",
+    "segni": "Leone, Vergine",
     "ricetta":
       "108 g Pianta, parte aerea 800 g Acqua di Sorgente 227 g Zucchero (116 Dulcita, 111 Bianco) .60 g Lievito Birra Fresco 800*100/88=909 Alcool = 909 - 800 = 109ml",
     "descrizione":
@@ -681,6 +760,9 @@
   {
     "seq": "61",
     "nome": "Oxalis Acetosella (fucsia)",
+    "nomeef": "Acetosella",
+    "pianeti": "Marte",
+    "segni": "Ariete, Scorpione",
     "ricetta":
       "954 g Acqua Distillata Ultra Pura| 1042 g pianta| 309 g Zucchero Dulcida| 4.20 g Lievito Madre di Farro Antico Mulino Rosso| 135ml Alcool Circolato",
     "descrizione":
@@ -691,11 +773,92 @@
   {
     "seq": "62",
     "nome": "Propoli",
+    "nomeef": "",
+    "pianeti": "Sole",
+    "segni": "Leone, Vergine",
     "ricetta":
       "75cc Acqua Distillata (prima soluzione) 75cc Acqua Distillata (seconda soluzione) |  100g propoli| 125ml Alcool Circolato (prima soluzione) 125ml Alcool Circolato (seconda soluzione)",
     "descrizione":
       "La propoli ha proprietà batteriostatiche e battericide, fungicide, antivirali, cicatrizzanti, immunostimolanti, vaso protettive, antiossidanti e anti inrancidenti. In alcuni casi ha dimostrato la capacità di provocare o di concorrere al riassorbimento di masse tumorali. Utile in caso di ustioni, ferite, geloni, screpolature, ascessi, dolori e affezioni dentarie, eczema, psoriasi, suppurazioni, gengiviti, micosi. Gastroenterologia: cura gastriti, coliti e alcune ulcere gastro-duodenali. Apparato genito – urinario: cura infezioni e infiammazioni della prostata, delle vie urinarie e trova impiego nella tricomoniasi. Antivirale: concorre a risolvere influenze e raffreddori. Ottimo anche per le bronchiti e angine.",
     "tempi":
       "[+] Pulito e sminuzzato il 6 Novembre, al maneggio raggio di sole, per il corso con Stefano. Katia e Tamara, chiacchere india.| [+] Filtrato e aggiunto alcool puro|[+] 2 Gennaio Calcinata|[+] 17 Gennaio esposta a Luna piena."
+  },
+  {
+    "seq": "63",
+    "nome": "Zenzero",
+    "nomeef": "Zenzero",
+    "pianeti": "Marte",
+    "segni": "Ariete, Scorpione",
+    "ricetta": "Seguite indicazioni A.Angelini",
+    "descrizione": "Vedi Libro Ayurveda",
+    "tempi":
+      "[+] 6 Marzo 2022 |[+] 1C 30 Aprile 2022|[+] 2C 30 Maggio 2022|[+] 3C 29 Giugno 2022|[+] Esposta Luna Piena il 13 Luglio 2022"
+  },
+  {
+    "seq": "64",
+    "nome": "Curcuma",
+    "nomeef": "Curcuma",
+    "pianeti": "Giove",
+    "segni": "Sagittario, Pesci",
+    "ricetta": "Seguite indicazioni A.Angelini",
+    "descrizione": "Vedi Libro Ayurveda",
+    "tempi":
+      "[+] 6 Marzo 2022 |[+] 1C 30 Aprile 2022|[+] 2C 30 Maggio 2022|[+] 3C 29 Giugno 2022|[+] Esposta Luna Piena il 13 Luglio 2022"
+  },
+  {
+    "seq": "65",
+    "nome": "Cedracca (Spaccapietra)",
+    "nomeef": "Spaccapietra",
+    "pianeti": "Saturno",
+    "segni": "Capricorno",
+    "ricetta":
+      "Acqua distillata ultra pura, datteri, uvetta, malto di orzo alta diastasi, 3 cucchiaini di zucchero canna dulcita, circa 200g di pianta",
+    "descrizione":
+      "https://www.actaplantarum.org/flora/flora_info.php?id=42&nnn=Asplenium%20ceterach \nApprezzata per le sue proprietà diuretiche, antiuriche e decongestionanti della milza, utile ai soggetti predisposti ai calcoli renali e a coloro cha hanno elevati tassi di ossalati nelle urine, da cui il nome popolare di 'spaccapietre'. Veniva anche impiegata nella medicina popolare quale sedativo ed emolliente per la tosse e come antinfiammatorio, astringente e decongestionante delle mucose della gola e della bocca. A scopo erboristico vengono usate di solito le fronde, più raramente il rizoma.",
+    "tempi":
+      "[+] Raccolta a Bagno di Romagna, inizio sentiero 189, sabato 14 Maggio, ore 22:15. Con babbo e mamma. Lavorata nel parco nella via del Chiardovo. Mamma selezionava, babbo tagliava, io pestavo. Entro ore 23. Orario Saturno.|[+] 1C 29 Giugno 2022.|[+] 2C 28 Luglio 2022.|[+] 3C 27 Agosto 2022.|[+] Esposta Luna Piena 10 Settembre 2022."
+  },
+  {
+    "seq": "66",
+    "nome": "Iperico",
+    "nomeef": "Iperico",
+    "ricetta":
+      "Acqua distillata ultra pura, zucchero bio, lievito birra fresco",
+    "descrizione": "Vedi 09",
+    "tempi":
+      "[+] Raccolto con Valentina a Linaro il 23 Giugno, ore 18:30 - 19:30.|[+] 1C 27 Agosto 2022.|[+] 2C 25 Settembre 2022.|[+] 3C 25 Ottobre 2022.|[+] Esposto Luna Piena notte tra il 7 Novembre e l'8 Novembre 2022."
+  },
+  {
+    "seq": "67",
+    "nome": "Achillea",
+    "nomeef": "Achillea Millefoglie",
+    "ricetta":
+      "Acqua distillata ultra pura, zucchero bio, lievito di birra fresco, malto di orzo",
+    "descrizione": "Vedi 13",
+    "tempi":
+      "[+] Raccolta a Lago di Ponte, per camminata nel bosco il 20 Luglio 2022 ore 14.|[+] 1C 25 Settembre 2022.|[+] Inserito Sali di Achillea 6 Ottobre 2022 ore 12:30.|[+] 2C 25 Ottobre 2022.|[+] 3C 23 Novembre 2022.|[+] Esposta Luna Piena 8 Dicembre 2022."
+  },
+  {
+    "seq": "68",
+    "nome": "Datura Metel",
+    "nomeef": "",
+    "pianeti": "Saturno",
+    "segni": "Capricorno, Acquario",
+    "ricetta": "",
+    "descrizione": "",
+    "tempi":
+      "[+] Raccolta dalle 7:15 alle 7:45 col papius. Sabato 7 Gennaio 2023. Luna piena dall' 1:00 alle 5:00. Aggiunto Zucchero di Canna + Lievito di Birra, 8 Gennaio 2023.|[+] 1C 20 Febbraio 2023. |[+] 2C 21 Marzo 2023."
+  },
+  {
+    "seq": "69",
+    "nome": "Bucaneve",
+    "nomeef": "",
+    "pianeti": "Saturno",
+    "segni": "Capricorno, Acquario",
+    "ricetta":
+      "Acqua distillata, Miele, Lievito di Birra. Tolto buccia scura dal bulbo e pellicola esterna dei fiori, come per i porri, vedi video telefono.",
+    "descrizione": "",
+    "tempi":
+      "[+] Raccolta dalle 12:50 alle 14:50 presso il Santuario della Verna, Lunedì 13 Marzo 2023, orario Luna. Lavorati in orario Giove, Marte, Sole, Venere"
   }
 ]
