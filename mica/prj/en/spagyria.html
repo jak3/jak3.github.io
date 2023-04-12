@@ -60,7 +60,7 @@
        <li><h3>${pianta.nome}</h3></li>
        ${pianta.pianeti ? `<li>${pianta.pianeti}</li>` : ""}
        ${pianta.segni ? `<li>${pianta.segni}</li>` : ""}
-       <li>${pianta.descrizione}</li>
+       <li>${pianta.descrizione.replace(/\n/g, "<br />")}</li>
     </ul>
   </div>
          `;
