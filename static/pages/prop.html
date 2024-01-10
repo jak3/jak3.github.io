@@ -48,184 +48,242 @@
         </div>
 
         <div class="background-light-500 padding-m text-align-justify">
-              <script charset="utf-8">
-  function search_word(){
-      input = document.getElementById('input_w');
-      filter = input.value.toUpperCase();
-      document.querySelectorAll('p').forEach(prop => {
-          content = prop.textContent.replace(/\s+/g, '').toUpperCase()
-          prop.style.display = content.indexOf(filter) > -1 ? "" : "none";
-        });
-    }
-</script>
+              <!DOCTYPE html><html><head><link rel="stylesheet" type="text/css" href="style.css" /></head><body>
 
-<div class="group group-space-evenly group-m margin-m">
-  <ul>
-    <li>Filtra:</li>
-    <li><input type="text" onkeyup="search_word()" placeholder="parola da cercare..." id="input_w"></li>
-  </ul>
-</div>
-
-<p><b>ACIDITÀ (GASTRICA CON REFLUSSO)</b>: Malva, Passiflora Incarnata, Aloe</p>
-<p><b>ACNE (DEPURATIVO)</b>: Bardana, Saponaria</p>
+<p><b>ACIDITÀ (IPERCLORIDRIA O IPERSECREZIONE GASTRICA ANCHE CON REFLUSSO)</b>: Malva, Passiflora Incarnata, Camomilla Matricaria</p>
+<p><b>ACNE (DEPURATIVO)</b>: Bardana</p>
 <p><b>ACUFENE</b>: Iperico</p>
 <p><b>AEROFAGIA</b>: Zenzero</p>
 <p><b>AFRODISIACO</b>: Ginkgo Biloba, Iperico</p>
+<p><b>ALIMENTO</b>: Bardana, Cicoria, Luppolo, Olivo, Ortica, Melograno, Giuggiolo Comune</p>
+<p><b>ALLATTAMENTO (GALATTOGOGO - GALATTOFORO)</b>: Agnocasto</p>
 <p><b>ALLERGIE</b>: Elicriso, Zenzero</p>
+<p><b>ALLERGIE (APPARATO RESPIRATORIO)</b>: Elicriso</p>
 <p><b>ALOPECIA O AREA E DEBOLEZZA DEI CAPELLI</b>: Bardana, Equiseto, Ippocastano, Ortica, Rosmarino</p>
 <p><b>ALZHEIMER-PERUSINI (MORBO)</b>: Bacopa</p>
 <p><b>AMARO TONICO</b>: Assenzio Romano</p>
 <p><b>ANAFRODISIACO</b>: Lattuga Virosa, Salice</p>
 <p><b>ANALGESICO O ANTALGICO</b>: Melissa</p>
+<p><b>ANFOCOLERETICO</b>: Fumaria</p>
 <p><b>ANSIA E AGITAZIONE NERVOSA</b>: Bacopa, Biancospino, Lattuga Virosa, Lavanda, Luppolo, Passiflora Incarnata</p>
+<p><b>ANTIACIDO (ANTISECRETIVO GASTRICO O PROTETTORE TAMPONE)</b>: Malva</p>
+<p><b>ANTIACIDO (ANTISECRETIVO GASTRICO PARASIMPATICOLITICO)</b>: Passiflora Incarnata</p>
 <p><b>ANTIAGGREGANTE PIASTRINICO</b>: Aglio, Ginkgo Biloba</p>
 <p><b>ANTICHEMIOTOSSICO</b>: Aloe</p>
 <p><b>ANTICOAGULANTE FIBRINOLITICO</b>: Aglio</p>
 <p><b>ANTIEMORROIDARIO (USO ESTERNO)</b>: Achillea Millefoglie, Ippocastano</p>
-<p><b>ANTIOSSIDANTE</b>: Bacopa, Curcuma, Ginkgo Biloba</p>
-<p><b>ANTISETTICO</b>: Aglio, Curcuma, Elicriso, Timo Volgare, Zenzero, Camomilla Matricaria</p>
-<p><b>ANTITUMORALE [CHEMIOTERAPICO-SIMILE]</b>: Salice</p>
+<p><b>ANTIOSSIDANTE</b>: Bacopa, Curcuma, Ginkgo Biloba, Melograno</p>
+<p><b>ANTISETTICO</b>: Aglio, Curcuma, Elicriso, Salice, Timo Volgare, Zenzero, Camomilla Matricaria</p>
+<p><b>ANTISETTICO (USO ESTERNO)</b>: Aloe</p>
+<p><b>ANTITUMORALE [CHEMIOTERAPICO-SIMILE]</b>: Salice (!!)</p>
 <p><b>ANTITUMORALE [RITARDANTE LA PROLIFERAZIONE]</b>: Aglio, Aloe, Curcuma, Salice</p>
-<p><b>ARITMIE CARDIACHE E PALPITAZIONI (ANTIARITMICO CARDIACO)</b>: Biancospino</p>
-<p><b>ARTROSI E OSTEOARTROSI</b>: Bacopa</p>
+<p><b>ARITMIE CARDIACHE E PALPITAZIONI (ANTIARITMICO CARDIACO)</b>: Biancospino, Melissa</p>
+<p><b>AROMATIZZANTE</b>: Lavanda</p>
+<p><b>ARTROSI E OSTEOARTROSI</b>: Bacopa (!!)</p>
 <p><b>ASTENIA O ESAURIMENTO E STRESS</b>: Avena, Zenzero, Passiflora Incarnata</p>
-<p><b>ATEROSCLEROSI E ARTERIOSCLEROSI</b>: Pervinca</p>
+<p><b>ATEROMI</b>: Vischio</p>
+<p><b>ATEROSCLEROSI E ARTERIOSCLEROSI</b>: Aglio, Equiseto, Ginkgo Biloba, Pervinca (!!), Vischio</p>
+<p><b>ATONIA GASTRICA</b>: Assenzio Romano</p>
+<p><b>ATONIA INTESTINALE</b>: Aloe</p>
 <p><b>AVITAMINOSI</b>: Giuggiolo Comune</p>
+<p><b>AZOTEMIA (IPERAZOTEMIA)</b>: Betulla</p>
+<p><b>BRADICARDIZZANTE - ANTIFIBRILLANTE</b>: Biancospino</p>
 <p><b>BRONCHITE O AFFEZIONI BRONCHIALI</b>: Elicriso, Timo Volgare</p>
+<p><b>CAGLIO VEGETALE</b>: Cardo Mariano, Zenzero</p>
 <p><b>CALCOLOSI BILIARE CISTIFELLEA E VIE BILIARI</b>: Olivo</p>
-<p><b>CALCOLOSI URINARIA RENI E VESCICA</b>: Spaccapietra</p>
+<p><b>CALCOLOSI URINARIA RENI E VESCICA</b>: Spaccapietra, Chelidonia (!!)</p>
 <p><b>CANDIDOSI O MONILIASI</b>: Aglio</p>
-<p><b>CARDIOTONICO O CARDIOCINETICO</b>: Biancospino</p>
-<p><b>CARDIOVASCOLARE</b>: Pervinca</p>
+<p><b>CARDIOTONICO O CARDIOCINETICO</b>: Biancospino, Chelidonia (!!)</p>
+<p><b>CARDIOVASCOLARE</b>: Ginkgo Biloba, Pervinca (!!)</p>
 <p><b>CARENZA DI SALI MINERALI E OLIGOELEMENTI</b>: Avena, Equiseto, Ortica</p>
 <p><b>CARMINATIVO - ANTIFERMENTATIVO</b>: Fumaria, Lavanda, Zenzero</p>
-<p><b>CEFALEA O MAL DI TESTA - EMICRANIA</b>: Bacopa</p>
-<p><b>CHERATOLITICO (VERRUCHE, PORRI, CONDILOMI)</b>: Aglio, Thuja</p>
+<p><b>CEFALEA O MAL DI TESTA - EMICRANIA</b>: Bacopa (!!), Melissa</p>
+<p><b>CHERATOLITICO</b>: Aglio, Thuja, Chelidonia</p>
 <p><b>CICATRIZZANTE O VULNERARIO</b>: Aloe</p>
-<p><b>CIRROSI EPATICA</b>: Cardo Mariano</p>
+<p><b>CIRROSI EPATICA</b>: Cardo Mariano (!!)</p>
 <p><b>CISTITE</b>: Aparine</p>
-<p><b>COLAGOGO</b>: Rosmarino</p>
+<p><b>COLAGOGO</b>: Curcuma, Rosmarino (!!)</p>
 <p><b>COLECISTOCINETICO</b>: Olivo</p>
 <p><b>COLECISTOPATIE E COLECISTITE</b>: Curcuma, Fumaria</p>
-<p><b>COLERETICO</b>: Rosmarino</p>
-<p><b>COLESTEROLO</b>: Betulla, Olivo, Vischio</p>
+<p><b>COLERETICO</b>: Curcuma, Fumaria, Rosmarino (!!)</p>
+<p><b>COLESTEROLO (IPERCOLESTEROLEMIA - IPERTRIGLICERIDEMIA - IPERLIPIDEMIA)</b>: Betulla, Olivo</p>
 <p><b>COLICHE BILIARI</b>: Curcuma, Fumaria, Lavanda, Tiglio Officinale</p>
 <p><b>COLICHE INTESTINALI</b>: Camomilla Matricaria</p>
 <p><b>COLITE</b>: Malva, Melissa, Camomilla Matricaria</p>
+<p><b>COLLUTTORIO BATTERIOSTATICO ORO-FARINGEO</b>: Timo Volgare</p>
+<p><b>COLLUTTORIO ORO-FARINGEO</b>: Rosa Canina</p>
+<p><b>CONDILOMA</b>: Thuja</p>
+<p><b>CONDIMENTO O SPEZIA</b>: Curcuma, Rosmarino, Zenzero</p>
 <p><b>CORONAROPATIE</b>: Aglio</p>
+<p><b>COSMETICO</b>: Iperico, Lavanda</p>
+<p><b>CRAMPI MUSCOLARI</b>: Chelidonia (!!)</p>
+<p><b>DECONTRATTURANTE</b>: Chelidonia (!!)</p>
+<p><b>DEFORFORANTE CAPILLARE (LOZIONE O IMPACCO)</b>: Ortica</p>
+<p><b>DEPERIMENTO ORGANICO (VEDI ANCHE ASTENIA)</b>: Avena</p>
 <p><b>DEPRESSIONE NERVOSA O PSICHICA</b>: Assenzio Romano, Iperico</p>
 <p><b>DEPURATIVO DRENANTE</b>: Bardana, Cicoria, Olivo</p>
-<p><b>DERMATOSI</b>: Aloe, Betulla, Ortica, Saponaria, Timo Volgare</p>
+<p><b>DERMATOSI</b>: Aloe, Betulla, Ortica, Saponaria, Timo Volgare, Timo Serpillo</p>
+<p><b>DERMOPURIFICANTE DERMOPROTETTIVO</b>: Elicriso, Ortica</p>
+<p><b>DERMOPURIFICANTE DERMOPROTETTIVO (USO ESTERNO)</b>: Aloe, Betulla, Saponaria, Timo Volgare, Timo Serpillo</p>
 <p><b>DIABETE MELLITO</b>: Olivo</p>
 <p><b>DIAFORETICO O SUDORIFERO</b>: Tiglio Officinale</p>
 <p><b>DIARREA</b>: Alchemilla</p>
-<p><b>DIGESTIVO</b>: Fumaria, Assenzio Romano, Curcuma</p>
+<p><b>DIARREA (ANTIDIARROICO ASTRINGENTE)</b>: Alchemilla</p>
+<p><b>DIGESTIVO EUPEPTICO AMARO PURO</b>: Fumaria</p>
+<p><b>DIGESTIVO EUPEPTICO AROMATICO</b>: Assenzio Romano</p>
+<p><b>DIGESTIVO EUPEPTICO STOMACHICO</b>: Curcuma, Chelidonia (!!)</p>
+<p><b>DIMAGRANTE</b>: Avena, Betulla, Cicoria</p>
 <p><b>DISMENORREA E OLIGOMENORREA</b>: Rosmarino</p>
+<p><b>DISPEPSIA O CATTIVA DIGESTIONE</b>: Curcuma, Fumaria, Chelidonia (!!)</p>
 <p><b>DIURETICO</b>: Betulla</p>
 <p><b>DIURETICO ANTISETTICO ANTIPUTRIDO</b>: Lavanda, Timo Volgare</p>
+<p><b>DIURETICO AZOTURICO</b>: Betulla</p>
 <p><b>DIURETICO DECLORURANTE</b>: Sambuco</p>
+<p><b>DIURETICO URICOLITICO</b>: Betulla</p>
 <p><b>DIURETICO-TONICO</b>: Thuja</p>
+<p><b>ECCITANTE CENTRI BULBARI</b>: Chelidonia (!!)</p>
+<p><b>ECCITANTE MIDOLLO SPINALE</b>: Chelidonia (!!)</p>
 <p><b>EDEMI E VERSAMENTI</b>: Betulla, Ippocastano, Meliloto</p>
 <p><b>EMMENAGOGO</b>: Edera Helix, Rosmarino</p>
+<p><b>EMOLLIENTE</b>: Giuggiolo Comune</p>
 <p><b>EMOPOIETICO ERITROPOIETICO</b>: Equiseto</p>
 <p><b>EMORRAGIE</b>: Achillea Millefoglie, Borsa Pastore</p>
+<p><b>EMORRAGIE (EMORROIDARIE)</b>: Achillea Millefoglie</p>
 <p><b>EMORRAGIE (MENORRAGIE)</b>: Alchemilla, Borsa Pastore</p>
+<p><b>EMORRAGIE (METRORRAGIE)</b>: Borsa Pastore</p>
+<p><b>EMORRAGIE (VIE URINARIE)</b>: Borsa Pastore, Chelidonia (!!)</p>
 <p><b>ENURESI NOTTURNA</b>: Luppolo</p>
-<p><b>EPATITE</b>: Cardo Mariano</p>
+<p><b>EPATITE</b>: Cardo Mariano (!!), Curcuma</p>
+<p><b>EPATOPROTETTORE ANTIEPATOTOSSICO DEL FEGATO</b>: Cardo Mariano (!!), Curcuma, Fumaria</p>
 <p><b>EPISTASSI</b>: Borsa Pastore</p>
+<p><b>EQUILIBRATORE PRESSIONE ARTERIOSA</b>: Biancospino</p>
 <p><b>ERETISMO CARDIACO</b>: Melissa</p>
-<p><b>ERITEMI</b>: Iperico</p>
+<p><b>ERITEMI E ERITEMA SOLARE</b>: Iperico</p>
 <p><b>ERNIA IATALE</b>: Zenzero</p>
-<p><b>ESOFAGITE</b>: Malva</p>
-<p><b>ESPETTORANTE FLUIDIFICANTE DEL CATARRO MUCOLITICO</b>: Saponaria</p>
+<p><b>ESOFAGITE</b>: Malva, Camomilla Matricaria</p>
+<p><b>ESPETTORANTE FLUIDIFICANTE DEL CATARRO MUCOLITICO</b>: Elicriso, Saponaria</p>
 <p><b>FARINGITE E RINOFARINGITE</b>: Rosa Canina, Timo Volgare</p>
 <p><b>FLEBITE E VENE VARICOSE</b>: Ippocastano</p>
 <p><b>FLEBOTONICO</b>: Ippocastano</p>
 <p><b>FORFORA CAPELLI</b>: Ortica</p>
+<p><b>FORUNCOLOSI</b>: Bardana</p>
+<p><b>FRAGILITÀ CAPELLI E UNGHIE</b>: Ortica</p>
 <p><b>FRAGILITÀ CAPILLARE (APP.CIRCOLATORIO)</b>: Ginkgo Biloba, Ippocastano</p>
 <p><b>GASTRITE</b>: Aloe, Camomilla Matricaria</p>
+<p><b>GASTROENTERITI</b>: Chelidonia (!!)</p>
+<p><b>GASTROPROTETTORE</b>: Aloe, Camomilla Matricaria</p>
 <p><b>GENGIVITE</b>: Malva</p>
 <p><b>GLICEMIA (IPOGLICEMIZZANTE)</b>: Olivo</p>
-<p><b>HERPES SIMPLEX 1 (LABIALE)</b>: Thuja, Iperico</p>
-<p><b>ICTUS CEREBRALE</b>: Pervinca</p>
+<p><b>HERPES SIMPLEX 1 (LABIALE)</b>: Iperico, Thuja</p>
+<p><b>ICTUS CEREBRALE</b>: Pervinca (!!)</p>
+<p><b>IDROCOLAGOGO</b>: Lavanda</p>
 <p><b>IDROCOLERETICO</b>: Lavanda, Melissa, Timo Volgare</p>
-<p><b>IMMUNODEFICIENZA SECONDARIA O INSUFFICIENZA IMMUNITARIA E MALATTIE AUTOIMMUNI</b>: Aglio, Curcuma</p>
-<p><b>IMMUNOSTIMOLANTE IMMUNOMODULANTE</b>: Aglio, Curcuma, Iperico</p>
+<p><b>IMMUNODEFICIENZA SECONDARIA O INSUFFICIENZA IMMUNITARIA E MALATTIE AUTOIMMUNI</b>: Aglio, Aloe, Curcuma</p>
+<p><b>IMMUNOSTIMOLANTE IMMUNOMODULANTE</b>: Aglio, Aloe, Curcuma, Iperico</p>
 <p><b>IMPOTENZA SESSUALE</b>: Ginkgo Biloba, Iperico</p>
 <p><b>INAPPETENZA E ANORESSIA</b>: Luppolo</p>
-<p><b>INFEZIONI (CAVO OROFARINGEO)</b>: Aloe</p>
+<p><b>INFEZIONI (CAVO OROFARINGEO)</b>: Aloe, Timo Serpillo</p>
 <p><b>INFEZIONI (GASTROINTESTINALI)</b>: Aglio, Iperico</p>
-<p><b>INFEZIONI (VIE RESPIRATORIE)</b>: Lavanda, Timo Volgare</p>
+<p><b>INFEZIONI (VIE RESPIRATORIE)</b>: Aglio, Elicriso, Lavanda, Timo Volgare</p>
 <p><b>INFEZIONI (VIRALI DA RETROVIRUS)</b>: Iperico</p>
 <p><b>INFEZIONI BATTERICHE</b>: Zenzero</p>
 <p><b>INFEZIONI O INFIAMMAZIONI (OCULARI E DELLE PALPEBRE)</b>: Meliloto</p>
 <p><b>INFIAMMAZIONI</b>: Malva</p>
-<p><b>INFIAMMAZIONI (APPARATO URO-GENITALE)</b>: Rosa Canina</p>
-<p><b>INFIAMMAZIONI (CAVO ORALE)</b>: Malva, Rosa Canina, Salvia Sclarea</p>
+<p><b>INFIAMMAZIONI (APPARATO URO-GENITALE)</b>: Rosa Canina, Salvia Sclarea</p>
+<p><b>INFIAMMAZIONI (CAVO ORALE)</b>: Aloe, Malva, Rosa Canina, Salvia Sclarea, Timo Serpillo</p>
 <p><b>INFIAMMAZIONI (VIE EPATICHE E BILIARI)</b>: Curcuma, Fumaria</p>
 <p><b>INFLUENZA</b>: Tiglio Officinale</p>
-<p><b>INSONNIA</b>: Lattuga Virosa, Lavanda, Melissa</p>
+<p><b>INSONNIA</b>: Lattuga Virosa, Lavanda, Melissa, Passiflora Incarnata</p>
+<p><b>INSUFFICIENZA CARDIACA</b>: Biancospino</p>
+<p><b>INSUFFICIENZA CIRCOLATORIA E VENOSA</b>: Ippocastano</p>
+<p><b>INSUFFICIENZA EMOPOIETICA</b>: Equiseto</p>
+<p><b>INSUFFICIENZA EPATOBILIARE E INTOSSICAZIONE DEL FEGATO</b>: Cardo Mariano (!!), Curcuma</p>
+<p><b>INSUFFICIENZA TONO CARDIACO</b>: Biancospino</p>
 <p><b>INSUFFICIENZA VASO-LINFATICA</b>: Aparine</p>
 <p><b>IPERTENSIONE ARTERIOSA (EQUILIBRATORE)</b>: Biancospino</p>
 <p><b>IPERTENSIONE ARTERIOSA (IPOTENSIVO CENTRALE NERVOSO)</b>: Vischio</p>
-<p><b>IPERTENSIONE ARTERIOSA (IPOTENSIVO PERIFERICO)</b>: Pervinca</p>
-<p><b>IPERTENSIONE ARTERIOSA (IPOTENSIVO)</b>: Borsa Pastore</p>
+<p><b>IPERTENSIONE ARTERIOSA (IPOTENSIVO PERIFERICO)</b>: Aglio, Biancospino, Olivo, Pervinca (!!)</p>
+<p><b>IPERTENSIONE ARTERIOSA (IPOTENSIVO)</b>: Aglio, Betulla, Borsa Pastore</p>
+<p><b>IPNOTICO</b>: Melissa</p>
 <p><b>IPOCLORIDRIA O IPOSECREZIONE GATRICA</b>: Assenzio Romano</p>
+<p><b>IPOTENSIONE (IPERTENSIVO)</b>: Chelidonia (!!)</p>
 <p><b>ISTERISMO</b>: Lattuga Virosa</p>
 <p><b>ITTERO</b>: Curcuma</p>
 <p><b>ITTIOSI</b>: Elicriso</p>
 <p><b>LARINGITE E RAUCEDINE</b>: Salvia Sclarea</p>
 <p><b>LASSATIVO O PURGANTE</b>: Aloe</p>
 <p><b>LASSATIVO PURGANTE ANTRACHINONICO (INTESTINO CRASSO)</b>: Aloe</p>
-<p><b>MANCANZA DI MEMORIA A BREVE E LUNGO TERMINE</b>: Bacopa</p>
-<p><b>MENOPAUSA E CLIMATERIO (TURBE E DISTURBI VARI)</b>: Camomilla Matricaria</p>
+<p><b>LESIONI CUTANEE - PIAGHE FERITE ABRASIONI E SCREPOLATURE (USO TOPICO)</b>: Aloe</p>
+<p><b>MANCANZA DI MEMORIA A BREVE E LUNGO TERMINE</b>: Bacopa, Ginkgo Biloba</p>
+<p><b>MASTITE E MASTALGIA</b>: Agnocasto</p>
+<p><b>MENOPAUSA E CLIMATERIO (TURBE E DISTURBI VARI)</b>: Biancospino, Ginkgo Biloba, Iperico, Camomilla Matricaria</p>
 <p><b>METEORISMO FLATULENZA E FERMENTAZIONI INTESTINALI</b>: Fumaria, Lavanda, Zenzero</p>
 <p><b>MICOSI</b>: Aglio</p>
 <p><b>NAUSEA</b>: Zenzero</p>
 <p><b>NEUROTONICO - TONICO NERVINO - TONICO CEREBRALE</b>: Avena</p>
-<p><b>NEVRALGIE</b>: Ginkgo Biloba, Iperico, Salice</p>
+<p><b>NEVRALGIE</b>: Ginkgo Biloba, Iperico, Salice, Chelidonia (!!)</p>
 <p><b>NEVRITI</b>: Elicriso</p>
 <p><b>NEVROSI (DISTURBI)</b>: Lattuga Virosa, Luppolo</p>
-<p><b>NOOTROPO</b>: Pervinca</p>
+<p><b>NOOTROPO</b>: Bacopa, Ginkgo Biloba, Pervinca (!!), Rosmarino</p>
+<p><b>OBESITÀ E SOVRAPPESO</b>: Avena, Betulla, Cicoria</p>
 <p><b>OSTEOPOROSI</b>: Equiseto</p>
 <p><b>OTITE</b>: Olivo, Timo Volgare</p>
 <p><b>PARASIMPATICOMIMETICO</b>: Ginkgo Biloba</p>
-<p><b>PARASSITI INTERNI</b>: Aglio, Assenzio Romano</p>
-<p><b>PROSTATA (IPERTROFIA PROSTATICA BENIGNA)</b>: Salice</p>
-<p><b>PROSTATA (PROSTATITE)</b>: Ortica, Melograno</p>
-<p><b>RAGADI</b>: Aloe</p>
+<p><b>PARASSITI (VERMI ANIMALI DOMESTICI)</b>: Aglio</p>
+<p><b>PARASSITI INTERNI (VERMI - ASCARIDI)</b>: Aglio</p>
+<p><b>PARASSITI INTERNI (VERMI - ELMINTIASI)</b>: Aglio, Assenzio Romano</p>
+<p><b>PARASSITI INTERNI (VERMI - NEMATODI)</b>: Aglio</p>
+<p><b>PARASSITI INTERNI (VERMI - OSSIURI)</b>: Aglio</p>
+<p><b>PARASSITI INTERNI (VERMI - TENIA E CESTOIDI)</b>: Aglio</p>
+<p><b>PROLATTINEMIA (IPERPROLATTINEMIA)</b>: Agnocasto</p>
+<p><b>PROSTATA (IPERTROFIA PROSTATICA BENIGNA)</b>: Ortica, Salice</p>
+<p><b>PROSTATA (PROSTATITE)</b>: Ortica, Salice, Melograno</p>
+<p><b>RAGADI AL SENO</b>: Aloe</p>
+<p><b>RAGADI ANALI</b>: Achillea Millefoglie, Aloe</p>
+<p><b>REPELLENTE INSETTI</b>: Lavanda, Melissa, Rosmarino</p>
+<p><b>RIEPITELIZZANTE</b>: Iperico</p>
 <p><b>RINITE - RAFFREDDORE O CÒRIZZA</b>: Tiglio Officinale</p>
+<p><b>SALIVAZIONE SCARSA (SCIALAGOGO)</b>: Chelidonia (!!)</p>
 <p><b>SEBORREA</b>: Bardana</p>
+<p><b>SEDATIVO CARDIACO</b>: Biancospino</p>
 <p><b>SEDATIVO O CALMANTE SISTEMA NERVOSO CENTRALE</b>: Lattuga Virosa, Lavanda, Passiflora Incarnata</p>
-<p><b>SINDROME PREMESTRUALE</b>: Iperico</p>
+<p><b>SINDROME PREMESTRUALE</b>: Iperico, Agnocasto</p>
 <p><b>SINUSITE E RINOSINUSITE</b>: Timo Volgare</p>
+<p><b>SOLARE (PROTETTIVO)</b>: Aloe</p>
 <p><b>SPASMI E DOLORI SPASMODICI DI VARIA NATURA</b>: Lavanda, Rosmarino, Vischio</p>
-<p><b>SPASMOLITICO ANTISPASMODICO</b>: Edera Helix, Vischio</p>
+<p><b>SPASMOLITICO ANTISPASMODICO</b>: Edera Helix, Vischio, Chelidonia (!!)</p>
 <p><b>SPASMOLITICO FEGATO E VIE BILIARI</b>: Curcuma, Fumaria, Lavanda, Tiglio Officinale</p>
-<p><b>SPASMOLITICO FIBRE MUSCOLARI LISCIE</b>: Timo Volgare</p>
+<p><b>SPASMOLITICO FIBRE MUSCOLARI LISCIE</b>: Rosmarino, Timo Volgare, Chelidonia (!!)</p>
 <p><b>SPASMOLITICO INTESTINALE</b>: Lavanda, Camomilla Matricaria</p>
-<p><b>SPASMOLITICO TUBO GASTRO-ENTERICO</b>: Edera Helix, Melissa</p>
+<p><b>SPASMOLITICO TUBO GASTRO-ENTERICO</b>: Edera Helix, Melissa, Chelidonia (!!)</p>
+<p><b>SPASMOLITICO VIE RENALI E FAVORENTE L´ESPULSIONE DI CALCOLI</b>: Chelidonia (!!)</p>
 <p><b>SPASMOLITICO VIE RESPIRATORIE</b>: Edera Helix, Elicriso</p>
 <p><b>STASI LINFATICHE</b>: Aparine</p>
 <p><b>STEATOSI EPATICA (NON ALCOLICA)</b>: Curcuma</p>
-<p><b>STIMOLANTE CIRCOLAZIONE CEREBRALE</b>: Pervinca</p>
+<p><b>STIMOLANTE CIRCOLAZIONE CEREBRALE</b>: Aglio, Ginkgo Biloba, Pervinca (!!)</p>
 <p><b>STIMOLANTE CIRCOLAZIONE SANGUE</b>: Aglio, Ginkgo Biloba, Melograno</p>
 <p><b>STITICHEZZA O STIPSI</b>: Aloe, Cicoria</p>
 <p><b>STOMATITE</b>: Aloe</p>
 <p><b>TACHICARDIA DA NEVROSI</b>: Biancospino, Melissa</p>
+<p><b>TENESMO VESCICALE</b>: Chelidonia (!!)</p>
 <p><b>TONICO GENERALE</b>: Rosmarino</p>
-<p><b>TONSILLITE</b>: Rosa Canina, Timo Volgare</p>
+<p><b>TONSILLITE</b>: Rosa Canina, Timo Volgare, Timo Serpillo</p>
 <p><b>TOSSI CONVULSE E PERTOSSE</b>: Edera Helix, Elicriso</p>
 <p><b>TREMORI E VERTIGINI PSICOTICHE</b>: Melissa</p>
+<p><b>TRICOFILO</b>: Bardana, Equiseto, Ippocastano, Rosmarino</p>
 <p><b>TROMBOSI E OSTRUZIONE VASCOLARE</b>: Aglio</p>
-<p><b>TUMORE MALIGNO o CANCRO</b>: Salice</p>
+<p><b>TUMORE MALIGNO o CANCRO</b>: Aloe, Curcuma, Salice</p>
 <p><b>TUSSIFUGO</b>: Edera Helix</p>
 <p><b>ULCERA (PEPTICA - GASTRICA - DUODENALE)</b>: Aloe, Camomilla Matricaria</p>
+<p><b>USTIONI E SCOTTATURE [ANCHE SOLARI O DA FREDDO]</b>: Aloe, Iperico</p>
+<p><b>VASOCOSTRITTORE</b>: Chelidonia (!!)</p>
 <p><b>VASODILATATORE CORONARICO</b>: Biancospino</p>
 <p><b>VASOPROTETTORE CAPILLAROTROFO</b>: Ginkgo Biloba, Ippocastano</p>
-<p><b>VERRUCHE E CALLOSITÀ</b>: Thuja</p>
-<p><b>VERTIGINI</b>: Biancospino</p>
+<p><b>VERRUCHE E CALLOSITÀ</b>: Thuja, Chelidonia</p>
+<p><b>VERTIGINI</b>: Biancospino, Ginkgo Biloba, Iperico</p>
+<p><b>VESCICANTE [USO ESTERNO]</b>: Aglio</p>
 <p><b>VOMITI INCOERCIBILI E CINETOSI</b>: Zenzero</p>
+</body></html>
 
         </div>
 
