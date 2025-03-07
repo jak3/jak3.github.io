@@ -5,7 +5,7 @@ import        Control.Monad         (forM_)
 import        Data.List             (isInfixOf)
 import        Data.Map              (keys, elems, lookup)
 import        Data.Maybe            (mapMaybe)
-import        Text.Pandoc
+
 import        System.FilePath.Posix (splitFileName)
 
 import        Config
@@ -148,36 +148,24 @@ indexBehavior l = do
 postBehavior :: Language -> Rules ()
 postBehavior l = do
   route   $ setExtension "html"
-  compile $ pandocCompilerWith withLinkAtt withToc
+  compile $ pandocCompiler
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/post.html") (postCtxWithLanguage l)
       >>= loadAndApplyTemplate "templates/disqus.html"                                    defaultContext
       >>= loadAndApplyTemplate "templates/default.html"                                  (postCtxWithLanguage l)
       >>= relativizeUrls
       >>= removeIndexHtml
-  where
-    withLinkAtt = defaultHakyllReaderOptions
-      { readerDefaultImageExtension = "+link_attributes"
-      }
-    withToc = defaultHakyllWriterOptions
-        { writerTableOfContents = True
-        , writerTemplate        = Just "$toc$\n$body$"
-        }
 
 commonBehavior :: Language -> String -> Rules ()
 commonBehavior l template = do
   route   $ setExtension "html"
-  compile $ pandocCompilerWith withLinkAtt defaultHakyllWriterOptions
+  compile $ pandocCompiler
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ template) (postCtxWithLanguage l)
       >>= loadAndApplyTemplate "templates/disqus.html"                                defaultContext
       >>= loadAndApplyTemplate "templates/default.html"                              (postCtxWithLanguage l)
       >>= relativizeUrls
       >>= removeIndexHtml
-  where
-    withLinkAtt = defaultHakyllReaderOptions
-      { readerDefaultImageExtension = "+link_attributes"
-      }
 
 reviewBehavior :: Language -> Rules ()
 reviewBehavior l = commonBehavior l "/review.html"
@@ -201,20 +189,12 @@ spagyBehavior l = do
 globalBehavior :: Language -> Rules ()
 globalBehavior l = do
   route   $ setExtension "html"
-  compile $ pandocCompilerWith withLinkAtt withToc
+  compile $ pandocCompiler
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/social.html")   (defaultCtxWithLanguage l)
       >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/donation.html") (defaultCtxWithLanguage l)
       >>= loadAndApplyTemplate "templates/default.html" (defaultCtxWithLanguage l)
       >>= relativizeUrls
-  where
-    withLinkAtt = defaultHakyllReaderOptions
-      { readerDefaultImageExtension = "+link_attributes"
-      }
-    withToc = defaultHakyllWriterOptions
-        { writerTableOfContents = True
-        , writerTemplate        = Just "$toc$\n<hr>\n$body$"
-        }
 
 archiveBehavior :: String -> Language -> Rules ()
 archiveBehavior dirSubject l = do
