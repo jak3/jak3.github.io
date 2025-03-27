@@ -58,58 +58,85 @@ e disse una parola a bassa voce.</p>
 </blockquote>
 <p>Elenco <a href="../../../static/pages/prop.html"><strong>Disturbo -&gt; Pianta di guarigione</strong></a></p>
 
-<script>
-
-  function plantTemplate(pianta) {
-      return `
-  <div class="group group-m group-column border border-radius
- background-light-50 border-color-success-100 margin-m padding-m" id="pianta-${pianta.nome}">
-    <ul>
-       <li><h3>${pianta.nome}</h3></li>
-       ${pianta.pianeti ? `<li>${pianta.pianeti}</li>` : ""}
-       ${pianta.segni ? `<li>${pianta.segni}</li>` : ""}
-       <li>${pianta.descrizione.replace(/\n/g, "<br />")}</li>
-    </ul>
-  </div>
-         `;
-    }
-
-  function search_word(){
-      input = document.getElementById('input_w');
-      filter = input.value.toUpperCase();
-      document.querySelectorAll('[id^=pianta]').forEach(pianta => {
-          content = pianta.textContent.replace(/\s+/g, '').toUpperCase()
-          pianta.style.display = content.indexOf(filter) > -1 ? "" : "none";
-        });
-    }
-
-$(document).ready(function(){
-  $.getJSON("/static/plants.json", function(plants){
-      plants = plants.filter(plant => isNaN(plant.seq) == false);
-      $(plants.map(plantTemplate).join("")).appendTo("#plants");
-      $(plants.map(plant => plant.nome).filter((v,i,a) => a.indexOf(v) ===
-          i).sort().map(plant => `<li id="pianta-${plant}" class="border
- border-radius"><b class="padding-xxs">${plant}</b></li>`).join("")).appendTo("#plants_list");
-  });
-});
-</script>
+<button class="border border-radius cursor-pointer z-index-high display-none
+               transition-medium position-fixed position-bottom-right margin-xl
+               border-color-success-100 font-size-xl font-weight-extra-bold" id="back-to-list" onclick="scrollToPlantsList()" title="Torna all'elenco">↑</button>
 
 <div class="group group-space-evenly group-m margin-m">
   <ul>
     <li>Filtra:</li>
-    <li><input type="text" onkeyup="search_word()" placeholder="parola da cercare..." id="input_w"></li>
+    <li><input type="text" id="search_input" placeholder="parola da cercare..." oninput="searchPlants()"></li>
   </ul>
 </div>
 
-<div class="group group-m border border-radius
- background-light-50 border-color-success-100 margin-m padding-m">
-  <ul id="plants_list">
+<div class="group group-m group-column border border-radius background-light-50 border-color-success-100 margin-m padding-m" id="plants_list"></div>
+<div id="plants"></div>
 
-  </ul>
-</div>
+<script>
+  function plantTemplate(pianta) {
+    return `
+        <div class="group group-m group-column border border-radius background-light-50 border-color-success-100 margin-m padding-m" id="pianta-${pianta.nome}">
+            <h3>${pianta.nome}</h3>
+            ${pianta.pianeti ? `<p><strong>Pianeti:</strong> ${pianta.pianeti}</p>` : ""}
+            ${pianta.segni ? `<p><strong>Segni:</strong> ${pianta.segni}</p>` : ""}
+            <p>${pianta.descrizione.replace(/\n/g, "<br />")}</p>
+        </div>
+        `;
+  }
 
-<div id="plants">
-</div>
+  function searchPlants() {
+    const input = document.getElementById('search_input');
+    const filter = input.value.toUpperCase();
+    const plantCards = document.querySelectorAll('[id^=pianta]');
+
+    plantCards.forEach(pianta => {
+      const content = pianta.textContent.replace(/\s+/g, '').toUpperCase();
+      pianta.style.display = content.includes(filter) ? "" : "none";
+    });
+  }
+
+  function scrollToPlantsList() {
+    const plantsList = document.getElementById('plants_list');
+    plantsList.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function toggleBackToListButton() {
+    const backToListButton = document.getElementById('back-to-list');
+    const plantsList = document.getElementById('plants_list');
+
+    const shouldShowButton = window.scrollY > plantsList.offsetHeight + plantsList.offsetTop;
+    backToListButton.style.display = shouldShowButton ? 'flex' : 'none';
+  }
+
+  $(document).ready(function() {
+
+    window.addEventListener('scroll', toggleBackToListButton);
+
+    $.getJSON("/static/plants.json", function(plants) {
+      // Filtra solo le piante con seq numerico
+      plants = plants.filter(plant => !isNaN(plant.seq));
+
+      // Crea la lista dei bottoni con i nomi delle piante
+      const plantNames = [...new Set(plants.map(plant => plant.nome))].sort();
+      const plantListHTML = plantNames.map(plant =>
+        `<button onclick="scrollToPianta('${plant}')" class="border
+        border-radius margin-xxs" id="pianta-${plant}-btn"><b class="padding-xxs">${plant}</b></button >`
+      ).join('');
+      $('#plants_list').html(plantListHTML);
+
+      // Crea i dettagli delle piante
+      const plantsHTML = plants.map(plantTemplate).join('');
+      $('#plants').html(plantsHTML);
+    });
+  });
+
+  function scrollToPianta(nomePianta) {
+    const pianta = document.getElementById(`pianta-${nomePianta}`);
+    if (pianta) {
+      pianta.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
 
 
 <center class="padding-top-m">
