@@ -1,17 +1,17 @@
 $body$
 
-<button class="border border-radius cursor-pointer z-index-high display-none
-               transition-medium position-fixed position-bottom-right margin-xl
-               border-color-success-100 font-size-xl font-weight-extra-bold" id="back-to-list"
-                                         onclick="scrollToPlantsList()"
-                                         title="Torna all'elenco">↑</button>
-
 <div class="group group-space-evenly group-m margin-m">
   <ul>
     <li>Filtra:</li>
     <li><input type="text" id="search_input" placeholder="parola da cercare..." oninput="searchPlants()"></li>
   </ul>
 </div>
+
+<button class="border border-radius cursor-pointer z-index-high display-none
+               transition-medium position-fixed position-bottom-right margin-s
+               border-color-success-100 font-size-l font-weight-extra-bold" id="back-to-list"
+               onclick="scrollToPlantsList()"
+               title="Torna all'elenco">↑</button>
 
 <div class="group group-m group-column border border-radius background-light-50 border-color-success-100 margin-m padding-m" id="plants_list"></div>
 <div id="plants"></div>
