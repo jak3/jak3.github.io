@@ -11,7 +11,7 @@ Imparare a imparare. Psicologia e spiritualità sulla Via del Sufi
 Essenze
 -------
 
-  Imparare a imparare comporta l esame delle supposizioni.
+  Imparare a imparare comporta l'esame delle supposizioni.
 
   Dire sì alla via sufi significa dire no alla fuga dalla realtà.
 
@@ -19,7 +19,7 @@ Essenze
 
   Gli uomini di questo mondo hanno un destino stabilito. Quelli che sono spiritualmente evoluti ricevono ciò che non è nel loro destino.
 
-  Non c e nulla da ridire sul 'piacere' in quanto tale; ma esistono molte fonti di piacere, e ricercare il piacere nel contesto di qualcosa di più specifico genera confusione, o peggio ancora. Se ci si lascia ossessionare dai primi stadi di un'attività, qualunque sia, confondendola con la totalità dell'impresa, non si andrà molto lontano.
+  Non c'è nulla da ridire sul 'piacere' in quanto tale; ma esistono molte fonti di piacere, e ricercare il piacere nel contesto di qualcosa di più specifico genera confusione, o peggio ancora. Se ci si lascia ossessionare dai primi stadi di un'attività, qualunque sia, confondendola con la totalità dell'impresa, non si andrà molto lontano.
 
   È perfettamente inutile apportare idee a una mente fin troppo piena di idee. Le istituzioni di studio possono diventare visibili quando la mente comincia a svuotarsi di tutte le idee che ci si fa di ogni cosa.
 
@@ -35,9 +35,9 @@ Essenze
 
   Segreto = coscienza profonda
 
-  Voi supponete implicitamente di essere in grado di trarre profitto da un contatto avvenuto a vostro comodo, o in condizioni imposte da voi. Questo atteggiamento è poco promettente perché non corrisponde a ciò che potrebbe accadere. Un insegnamento ha valore per voi, e in se stesso, solo se vi armonizzate con esso nel modo, nelle circostanze e nel momento più appropriati per un rapporto fecondo. "Anche il pesce non può bere l acqua di mare più di tanto".
+  Voi supponete implicitamente di essere in grado di trarre profitto da un contatto avvenuto a vostro comodo, o in condizioni imposte da voi. Questo atteggiamento è poco promettente perché non corrisponde a ciò che potrebbe accadere. Un insegnamento ha valore per voi, e in sé stesso, solo se vi armonizzate con esso nel modo, nelle circostanze e nel momento più appropriati per un rapporto fecondo. "Anche il pesce non può bere l'acqua di mare più di tanto".
 
-  Nel riferirvi le risposte non vi rendo un servizio, in quanto se le aveste trovate da soli ne avreste avuto un maggior vantaggio. Stando così le cose, per compensare dovrò darvi l opportunità di imparare qualcosa di equivalente con altri mezzi.
+  Nel riferirvi le risposte non vi rendo un servizio, in quanto se le aveste trovate da soli ne avreste avuto un maggior vantaggio. Stando così le cose, per compensare dovrò darvi l'opportunità di imparare qualcosa di equivalente con altri mezzi.
 
   Il cercatore è sempre in equilibrio tra il rifiuto e la fede.
 
@@ -51,15 +51,15 @@ Essenze
 
   C'è un tempo, un luogo e un insieme di partecipanti: l'insegnamento è in funzione di questi elementi. Quando è il momento di essere seri siamo seri. Quando è il momento di lavorare utilizzando ciò che sembra ordinario, dobbiamo farlo.
 
-  L'uomo deve arrivare a capire come vedere se stesso quale realmente è, per poter fare qualcosa nel campo di quello che chiama " ciò che egli potrebbe essere".
+  L'uomo deve arrivare a capire come vedere se stesso quale realmente è, per poter fare qualcosa nel campo di quello che chiama "ciò che egli potrebbe essere".
 
   Ogni uomo è un santo ... Se ha raggiunto il grado di 'gnosi' (conoscenza suprema) che gli permette di comprendere la sua relazione esatta con Dio (Realtà), del quale non è altro che una manifestazione, e di realizzare la sua unità essenziale con l'Unica Realtà.
 
   Chi non può adottare un atteggiamento umile verso ciò che gli viene proposto di studiare, sarà incapace di studiare.
 
-  Per chi vuole imparare l umiltà non è tanto una virtù quanto una necessità.
+  Per chi vuole imparare l'umiltà, non è tanto una virtù, quanto una necessità.
 
-  D.:Si dice spesso che è meglio lasciare che la gente creda a ciò che vuole, piuttosto che rischiare di turbarla.
+  D.: Si dice spesso che è meglio lasciare che la gente creda a ciò che vuole, piuttosto che rischiare di turbarla.
   R.: Se uno crede che il dolore provocato da una crisi di appendice sia opera del demonio, non è giusto lasciarglielo credere, perché potrebbe morirne.
 
   Laddove non esiste buonsenso non c'è saggezza, in quanto questa non può trovare il mezzo per esprimersi.
@@ -74,9 +74,9 @@ Essenze
 
   Chi prega deve essere trasformato dalla preghiera, e questa trasformazione si manifesta in parte sul suo comportamento e nel suo temperamento.
 
-  Possiamo parlare il colpo che arriva dagli altri, ma non sottrarci al male che viene da noi stessi.
+  Possiamo parare il colpo che arriva dagli altri, ma non sottrarci al male che viene da noi stessi.
 
-  Cercare di istruire qualcuno che non è informato a sufficienza sarebbe inutile. "Che importanza hanno i palazzi imponenti, i grandi collegi, i discorsi, i chiostri, le logge, se il cuore non è saggio e se l occhio che vede è assente?" Per cogliere il reale significa dell'esperienza è necessaria anche l'informazione.
+  Cercare di istruire qualcuno che non è informato a sufficienza sarebbe inutile.  "Che importanza hanno i palazzi imponenti, i grandi collegi, i discorsi, i chiostri, le logge, se il cuore non è saggio e se l'occhio che vede è assente?" Per cogliere il reale significato dell'esperienza è necessaria anche l'informazione.
 
   Il ruolo del Maestro è di diventare superfluo aiutando l'allievo a superare gli ostacoli della ristrettezza e superficialità mentale.
 
@@ -92,7 +92,7 @@ Essenze
 
   A proposito dei rituali... Figlio mio, non aspettarti una ricompensa da Omar, quando lavori in casa di Zaid.
 
-  Potete sconfiggere l automatismo dell'uomo aspirando a "essere come eravate, là dove eravate, prima di essere qui".
+  Potete sconfiggere l'automatismo dell'uomo aspirando a "essere come eravate, là dove eravate, prima di essere qui".
 
   Potete imparare solo ciò che può esservi insegnato.
 
@@ -110,16 +110,16 @@ Essenze
   Per chi sta all'erta un cenno è sufficiente; mille consigli non bastano al negligente.
 
   Una goccia caduta da una nube di pioggia
-  Rimase sgomentata di fronte al vasto mare.
+  rimase sgomentata di fronte al vasto mare.
   "Nell'immensità dell'oceano, chi sono io?
   Se EGLI è, è vero, io non sono!".
   Mentre così disprezzava se stessa,
-  Una conchiglia la nutri al suo seno;
-  E tanto i cieli si dettero da fare,
-  Che divenne una bellissima perla reale.
+  una conchiglia la nutrì al suo seno;
+  e tanto i cieli si dettero da fare,
+  che divenne una bellissima perla reale.
   Sì innalzò dal suo stato inferiore
-  E bussò alla porta del nulla,
-  Finché l'Essere giunse da lei.
+  e bussò alla porta del nulla,
+  finché l'Essere giunse da lei.
 
   Dovete cercare di essere pazienti, sia con le cose che volete sia con quelle che non volete: entrambe vi metteranno alla prova. Praticate i due tipi di pazienza, e vi meriterete l'appellativo di uomo.
 
@@ -127,7 +127,7 @@ Essenze
 
   L'umiltà consiste nell'accettare dalla verità la verità sulla verità.
 
-  Nell'uomo convivono contemporaneamente il bisogno di sapere se ha ragione e la colazione a credere di avere ragione e a convincerne gli altri.
+  Nell'uomo convivono contemporaneamente il bisogno di sapere se ha ragione e la convinzione a credere di avere ragione e a convincerne gli altri.
 
   1. La Verità non ha forma.
   2. I mezzi con i quali gli uomini possono percepire la Verità assumono varie forme.
@@ -141,9 +141,9 @@ Essenze
   Se fate degli esercizi spirituali senza essere ancora in grado di distinguere tra questo tipo di esercizio e le attività emotive, non farete altro che incrementare la vostra vita emotiva.
 
   Il mondo è una montagna, i nostri atti sono un grido;
-  L'eco del grido ci ritorna,
-  L'ombra che il muro proietta è lunga,
-  Ma sempre al muro torna.
+  l'eco del grido ci ritorna,
+  l'ombra che il muro proietta è lunga,
+  ma sempre al muro torna.
 
   Il nutrimento è la contemplazione di Lui, il Vivente.
 
@@ -154,15 +154,14 @@ Essenze
 
   Non è facile essere onesti, naturalmente, perché la vera onestà viene praticata spontaneamente quand'è la manifestazione di una realtà interiore, non quando scaturisce da un senso del dovere o costituisce un problema.
 
-  Tre cose mi permetto di trionfare sul mio avversario: essere felice quando lui ha ragione; essere triste quando ha torto; cercare di non comportarmi stupidamente con lui.
+  Tre cose mi permettono di trionfare sul mio avversario: essere felice quando lui ha ragione; essere triste quando ha torto; cercare di non comportarmi stupidamente con lui.
 
   Accettare l'ignoranza degli altri ed evitare che debbano sopportare la nostra; dar loro una parte di ciò che si ha, senza aspettarsi nulla in cambio.
 
   D.: Ma alcuni sostengono che esiste solo una scala: la loro.
   R.: Hanno ragione se lo fanno per concentrare l'attenzione su una scala di soccorso che adempia effettivamente a questa funzione. Se la scala adempie alla sua funzione di scala, allora tutto si svolge come se fosse l'unica vera scala. E, in pratica, lo è.
 
-  Nessuno ha trovato il modo di elevarsi
-  Prima di aver trovato lo scalino dell'aspirazione.
+  Nessuno ha trovato il modo di elevarsi prima di aver trovato lo scalino dell'aspirazione.
   Cercate la tappa che vi permetta di salire sulla Luna.
   Nessuno beve la pioggia direttamente dal pozzo.
 
@@ -172,7 +171,7 @@ Essenze
 
   Se continuate, per abitudine, a emettere giudizi in un campo dove ciò non è possibile, giudicherete in un modo che non corrisponde ai vostri bisogni.
 
-  La lettura non cambia che non è pronto per cambiare.
+  La lettura non cambia chi non è pronto per cambiare.
 
   Ho una gran voglia di commentare le Tradizioni, ma non voglio farlo finché il mio desiderio non sarà diminuito.
 
@@ -180,17 +179,15 @@ Essenze
 
   Nessuno raggiunge la Verità prima di essere stato dichiarato infedele da mille persone sincere. Sincerità che è attribuita da loro stessi, perché credono in certe cose indipendentemente dal fatto che le conoscano o no.
 
-  L'atto realmente sinceri è quello che non è conosciuto da nessun angelo incaricato di consegnare (le buone azioni), da nessun demone (che ne sarebbe afflitto), e neppure dall'io (che ne trarrebbe orgoglio).
+  L'atto realmente sincero è quello che non è conosciuto da nessun angelo incaricato di consegnare (le buone azioni), da nessun demone (che ne sarebbe afflitto), e neppure dall'io (che ne trarrebbe orgoglio).
 
   Bisognerebbe considerare le conferenze, i colloqui e altre cose simili, come funzionali e non descrittive.
 
-  Benché il 'mondo' non sia reale – dato che ciò che percepiamo dipende dalle nostre percezioni sensoriali, che possono essere difettose condizionate o alterate (e quindi il mondo non è in alcun modo assoluto) – esso può essere utilizzato a fini educativi: è ciò che si intende per "funzione strumentale".
+  Benché il 'mondo' non sia reale – dato che ciò che percepiamo dipende dalle nostre percezioni sensoriali, che possono essere difettose, condizionate o alterate (e quindi il mondo non è in alcun modo assoluto) – esso può essere utilizzato a fini educativi: è ciò che si intende per "funzione strumentale".
 
   Ogni granello di polvere è una coppa in cui si può vedere l'intero universo.
 
-  Un buon artigiano usa lo stesso metallo
-  Sia per forgiare un ferro di cavallo
-  Sia per costruire uno specchio per il Re.
+  Un buon artigiano usa lo stesso metallo sia per forgiare un ferro di cavallo sia per costruire uno specchio per il Re.
 
   Se il tuo Maestro ti ordina di tingere col vino il tuo tappeto da preghiera, fallo.
 
@@ -215,14 +212,13 @@ Essenze
 
   La descrizione di un'incapacità non comprende la tecnica per superarla.
 
-  Metti la tua pasta al forno quando è caldo,
-  Ma prima assicurati che si tratti veramente di pasta.
+  Metti la tua pasta al forno quando è caldo, ma prima assicurati che si tratti veramente di pasta.
 
   Alcune persone, dopo aver tratto il massimo profitto da ogni tecnica, cominciano a 'regredire'.
 
   L'aspettativa rappresenta un altro aspetto dell'attaccamento alla forma.
 
-  Gli asceti rinunciano a questo mondo, ma i Sufi rinunciano anche all'attesa dell'altro mondo. Gli aceri aspirano ai piaceri del Paradiso, ma perfino in Paradiso il Sufi è uno straniero.
+  Gli asceti rinunciano a questo mondo, ma i Sufi rinunciano anche all'attesa dell'altro mondo. Gli asceti aspirano ai piaceri del Paradiso, ma perfino in Paradiso il Sufi è uno straniero.
 
   L'apprendista deve sapere che guadagna più dagli errori del suo Maestro, anche se questi ne fa, che dalla propria giustezza, anche se è effettivamente giusto.
 
@@ -244,9 +240,9 @@ Essenze
 
   I dogmi di ieri sono le impossibilità di domani.
 
-  Il peggiore degli uomini è colui che sembra un servitore di Dio, ma che in realtà non Lo è; e il più nobile è colui che non sembra un devoto di Dio, ma che in realtà lo è.
+  Il peggiore degli uomini è colui che sembra un servitore di Dio, ma che in realtà non lo è; e il più nobile è colui che non sembra un devoto di Dio, ma che in realtà lo è.
 
-  La fede è credere, in cuor proprio, nella conoscenza che proviene dall' invisibile.
+  La fede è credere, in cuor proprio, nella conoscenza che proviene dall'invisibile.
 
   Parla un Maestro spirituale:
   "Il mio primo discepolo era così debole che è stato ucciso dagli esercizi. Il secondo è diventato matto perché metteva troppa energia nella pratica della meditazione. Il terzo è diventato completamente ebete a causa della contemplazione. Il quarto è ancora del tutto normale".
@@ -261,7 +257,7 @@ Essenze
 
   Gli individui amano parlare continuamente di ciò che amano, sia in bene che in male, e, indipendentemente dal fatto che il loro giudizio sia positivo o no, la verità è che vi sono molto attaccati. "Se rifiutassi di avere a che fare con questo mondo non ne parleresti affatto, né in bene né in male".
 
-  Se non siete in grado di mettere in dubbio le vostre supposizioni, allora dovete accettare di essere annoverati fra quelle persone alcune delle posso avere ragione, ma molte delle quali, condizionate dal settarismo, si sbagliano certamente.
+  Se non siete in grado di mettere in dubbio le vostre supposizioni, allora dovete accettare di essere annoverati fra quelle persone che possono avere ragione, ma molte delle quali, condizionate dal settarismo, si sbagliano certamente.
 
   Presso i Sufi, l'iniziazione dell'allievo — il patto di fedeltà al Maestro — ha luogo molti anni dopo la sua ammissione all'Ordine derviscio. Ciò perché l'allievo non può impegnarsi veramente negli studi interiori prima di avere una certa conoscenza, e prima di aver imparato alcune cose. Spingere qualcuno a impegnarsi su una via che non è ancora in grado di seguire è tipico dell'ignorante o dell'impostore.
 
@@ -283,7 +279,7 @@ Essenze
 
   Togli ciò che copre il tuo viso, e allora mi vedrai come lo specchio del tuo vero viso, e saprai che sono uno specchio.
 
-  ..ciò che egli mima sono i lineamenti dell'allievo, affinché quest'ultimo possa vedere il proprio riflesso e reagire di conseguenza.
+  Ciò che egli mima sono i lineamenti dell'allievo, affinché quest'ultimo possa vedere il proprio riflesso e reagire di conseguenza.
 
   L'Assoluto non ha bisogno del relativo, salvo che per la sua manifestazione, ma il relativo ha bisogno dell'Assoluto per la sua esistenza.
 
@@ -293,17 +289,20 @@ Essenze
 
   Per quanto riguarda l'Insegnamento superiore, l'uomo deve imparare a distinguere tra i suoi "desideri" e i suoi "bisogni".
 
-  4 trappole da evitare per apprendere dai gruppi e dalle riunioni:
-  Ingratitudine nella buona sorte.
-  Impazienza nella cattiva sorte.
-  Scontentezza della propria sorte.
-  Esitazione nel servire i propri simili.
+  Quattro trappole da evitare per apprendere dai gruppi e dalle riunioni:
+  1. Ingratitudine nella buona sorte.
+  2. Impazienza nella cattiva sorte.
+  3. Scontentezza della propria sorte.
+  4. Esitazione nel servire i propri simili.
 
   La "rivelazione" deve avvenire — e avviene — a un livello e nelle condizioni adatti allo scopo: l'evoluzione della specie umana.
 
   Quand'ero bambino, entrai un giorno nello studio di mio padre lasciando aperta la porta. Egli non mi chiese di chiuderla, ma disse semplicemente: "Oh, credo d'aver lasciato aperta la porta. Puoi chiuderla, per piacere?".
 
   Parlare di Dio.. "A che serve parlare di pulizia quando si è occupati a togliere la spazzatura? La spazzatura viene dopo gli indispensabili preliminari."  Ibn el-Arabi
+
   "Accusare qualcuno che sta preparando una patata, di perdere tempo a sbucciarla è pura ignoranza, benché possa sembrare una descrizione della situazione." Rabia
+
   È importante parlare di qualcosa, e a maggior ragione di Dio, con riserva, a meno di essere autorizzati a farlo.
-  "L'uomo attraverso tre stati spirituali. Nel primo non si occupa affatto di Dio; adora e serve donne e uomini, beni e bambini, pietre e argilla. Dio, non lo adora. Quando acquisisce un po' di conoscenza e di coscienza, allora egli non serve altro che Dio. Poi, dopo aver ulteriormente progredito in questo stato, diventa silenzioso; egli non dice: "Non servo Dio", e non dice neanche "Servo Dio", perché ha trasceso questi due livelli".
+
+  "L'uomo attraversa tre stati spirituali. Nel primo non si occupa affatto di Dio; adora e serve donne e uomini, beni e bambini, pietre e argilla. Dio, non lo adora. Quando acquisisce un po' di conoscenza e di coscienza, allora egli non serve altro che Dio. Poi, dopo aver ulteriormente progredito in questo stato, diventa silenzioso; egli non dice: "Non servo Dio", e non dice neanche "Servo Dio", perché ha trasceso questi due livelli".
