@@ -305,4 +305,4 @@ Essenze
 
   È importante parlare di qualcosa, e a maggior ragione di Dio, con riserva, a meno di essere autorizzati a farlo.
 
-  "L'uomo attraversa tre stati spirituali. Nel primo non si occupa affatto di Dio; adora e serve donne e uomini, beni e bambini, pietre e argilla. Dio, non lo adora. Quando acquisisce un po' di conoscenza e di coscienza, allora egli non serve altro che Dio. Poi, dopo aver ulteriormente progredito in questo stato, diventa silenzioso; egli non dice: "Non servo Dio", e non dice neanche "Servo Dio", perché ha trasceso questi due livelli".
+  L'uomo attraversa tre stati spirituali. Nel primo non si occupa affatto di Dio; adora e serve donne e uomini, beni e bambini, pietre e argilla. Dio, non lo adora. Quando acquisisce un po' di conoscenza e di coscienza, allora egli non serve altro che Dio. Poi, dopo aver ulteriormente progredito in questo stato, diventa silenzioso; egli non dice: "Non servo Dio", e non dice neanche "Servo Dio", perché ha trasceso questi due livelli.
