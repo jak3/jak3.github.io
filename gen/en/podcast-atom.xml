@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>condensō [en]</title>
-    <link href="https://jak3.github.io/gen/en/pod-atom.xml" rel="self" />
+    <link href="https://jak3.github.io/gen/en/podcast-atom.xml" rel="self" />
     <link href="https://jak3.github.io" />
-    <id>https://jak3.github.io/gen/en/pod-atom.xml</id>
+    <id>https://jak3.github.io/gen/en/podcast-atom.xml</id>
     <author>
         <name>Giacomo Mantani</name>
         

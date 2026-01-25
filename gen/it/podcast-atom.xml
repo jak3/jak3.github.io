@@ -1,17 +1,464 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>condensō [it]</title>
-    <link href="https://jak3.github.io/gen/it/pod-atom.xml" rel="self" />
+    <link href="https://jak3.github.io/gen/it/podcast-atom.xml" rel="self" />
     <link href="https://jak3.github.io" />
-    <id>https://jak3.github.io/gen/it/pod-atom.xml</id>
+    <id>https://jak3.github.io/gen/it/podcast-atom.xml</id>
     <author>
         <name>Giacomo Mantani</name>
         
         <email>name.surname on gmail</email>
         
     </author>
-    <updated>2021-02-15T00:00:00Z</updated>
+    <updated>2024-05-20T00:00:00Z</updated>
     <entry>
+    <title>Lo specchio della sapienza Rosacrociana</title>
+    <link href="https://jak3.github.io/mica/podcast/it/2024-05-20-lo-specchio-sapienza-rosacrociana.html" />
+    <id>https://jak3.github.io/mica/podcast/it/2024-05-20-lo-specchio-sapienza-rosacrociana.html</id>
+    <published>2024-05-20T00:00:00Z</published>
+    <updated>2024-05-20T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<h2 id="lo-specchio-della-sapienza-rosacrociana">Lo Specchio della Sapienza Rosacrociana</h2>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/lejdem0nm1330lhe7sxi7/lo-spacchio-della-sapienza-rosacrociana.mp3?rlkey=w3sxjamzzqn3poctbolyfvxgb&st=q8nbys65&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>]]></summary>
+</entry>
+<entry>
+    <title>L'Angelo della finestra di Occidente</title>
+    <link href="https://jak3.github.io/mica/podcast/it/2023-12-01-angelo-finestra-occidente.html" />
+    <id>https://jak3.github.io/mica/podcast/it/2023-12-01-angelo-finestra-occidente.html</id>
+    <published>2023-12-01T00:00:00Z</published>
+    <updated>2023-12-01T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<h2 id="langelo-della-finestra-di-occidente">L’Angelo della Finestra di Occidente</h2>
+<ol>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/1hmwl927vqlebt5jwv4vi/1.mp3?rlkey=wlg9pal888bz0pblunrvs1y0n&st=i5wyjf6a&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/d51spl79co544nm4ov1rq/2.mp3?rlkey=z45rdgv2nmyei45kcq6vlyd8h&st=ysgd7buz&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/36roglsk7jkjcizpk1k3y/3.mp3?rlkey=4117ds0ljns4q2rbcu16ihpmr&st=1cejgspb&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/8bsqjdmrq8rh8ielokd0a/4.mp3?rlkey=ngbscdwas52sfqm6cidwk5gle&st=3s6yxxz3&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/1u23bqqmlhxyl5zkc3ypn/5.mp3?rlkey=xex6fqcpvir3iome4nhf9s5z8&st=9shb91n7&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/9lx3drpmjjptf0hvwepwi/6.mp3?rlkey=5ecj0ppulstxcqyq48ck7e3uo&st=dzkv517l&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/stvw69cp2cefldbaaz4w0/7.mp3?rlkey=1o8kh48w24t6g16ltjo7c4qae&st=fa4xcjoq&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/98bo19xd57vf7w9m7wwa6/8.mp3?rlkey=nhfg4o3gllexxcc8m8k002nqg&st=kobzbzmr&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/tjq0j1nbqc42k5g9gb5oi/9.mp3?rlkey=4q741222numv52tlg1yxtyb41&st=hd186ed9&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/kz63uwakj1kqnpc7o9ikt/10.mp3?rlkey=8fn18ep4ufx7hqgnnd4lnrv15&st=1bvq450e&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/loaktowh1a1apd9617gp5/11.mp3?rlkey=27byl61miw7wpvwn7110qzgd7&st=qu437uwy&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/4z0fyq2g9ftx7n7adv0bx/12.mp3?rlkey=g8bmsbegookql0uljry8gsfjm&st=jlj3subj&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/n4gvxfsr72vpd9iuoub3j/13.mp3?rlkey=r320ffd17cs7xqnb7cwe2n3je&st=kx9ehngi&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/3tuwvkpm9b1mt1ktq1pfs/14.mp3?rlkey=0yafkkwa8f95regd0yzwjoc7w&st=vx8lrk55&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/4xlmqbm982mm7djoofmj7/15.mp3?rlkey=t3vr6u6kwn77w6n6emsgde3dz&st=046xbyeo&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/0t6sb4cpy0oq86m96gbfd/16.mp3?rlkey=3vkrdmnhzd0030mu4iee9enn4&st=vrunqged&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/m5jg43a3ggct9yklljgcy/17.mp3?rlkey=w89kf0ocmmulwn8v5fpc7qk9k&st=ron2m8xe&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/26y4jd0ma04zgf3hxzo1z/18.mp3?rlkey=g41zhvaxj06u03ktfgqzd5qsk&st=ige5bpdo&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/lhrgg9gv4dltyxxttlfrs/19.mp3?rlkey=rvp4xwckj5etotfnmsvs4ta2c&st=vhu69ivn&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/ku9hl0pvdcolkq5vdxq2c/20.mp3?rlkey=jhjg3e6v2wgjg49cx39yel26g&st=4alkk04r&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/w0ovq9ggem7wfka5h646h/21.mp3?rlkey=lc42twoamfo8wehs8g6hm151k&st=81lo2ls5&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/lp3ka1bokhts7z1wljiy3/22.mp3?rlkey=7fhbg21kcg128r00curgb0cze&st=05sbeknp&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/h1bt6a4j9o8xp0fankkqz/23.mp3?rlkey=p1786n99srhjfbpumfcbn5fet&st=17657h89&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+</ol>]]></summary>
+</entry>
+<entry>
+    <title>Ciò che Resta del Fuoco</title>
+    <link href="https://jak3.github.io/mica/podcast/it/2023-11-23-cio-che-resta.html" />
+    <id>https://jak3.github.io/mica/podcast/it/2023-11-23-cio-che-resta.html</id>
+    <published>2023-11-23T00:00:00Z</published>
+    <updated>2023-11-23T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<h2 id="ciò-che-resta-del-fuoco">Ciò Che Resta Del Fuoco</h2>
+<p>Ciò che resta del fuoco è un piccolo testo polifonico, scritto da Jacques
+Derrida e tradotto da Stefano Agosti e pubblicato dalla casa editrice SE.</p>
+<p>Il retro di copertina riporta:</p>
+<p>Qui leggi il retro copertina.</p>
+<p>Qui leggi la nota alla traduzione.</p>
+<p>Prima di cominciare a leggere il testo, ci terrei a precisare che il mezzo, in
+questo caso uditivo, pone un ulteriore strato di astrazione e traduzione allo
+scritto. Bocca e orecchie, riprendono la cenere che fu data agli occhi e
+che essi stessi hanno prodotto, nella lettura di due testi paralleli, che
+sembrano chiedere di essere frizionati per l’accensione del fuoco, quel fuoco
+che produce la cenere qui, o là, qui e là.</p>
+<ol>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/15xf1rcwibx9s7bcz51wg/0.mp3?rlkey=4v752b7teag4qevhx74m67at0&st=hegr0iuj&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/x3699kaeka0twkuzsld37/1.mp3?rlkey=l2ctqz9qeh0wvu9vqk36czd3d&st=53bmqhgo&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/do9227gzlsf2ajh1oq2uh/2.mp3?rlkey=izl3b1ktqxc04ub3hdm75wfbz&st=5sp4if7k&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/s3injs0f9alsjwetdl9nf/3.mp3?rlkey=x7petwfjqixz5qtpxv7332h8s&st=pifut96t&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element.
+</p>
+</audio>
+</li>
+</ol>]]></summary>
+</entry>
+<entry>
+    <title>HerBak Cecio</title>
+    <link href="https://jak3.github.io/mica/podcast/it/2023-06-13-herbak-cecio.html" />
+    <id>https://jak3.github.io/mica/podcast/it/2023-06-13-herbak-cecio.html</id>
+    <published>2023-06-13T00:00:00Z</published>
+    <updated>2023-06-13T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<h2 id="herbak-cecio">HerBak Cecio</h2>
+<ol>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/wvm9b3zj0z6aq6f3kdry3/1.mp3?rlkey=kwkgqlja6hqo2biw7pk300c0i&st=wmt3w5ct&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/q831z3lymvgh33c33kz58/2.mp3?rlkey=kgntqbncnb3r4bgtm4yuzzpzz&st=apo2ovfn&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/1cz8q9sfkndqclgckmbmh/3.mp3?rlkey=5poq9qdk9mpqr2oxr9rxb0yg2&st=k4h6urki&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/h36p5d6xenyt30qoywpht/4.mp3?rlkey=yhf5dnstgggx5leywv9nzwjl0&st=rou127st&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/8m61ueiqdehtn26f7u1jz/5.mp3?rlkey=cxf82jy4ngvxdtmm3gppa93b4&st=5s9n28d8&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/eis5460nd7s1ehg4cntzp/6.mp3?rlkey=sdbtpvwa1aqsqzzsozz04qb7a&st=htcrkb4k&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/vjnipqz0glcieyfjlh9w3/7.mp3?rlkey=zdyr0anqzd6x7shran81vkiq7&st=0ad3nf7u&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/h7phgww5kf8md8d8z2q1b/8.mp3?rlkey=rgisdq9al7kwrs59y7s4cb4vl&st=tajcqf63&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/oinyca9arw8ocoe50r7xi/9.mp3?rlkey=tb6kde9jf0pa6mestdqyjjy91&st=qtwhhjr7&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/y25h8cm60jrj3q1t2pe27/10.mp3?rlkey=icakldwzqldnbu3wyp99of4aw&st=0pn4u73d&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/b1n4xdxbag4uo84wlcs8a/11.mp3?rlkey=canivd225qw1vqsq5cs7rkcon&st=62fub9uo&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/l576xca6qje8oqu4myrhy/12.mp3?rlkey=7ldvpf00pwom1xaxgrakxxfur&st=i1d5mq2k&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/h5g9865h70ll9y4nnh0xh/13.mp3?rlkey=wiagltw2z5yxk9din1uqrxw47&st=c1zp76kf&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/lnff5nsum2e6o2jo7b26q/14.mp3?rlkey=sdq5wfgi5zbopwj8df59m5ujc&st=ynolt5on&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/nut9v2dd5ak8afdglbazb/15.mp3?rlkey=lxcxp92f3l4pdmh575108x4a4&st=fmjd3rsm&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/0gbnf4s80g5dcfiuqn6rx/16.mp3?rlkey=ppgs05qth1a86fxt9xjb07bzy&st=2o1i6n5n&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/dzlsfp1im3sz80vdhw4d4/17.mp3?rlkey=4496wopf0qbpn5dfxkbn2f2zw&st=kxavjon9&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/ovod8nd3zgnvgdtp7n0dw/18.mp3?rlkey=scl0yi6ez5voqqgz0do1j3yfr&st=uyeslj2u&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/zznc6rbmqyy5l97vio3e1/19.mp3?rlkey=77zs9eskpz3vfil54vrp7yanh&st=a4pvfomt&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/4awmayjothjw3dpna49wb/20.mp3?rlkey=4oqirflfxjjgh2x4mnokjbmul&st=0kwfbd2s&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/u77oea1gk1rmekkxr8vnd/21.mp3?rlkey=ckr5lyxe40558owy8npdqlufd&st=zduzkluq&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+<li>
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/ba7fiibwg3gg411lkbwt5/22.mp3?rlkey=joybvokjetkb2eloicmmleor9&st=7v8vl7ny&raw=1" type="audio/mpeg">
+<p>
+Your browser does not support the audio element
+</p>
+</audio>
+</li>
+</ol>]]></summary>
+</entry>
+<entry>
     <title>Un Anno Con (da di) Rumi</title>
     <link href="https://jak3.github.io/mica/podcast/it/2021-02-15-mathnavi.html" />
     <id>https://jak3.github.io/mica/podcast/it/2021-02-15-mathnavi.html</id>
