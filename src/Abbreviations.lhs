@@ -23,7 +23,7 @@ the filtered one.
 > abbreviationFilter :: String -> String
 > abbreviationFilter = replaceAll "%[a-zA-Z0-9_]*" newnaming
 >   where
->     newnaming matched = fromMaybe matched (M.lookup (tail matched) abbreviations)
+>     newnaming matched = fromMaybe matched (M.lookup (drop 1 matched) abbreviations)
 
 All the abbreviations are declared here:
 

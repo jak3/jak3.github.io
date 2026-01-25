@@ -13,6 +13,7 @@ instance Show Language where
   show English = "en"
   show Italian = "it"
 
+langs :: [Language]
 langs = enumFrom English
 
 dbTranslations :: (M.Map Key Translations)
@@ -21,14 +22,14 @@ dbTranslations = M.fromList
   , ("contacts"     , M.fromList [(English, "Contacts"    ), (Italian, "Contatti"  )])
   , ("archive"      , M.fromList [(English, "Archive"     ), (Italian, "Archivio"  )])
   , ("art"          , M.fromList [(English, "Art"         ), (Italian, "Arte"      )])
-  , ("review"       , M.fromList [(English, "Review"      ), (Italian, "Recensioni")])
+  , ("reviews"      , M.fromList [(English, "Reviews"     ), (Italian, "Recensioni")])
   , ("excerpts"     , M.fromList [(English, "Excerpts"    ), (Italian, "Estratti"  )])
   , ("translations" , M.fromList [(English, "Translations"), (Italian, "Traduzioni")])
   , ("made"         , M.fromList [(English, "Made by"     ), (Italian, "Creato da" )])
   , ("with"         , M.fromList [(English, "with"        ), (Italian, "con"       )])
   , ("en"           , M.fromList [(English, "English"     ), (Italian, "Inglese"   )])
   , ("it"           , M.fromList [(English, "Italian"     ), (Italian, "Italiano"  )])
-  , ("podcast"      , M.fromList [(English, "Podcasts"    ), (Italian, "Podcast"   )])
+  , ("podcasts"     , M.fromList [(English, "Podcasts"    ), (Italian, "Podcast"   )])
   , ("notaudio"     , M.fromList [
 
       (English, "Preview of audio file not supported by your Browser" ),

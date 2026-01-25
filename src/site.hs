@@ -58,9 +58,9 @@ main = hakyll $ do
       create [fromFilePath ("gen/" ++ slang ++ "/poly-rss.xml")]        (feedBehavior renderRss  "poly"   lang)
       create [fromFilePath ("gen/" ++ slang ++ "/poly-atom.xml")]       (feedBehavior renderAtom "poly"   lang)
 
-      create [fromFilePath ("gen/" ++ slang ++ "/pod-archive.html")]   (archiveBehavior         "podcast" lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/pod-rss.xml")]        (feedBehavior renderRss  "podcast" lang)
-      create [fromFilePath ("gen/" ++ slang ++ "/pod-atom.xml")]       (feedBehavior renderAtom "podcast" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/podcast-archive.html")](archiveBehavior         "podcast" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/podcast-rss.xml")]     (feedBehavior renderRss  "podcast" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/podcast-atom.xml")]    (feedBehavior renderAtom "podcast" lang)
 
     match ((fromGlob "templates/*")       .||.
            (fromGlob "templates/*/*.html")
@@ -117,11 +117,11 @@ indexCtx :: Language
             -> [Item String]
             -> [Item String]
             -> Context String
-indexCtx l posts reviews polys pods = mconcat $ [
-                                              listField "posts"   postCtx (return posts),
-                                              listField "reviews" postCtx (return reviews),
-                                              listField "polys"   postCtx (return polys),
-                                              listField "pods" (defaultCtxWithLanguage l) (return pods),
+indexCtx l enote review poly podcast = mconcat $ [
+                                              listField "enote"    postCtx (return enote),
+                                              listField "review"   postCtx (return review),
+                                              listField "poly"     postCtx (return poly),
+                                              listField "podcast"  postCtx (return podcast),
                                               defaultCtxWithLanguage l
                                            ]
 
@@ -134,11 +134,11 @@ indexBehavior :: Language -> Rules ()
 indexBehavior l = do
   route idRoute
   compile $ do
-      posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"  ++ (show l) ++ "/*")
-      reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show l) ++ "/*")
-      polys   <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"   ++ (show l) ++ "/*")
-      pods    <- recentFirst =<< loadAll (fromGlob $ "mica/podcast/"++ (show l) ++ "/*")
-      let ctx = indexCtx l posts reviews polys pods
+      enote    <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"   ++ (show l) ++ "/*")
+      review   <- recentFirst =<< loadAll (fromGlob $ "mica/review/"  ++ (show l) ++ "/*")
+      poly     <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"    ++ (show l) ++ "/*")
+      podcast  <- recentFirst =<< loadAll (fromGlob $ "mica/podcast/" ++ (show l) ++ "/*")
+      let ctx = indexCtx l enote review poly podcast
 
       getResourceBody
           >>= applyAsTemplate ctx
@@ -174,7 +174,7 @@ polyBehavior :: Language -> Rules ()
 polyBehavior l = commonBehavior l "/poly.html"
 
 podcastBehaviour :: Language -> Rules ()
-podcastBehaviour l = commonBehavior l "/pod.html"
+podcastBehaviour l = commonBehavior l "/podcast.html"
 
 spagyBehavior :: Language -> Rules ()
 spagyBehavior l = do
@@ -200,11 +200,9 @@ archiveBehavior :: String -> Language -> Rules ()
 archiveBehavior dirSubject l = do
     route idRoute
     compile $ do
-        posts   <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"  ++ (show l) ++ "/*")
-        reviews <- recentFirst =<< loadAll (fromGlob $ "mica/review/" ++ (show l) ++ "/*")
-        polys   <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"   ++ (show l) ++ "/*")
-        pods    <- loadAll (fromGlob $ "mica/podcast/"++ (show l) ++ "/*")
-        let ctx = indexCtx l posts reviews polys pods
+        items <- recentFirst =<< loadAll (fromGlob $ "mica/" ++ dirSubject ++ "/" ++ (show l) ++ "/*")
+        let ctx = listField dirSubject postCtx (return items) `mappend`
+                  defaultCtxWithLanguage l
 
         makeItem ""
             >>= loadAndApplyTemplate langTemplate ctx

@@ -26,12 +26,11 @@ It will be replaced by the corresponding `img` tag.
 
 > blogImage :: String -> String -> String
 > blogImage itemName = replaceAll "(left)?blogimage\\([^)]*\\)" imgstr
->   where leftclass matched = if head matched == 'l'
->                             then " class=\"left\""
->                             else ""
->         src =     dropWhile notquote >>> tail
+>   where leftclass ('l':_) = " class=\"left\""
+>         leftclass _       = ""
+>         src =     dropWhile notquote >>> drop 1
 >               >>> takeWhile notquote
->         alt =     dropWhile notquote >>> tail
+>         alt =     dropWhile notquote >>> drop 1
 >               >>> dropWhile notquote >>> drop 3
 >               >>> takeWhile notquote
 >         imgstr matched = "<div><img src=\"/static/imgs/" ++ itemName ++ "/" ++ src matched ++ "\" alt=\""++ alt matched ++ "\"" ++ leftclass matched ++ "/></div>"
@@ -40,12 +39,11 @@ helper to draw figures
 
 > blogFigure :: String -> String -> String
 > blogFigure itemName = replaceAll "(left)?blogfigure\\([^)]*\\)" imgstr
->   where leftclass matched = if head matched == 'l'
->                             then " class=\"left\""
->                             else ""
->         src =     dropWhile notquote >>> tail
+>   where leftclass ('l':_) = " class=\"left\""
+>         leftclass _       = ""
+>         src =     dropWhile notquote >>> drop 1
 >               >>> takeWhile notquote
->         alt =     dropWhile notquote >>> tail
+>         alt =     dropWhile notquote >>> drop 1
 >               >>> dropWhile notquote >>> drop 3
 >               >>> takeWhile notquote
 >         imgstr matched = "<figure>\n<img src=\"/static/imgs/" ++ itemName ++ "/" ++ src matched ++ "\" alt=\""++ alt matched ++ "\"" ++ leftclass matched ++ "/>\n<figcaption>"  ++ alt matched ++ "</figcaption>\n</figure>"
