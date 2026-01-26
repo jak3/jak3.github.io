@@ -1,0 +1,269 @@
+---
+title: Poison is the Medicine
+---
+
+![](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1625294118i/58477040.jpg)
+
+# Poison is Medicine: Clarifying the Vajrayana
+
+> have a go at tracking down your own innate wisdom. How? By following wisdom’s footprints, which are your emotions.
+
+> ‘The Bright Lamp of Wisdom’ (Yeshe Saldrön), this inner teacher, or guiding principle, is always with us, helping directly and indirectly, whether we recognize it or not.
+
+> inspiration took precedence over credible detail
+
+> How much suffering we are willing to endure for the sake of an education seems to depend on what we want to achieve in life. If your goal is to live safely within your comfort zone until you die, it’s unlikely you will challenge yourself or take any risks.
+
+> First and foremost, he said, we should follow the teaching not the teacher.
+
+> The ‘truth’ is ridiculously simple: as long as there is duality, there can never be total satisfaction.
+
+> I asked myself, should I give in to the ever-shifting goalposts of social convention? Should I constantly worry about unwittingly upsetting others? Surely there must be more to life than continually protecting one’s own sensitivities and avoiding triggering the over-sensitivities of others?
+
+> it would run far more smoothly if both parties were to make the effort to learn what might upset the other, as well as what makes them laugh.
+
+> The Prajnaparamita, one of the Mahayana’s most important teachings, is often described as yum or ‘mother’. One of the fourteen fundamental vows taken by Vajrayana practitioners is never in any way to disparage, denigrate or abuse women. If you break any one of the fourteen root vows of the Vajrayana and do not regret having broken it – meaning your regret leads you to confess and purify it – your journey along the Vajrayana path will be at an end.
+
+> Outwardly they abide by the Vinaya of the Shravakayana, inwardly they arouse the bodhichitta of the Mahayana, and secretly they practise the Vajrayana.
+
+> nothing in the vipashyana teachings indicates that a teacher can claim to teach impermanence (aniccā) if she also accepts that even one of her student’s issues is permanent.
+
+> “rely on the Dharma, not the person who teaches it”. No matter how often we make a point of reminding ourselves that we should rely on the Dharma not the individual who teaches it – which, again, Buddha himself advised – human nature is such that when a person misbehaves we forget this advice, blame the teaching, and end up throwing the Dharma baby out with the misbehaving bathwater.
+
+> view, practice, behaviour and result.
+
+> all compounded things are impermanent; all emotions are pain; nothing inherently exists; and so-called nirvana, enlightenment, is beyond extremes and fabrication. This teaching is known as the Four Seals.
+
+> the method must contradict the opposite of the view, and enhance your certainty and realisation of that view. If it does, it is a Buddhist practice. If it doesn’t, but you wish and pray, may everything I do enhance my realisation of the view, it is still considered a Buddhist practice. Basically, all practices that contradict duality are in alignment with the Buddhist view.
+
+> Buddhist behaviour does not fall into extremes.
+
+> Because an extreme is comparative and therefore dualistic, and duality does not align with the Buddhist view.
+
+> The result of Buddhist practice is defined by elimination.
+
+> The Buddhist result is therefore defined by elimination, not by something gained or obtained.
+
+> Whichever vehicle of Buddhist teachings you choose to listen to, they are all about the view. And, as the masters of the past have already said and the teachers of the future will continue to repeat, the view is difficult to understand. But it’s not because the view is dense or tedious. The view is difficult because we human beings lack merit.
+
+> The view is difficult because the ‘viewer’ refuses to look at it. In other words, the viewer is in denial and denial of the view is a classic symptom of lack of merit.
+
+> “How wonderful that we have met with a paradox. Now we have some hope of making progress.” Niels Bohr,
+
+> We may be unable to dispel the suffering of others with our actions, he said, but the aspiration, ‘may all be free from suffering’ will always work wonders. Yet, alongside his teachings on aspiration and action, the Buddha also describes the power of doing nothing at all: “do not dwell in the past, do not dwell in the future and do not contrive”. Buddha tells us that no emotion is more perilous than anger and that hatred destroys all virtue and wholesomeness.
+
+> The problem is, having experienced the illusion of a snake, how do we now rid ourselves of the fear of being confronted with a snake?
+
+> distinguishing relative from absolute is an educational tool, not a reality.
+
+> A method is only useful if the practitioner is willing to try it.
+
+> The point of all these methods is not to practise them until our performance is perfect, but to attain liberation. We follow the Buddhist path to discover and realise the truth. Once we have realised that truth, the path that led us there becomes redundant – it’s finished.
+
+> Focusing exclusively on either the wisdom or the method will get us nowhere because wisdom and method are inseparable.
+
+> From the point of view of the Vajrayana, there is nothing that cannot be used as a method; and where there is wisdom, there is nothing that cannot be used as a path.
+
+> vipashyana’s mindfulness is stripped of the view of the three characteristics: aniccā (impermanence), duḥkha (suffering) and anattā (selflessness and wisdom) – relative truth and absolute truth, skilful means and wisdom combined. All that is left is the basic technique. The simple technique of mindfulness is now extremely popular as a method for relieving stress and depression, curing insomnia and promoting good health. And it’s true that, without anattā, mindfulness can be a great stress-reliever. But without anattā, mindfulness has nothing whatsoever to do with vipashyana.
+
+> To go beyond belief, without exaggerating the absolute truth or underestimating the relative truth, is the goal of the Buddhist path.
+
+> Buddha taught an entire range of techniques to help us live with and enjoy paradox, and to prevent us from preferring one side of a contradiction to the other.
+
+> If it is so easy to get sucked into a movie that is so obviously there and not there, what chance do we have of seeing everything else we experience in life as there and not there
+
+> same way that we mourn the death of our favourite onscreen character until that movie ends, and have forgotten all about them by the time the sequel is released. This is called liberation.
+
+> Liberation is knowing that it’s there, and it’s not there, releasing us from the pain of holding onto either or both.
+
+> Spiritual paths are constructed based on identifying problems and providing solutions. The path identifies a problem and applies the appropriate solution. Therefore the problems and solutions are the path.
+
+> the viewer is in denial and refuses to look at the view, relying instead on the deeply ingrained habit of separating clarity and emptiness. We separate ‘it’s there, and it’s not there’ because we long to find the answer, the solution, the explanation, and we expect that answer to be a black and white solution with no trace of paradox.
+
+> Kali is the ruthless, unforgiving, unstoppable passage of time
+
+> The aim of both the Shravakayana and the Mahayana is to break us out of our accustomed box, while the teachings themselves are given from inside that box. In the Vajrayana, everything happens outside the box from the word go. Do you want to be in or out? It has to be one or the other. It is not possible to leave one foot in the box while reaping all the benefits of being outside
+
+> The Vajrayana accepts the teachings of all the other yanas and adds something extra. Regardless of the misunderstandings, which are unavoidable, if you are convinced that the Vajrayana makes sense and is the right path for you, just keep your head down and be discrete. The tantric texts explain in great detail why the Vajrayana, Tantrayana and Mantrayana should be kept secret.
+
+> distinguishing Kashmiri Shivaism from the Vajrayana is virtually impossible
+
+> Perhaps a better way of expressing the need to keep the Vajrayana secret is to explain that no one should hear a word of Vajrayana until they have been thoroughly and properly prepared. Would you teach a thirteen-year-old how to combine household products to make a bomb?
+
+> our behaviour must always be appropriate to the place and time.
+
+> But the statement ‘pray to the guru’ should never pass the lips of a Vajrayana practitioner. Why? Because everything to do with using desire as a path must be kept secret.
+
+> The Vajrayana’s message is a little different because it tells us that the journey is the goal.
+
+> an urgent longing to free yourself from all delusion and to attain the state in which there are no dualistic distinctions. This is what motivates you to seek out the right path and the right guide – a guru, a master.
+
+> the first pieces of advice the Buddha gave his students was to hear, contemplate and practise the teachings. ‘Hearing and contemplation’ means listening to and making sure you thoroughly understand every word of a teaching.
+
+> most Vajrayana students, including myself, are often too overwhelmed by our emotional responses – love for our guru, for example – to pay hearing and contemplation much attention.
+
+> The essence of the Ngöndro is to develop a fundamental distrust of your education.
+
+> Indian values – which, sadly, are now virtually extinct – encourage us to learn everything we can and then unlearn it.
+
+> Once we have developed an admiration for everything the Buddha said about dependent arising, shunyata and non-duality, his teachings begin to make sense. The more sense the teachings make, the more effort we put into escaping from this samsaric box through hearing and contemplation.
+
+> You need to burst the banks of your river of study and allow the water of knowledge to flow and spread. You need to break out of your self-created prison of logical thinking. This ability to break out is called ‘merit’, and merit takes many forms. Art appreciation can be taught and understood, but the truly innovative artists – Picasso for example – go out of their way to break as many rules as possible. The ability to break the rules is merit and merit sets you free.
+
+> If you cannot appreciate flexibility and blurred lines, and if you dare not embark on the adventure of living without judgements or distinctions, the Vajrayana is not for you.
+
+> Analyse everything. And again, I mean everything, including your personal interpretations of good and bad, beginning, middle and end, morality, secular and religious ethics, right and wrong, and of course, how you feel about the guru. Analyse until the value and even the notion of analysis reaches the outer limits of its prejudice.
+
+> we need to deconstruct all possible views.
+
+> we learn how to construct a sophisticated doubt, then we learn how to doubt the doubt itself by deconstructing our stubborn reasons for harbouring doubts in the first place.
+
+> Once we have taken our doubt to pieces and convinced ourselves that everything appears out of nothingness, we may finally experience the dawn of what Buddhists call ‘devotion’. ‘Doubt’ and ‘belief’ are two sides of the same coin. Both are crucial ingredients of the spiritual path.
+
+> we must wear out both the problems and the solutions. And by the way, if you try to keep just one of those solutions as a souvenir, it will almost immediately become a problem.
+
+> trusting the conclusions drawn by an opinionated mind is the root of blind faith. If you are unwilling to analyse and deconstruct your own analytical system, the Vajrayana is not for you. If you have a strong belief in time, not as a relative truth but as an ultimate reality with a beginning and an end – Genesis and Armageddon – not only is the Vajrayana not for you, neither is the Shravakayana. A belief in ultimate beginnings and endings also translates as a belief in an ultimate cause. None of the Buddhist vehicles believe in an ultimate cause.
+
+> If you cannot appreciate that the fruit of your journey is none other than the state you are experiencing at this very moment, the Vajrayana is not for you.
+
+> Vajrayana refuses to see a gap between the solution and the problem.
+
+> if you cannot see that everything in the material, samsaric world is fundamentally flawed and unsatisfying, and that everything we possess, value and cherish is fatally flawed, meaningless and deceptive – including ideologies such as democracy and freedom of speech – not only is the Vajrayana not for you, neither is the Shravakayana.
+
+> I will teach you tantra,” said Shiva, “but when I do, we must be in union, because it is only possible to truly hear the tantric teachings when you are deeply in love.”
+
+> As Vajrayana practitioners, we long to transcend both the rational and the irrational by thinking outside both these boxes.
+
+> Vajradhara himself said that if, even for a nano-second, those who live by reason, logic and proof are attracted to the magical and profound Vajrayana path, they must have a connection with it. If you are willing to invest in that connection, you have all the qualifications you need to set out on the Vajrayana path.
+
+> to practise the Vajrayana properly, we must be ready and willing to let go of old ideas and values and have the courage not to get stuck in the rational world.
+
+> simply aspire to make a connection with the path. Make the wish that one day you will be able to practise the Vajrayana and then long for it to happen.
+
+> Do you long to go beyond, once and for all, never again to become entangled in definitions? If you do, then the Vajrayana is for you.
+
+> If you can appreciate each infinite, inexhaustible, magical paradox as it happens, moment-to-moment in all directions, and if you feel you could do with a little of that magic – in other words, if you have begun to value blessings – then the Vajrayana is for you. If the meaning of words like ‘all’, ‘infinite’, ‘beginningless’, ‘endless’ and ‘measureless’ tantalize and enchant you, then the Vajrayana is for you.
+
+> If you are thrilled and excited about the possibility of gathering wisdom as you shower, sunbathe or chop onions, and so on, then the Vajrayana is for you. It will suit your character.
+
+> The Norwegians, for example, call the euphoria we feel as we start to fall in love forelsket, which, I am told, has no English equivalent. Komorebi is Japanese for the quality of sunlight as it shines through the leaves of a tree. Goya is the Urdu word for the moment a great storyteller makes a fantasy so convincing that it seems more real than reality. And the Serbians describe the bliss and sense of oneness that the simplest of pleasures can make us feel as merak.
+
+> Ultimately, there are only two qualities that never deceive us: the truth of emptiness and the truth of clarity. Thus, emptiness and clarity are the true guru.
+
+> But as it is the human, outer guru who leads you to your true guru (the inner guru), your human guru is equally important. Your outer guru has a human face and can talk with you, guide you, teach you and coach you. Without an outer guru, there would be no bridge to your inner guru,
+
+> They told me that treasure is often found in what looks like a pile of garbage because it’s the safest place to hide your valuables. We should therefore never underestimate or denigrate tantric gurus, in spite of their many girlfriends, broods of undisciplined children, several generations of irritating relatives, and their congenital inability to make ends meet. Disorganized and chaotic they may be, but authentic tantric gurus are never double-dealing, sanctimonious hypocrites. Why shy away from a guru who hides nothing? The grubbiest, smelliest, stickiest exteriors often contain the most genuine, straightforward and honest people you will ever meet.
+
+> your ‘root guru’ is the guru you remember first thing in the morning, just before you eat, and last thing at night.
+
+> Because all Vajrayana guru-student relationships are based on a karmic link,
+
+> How do we ‘hear and contemplate’ effectively? By thinking deeply about every single teaching we receive and taking the time to examine it from every possible angle.
+
+> Our sense of being connected with a teacher is not necessarily based on what or how that teacher teaches. Let’s say that you bump into a guru quite by accident and, in her presence, immediately realise, with the deepest conviction, that worldly life really is entirely futile. If you have a karmic connection with a guru, no matter where you meet, that guru will ignite your devotion, arouse your compassion for sentient beings, destroy your self-clinging, and inspire your pure perception.
+
+> a tantric master’s job is to help disciples recognize that, no matter how stubborn and inexhaustible our defilements, they are temporary and removeable.
+
+> the sole aim of both the tantric master and the tantric path is to reach the point at which both guru and student shrug off their dependence on each other (co-dependency), as well as their dependence on ‘sadhana’ and ‘practitioner’.
+
+> Tantric gurus are expected to apply all the Shravakayana and Mahayana practices and practise the Vajrayana. The quintessence of the Shravakayana path is to do no harm, and the quintessence of the Mahayana is to help others out of compassion.
+
+> the aim of crazy wisdom is to think outside the box.
+
+> Laws made by human beings are just as fallacious, illusory and futile as all human endeavours and values. At the same time, futile human activity provides the basis for all Dharma practice. Life is the raw material that we Dharma practitioners are supposed to work with.
+
+> An authentic crazy wisdom master would have gone beyond all forms of duality.
+
+> Crazy wisdom smashes all our concepts, but it’s now almost impossible to practise. Why? Because so many crazy wisdom methods make practitioners look mad.
+
+> All the advice in this book is based on the assumption that the Vajrayana guru you are examining is not a mahasiddha but a samsaric being. But don’t forget that, even though your guru is a samsaric being, once you become her student, it’s your job to see her as a buddha
+
+> A good guru will know herself that she has not transcended karma and its consequences. She will also know that everything her students sacrifice on her behalf counts as karmic debt, including the effort they make to stand up when she walks into a room
+
+> Wisdom and skilful means can only be used to perfection if appearance and emptiness and the relative truth and absolute truth are united.
+
+> The more skilful you are, the wiser you become; the wiser you are, the more skilful you become; the greater your wisdom, the more skilful your methods. Delusion is a paradox. Delusions don’t exist but they do make you suffer, which is another way of saying ‘it exists (suffering), and it doesn’t exist (delusion)’. So, the only way to work with delusion is by using wisdom and skilful methods; wisdom gives us the confidence to apply skilful methods.
+
+> These paths have been ‘dipped into’ or ‘sweetened’ or ‘dressed’ by the wisdom that is the prajnaparamita – in other words generosity, discipline, patience and so on. One skilful method that never backfires is that of offering flowers to a holy shrine.
+
+> An offering also counts as a skilful method if a new Buddhist practitioner who knows nothing about emptiness, dedicates the merit of their offering towards increasing their own understanding of shunyata. A more experienced practitioner thinks, “The flower I offer is just my projection. The act of giving is also my projection, and so is the object of my offering – the shrine.” This thought injects a large dose of wisdom into the offering, making it a very high-class skilful method. This is how skilful methods work. And we use these skilful methods to enhance our understanding and realisation of wisdom – the wisdom of the Prajnaparamita.
+
+> Always bear in mind that the two most important skilful methods in a Vajrayana master’s repertoire are: only teaching the Vajrayana to those who are ready for it; and keeping all aspects of the Vajrayana completely secret.
+
+> But an intellectual understanding is not enough. The tantric path must be experienced. And to experience the path, you must practise. This is the tricky bit.
+
+> give yourself ample time to analyse your potential teacher before you take him, or her, as your guru.
+
+> How serious are you about learning how to think differently? Only those of you who have genuinely set your hearts on learning how to transform how you think should even consider setting foot on the tantric path.
+
+> If possible, keep your spiritual practice a closely guarded secret
+
+> Once you have established an unshakeable confidence in the view, you will begin to experience the benefits of that realisation. In other words, once you are convinced that all your stubborn, apparently inexhaustible defilements are removable, and confident that your true nature is the Buddha and that all dualistic samsaric values are no more real than a mirage or a movie, you won’t be choosey about which method you practise.
+
+> If you always do your best, motivated by the wish to awaken or enlighten all sentient beings, just washing a few dishes accumulates a great deal of merit.
+
+> Listen to and read the Dharma as much as you can. Contemplate everything you hear and try to develop pure perception.
+
+> It is never wrong, morally or otherwise, to arouse a pure motivation or make an aspiration.
+
+> Students who sacrifice self-determination and faithfully follow the guru’s every command free themselves entirely from both responsibility and accountability.
+
+> In Mahayana Buddhism, bodhisattvas (those who aim to help others) are forbidden to act motivated by a vicious mind, a harmful mind or a wrong view. Other than that, if an action will save or benefit another sentient being, you are encouraged to do it.
+
+> As desire is the predominant human emotion, the wisdom of Vajrayana Buddhism includes teachings on how to use emotion as the path.
+
+> remember, no matter which method you use – offering a flower, fasting or the path of sex – the method must destroy delusion. If, instead of destroying delusion, an activity creates more delusion, more self-righteousness, more moralistic judgements, and more pride etc., it is an obstacle to awakening. This point is crucially important and must not be overlooked or forgotten.
+
+> are you well aware of everything that is going on, but your passionate longing to smash all concepts to pieces override all other considerations?
+
+> No matter how embarrassed you feel, or how often your friends make fun of your obsession or accuse you of having a screw loose, smile and say nothing. By doing so, your practice will accumulate far more merit than if you talked about it.
+
+> Your best option is to avoid saying anything at all about the Vajrayana to those who are not already on the Vajrayana path. If you have to talk about it, lie rather than risk putting someone off this sacred and profound path.
+
+> The vajrayana’s Sanskrit word ‘samaya’, loosely translated, means ‘sacred pledge’.
+
+> Keeping samaya is the process of learning how to remain loyal to the truth, one step at a time. Should we learn to keep all the samayas and only then start practising the Vajrayana? No, it doesn’t work like that. The moment you are able to keep all your samayas perfectly signals the end of the Vajrayana path. The point of keeping samaya is to ensure that we live in harmony and remain connected with the truth.
+
+> None of these great masters expected new tantric practitioners to keep all their samayas intact from day one. They knew that, from the moment most of us first promise to keep our samayas, we will not only almost immediately break them, but that from then on, we will continue to break them on a daily basis. Why? Because it’s not easy to get used to keeping samaya. If you look at dirt and think, “This is dirt”, you have broken a Vajrayana samaya. If you look at water and think, “This is water”, or look at yourself and think, “This is me”, you have broken a Vajrayana samaya. If you have no understanding of the nature of shunyata, buddha nature or the paradox of emptiness and clarity yet try to see yourself as a deity, you have broken a Vajrayana samaya. Whenever duality leads you astray, you have broken a Vajrayana samaya. And the moment you slip from non-duality into duality, you have broken a Vajrayana samaya. Not a moment goes by without any one of us breaking at least one or two samayas.
+
+> The consequences of breaking samaya may be grave but knowing about the countless methods you have to mend or purify broken samayas will bring you great joy. You will confidently purify not only your past negative actions, but also those you commit in the future, since past and future are dualistic distinctions.
+
+> We therefore only have a guru if we have devotion, in the same way that a person is only likable because we like them. If we break samaya with our guru, our devotion must necessarily have diminished or completely disappeared. Without devotion there can be no reflection of devotion. And as the reflection of our devotion is the guru, without devotion, there is no guru.
+
+> This is why I will say, yet again, just how vital hearing and contemplation are for Vajrayana students. I cannot emphasize this strongly enough. A good, thorough, fundamental knowledge of Buddhadharma helps the student at every stage of the path.
+
+> if a friend decides to follow a path that contradicts your own view, it is probably best to avoid risk being influenced by them.
+
+> For the Vajrayana, body, speech and mind are of equal importance; in fact, they are one. The Vajrayana practices of prana, bindu and nadi are associated with body, speech and mind and easy to manipulate.
+
+> The roots of the Vajrayana are in the Mahayana, the signature practice of which is never to abandon sentient beings.
+
+> Whether you are ready or not depends entirely on causes and conditions. Having been virtually destitute for their whole lives, many people dare not believe in and are unable to accept good fortune. When confronted with the truth, they take it the wrong way. The tantras say that those who dare not think beyond their current situation lack ‘superior faculties’. People with superior or even middling faculties are braver and more adventurous than those with the least capacity. Basically, the bolder the disciple, the greater their capacity.
+
+> The location of an initiation depends entirely on the needs of the student.
+
+> The paradox of the union of appearance and emptiness, sound and emptiness, taste and emptiness, touch and emptiness, and smell and emptiness must also be understood. In this case, the paradox is that each pair are inseparable. Appearances do not manifest a second before emptiness, and vice versa; heat does not manifest a second before fire, and vice versa.
+
+> Perceptions that are 100% pure are what tantra calls ‘devotion’, as is the belief that your guru has buddha nature.
+
+> Buddhas have no preferences; if the guru really were a buddha, if he were offered a plateful of shit for his lunch, he would eat it without batting an eyelid.
+
+> what does ‘see the guru as a buddha’ really mean? It means you learn to recognize that the form, shape, size, colour and gender in which you see your guru is an impure perception. In this context, ‘impure’ does not mean dirty or bad in the ordinary sense, it means ‘dualistic’.
+
+> the true nature of all phenomena is non-dual. Nothing is truly bound by time, gender, colour, shape, nationality and so on. Therefore, as the tantric texts repeat again and again, to enhance our recognition of non-duality, we must try to remember that all that appears is the outward form of the guru, all sounds are sounds made by the guru, and all our own thoughts, including whatever you are thinking right now, is the guru’s wisdom.
+
+> What all human beings do have is a mind, a cognisance. Mind is neither good (loving, compassionate, kind) nor bad (angry, jealous), it’s just mind. Right now, you are reading this sentence using your mind. The sounds you hear are interpreted by your mind and everything you feel is processed by your mind. Mind is not a myth, it’s a brazen reality. Mind is here, right now, in all of us. And as mind is our single most powerful asset, shouldn’t we start learning how to appreciate and take full advantage of it? The first step is to generate a profound wish to invest everything we have in learning how to use our minds. To do that, we need merit. Merit is indispensable. It’s also the one thing we can create for ourselves. Without merit, we can do nothing – a fact that we must all find a way of stuffing into our thick skulls.
+
+> Although the cognisance of all sentient beings is undeniable, the nature of that cognisance is still a mystery. We don’t know what cognisance is. We have no clue about how to handle it or deal with the emotions, judgements and values it spawns. As a result, we suffer pain, anxiety, panic, depression and all the rest of it – which is precisely why Gautama Buddha and his followers invested so much time and effort in teaching us how to alleviate all our sufferings by working with our mind.
+
+> the Dharma is infectious and most
+
+> No matter how many obstacles today’s followers of the Buddhadharma and especially Vajrayana practitioners face, you should never feel discouraged. Remind yourself that the better you are as a practitioner, the bigger, stronger and more effective the obstacles will be. Clever tantric students choose to interpret all obstacles as signs of progress; rather than allowing themselves to be crushed by adversity, obstacles provide them with excellent opportunities to raise their game.
+
+> Buddha said ‘all compounded things are impermanent’; this wisdom cannot be updated. ‘How something appears is not what it is’ does not need modifying. Teachings on shunyata are neither archaic nor outdated and cannot be adjusted. On the contrary, all the Buddha’s teachings are both consistently forward-thinking and contemporary.
+
+> The ultimate point of dismantling all impure perceptions is to demolish your dualistic mind.
+
+> Always remember, everything you perceive is your own, individual projection. Which begs the question: whose perception should you rely on when it comes to judging whether or not your guru’s behaviour justifies perceiving him impurely?
+
+> Opening our minds to many different points of view and clarifying misunderstandings is how we grow and develop, which is exactly what contemporary tantric practitioners need to do.
