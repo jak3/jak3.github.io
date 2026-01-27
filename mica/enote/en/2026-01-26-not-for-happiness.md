@@ -396,9 +396,16 @@ title: Not for Happiness
 
 > The minds of samsaric beings are dualistic, and dualistic minds are, by nature, full of doubt, which in turn breeds wrong view.
 
+> It is believed that doubts become sharper the more our intelligence increases, which makes perfect sense since the more intelligent we are, the more intelligent our doubts seem to become. That we have so many doubts in the first place is one of our biggest obstacles, because apart from anything else, they take up so much of our time. The worse it gets, the more likely we are to find ourselves stuck in a state of serial self-condemnation, which in turn diverts our attention from the right view, causing loss of faith in the laws of cause, condition and effect (karma), and corroding our belief in the ultimate truth of interdependent reality, shunyata and the triple gem.
+
+> we must always dedicate our practice and positive actions quickly so we waste none of the merit we accumulate.
+
+> If we do not dedicate immediately, the merit could be burnt away in a sudden flash of anger, or any of the other extreme negative actions or thoughts to which we are prey.
+
+> The “highest” of these methods is to welcome obstacles as blessings
+
+> the practice of mandala offering, which is the most profound of all merit-making methods.
+
 ### TODO
 
-> It is believed that doubts become sharper the more our intelligence increases, which makes perfect sense since the more intelligent we are, the more intelligent our doubts seem to become. That we have so many doubts in the first place is one of our biggest obstacles, because apart from anything else, they take up so much of our time. The worse it gets, the more likely we are to find ourselves stuck in a `<You have reached the clipping limit for this item>`
-
-- Your Highlight on page 187 | Location 2439-2439 | Added on Friday, January 16, 2026 6:23:36 PM
 - `<You have reached the clipping limit for this item>`
