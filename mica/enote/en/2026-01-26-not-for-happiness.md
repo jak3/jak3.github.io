@@ -406,6 +406,48 @@ title: Not for Happiness
 
 > the practice of mandala offering, which is the most profound of all merit-making methods.
 
-### TODO
+> we must always dedicate our practice and positive actions quickly so we waste none of the merit we accumulate.
 
-- `<You have reached the clipping limit for this item>`
+> If we do not dedicate immediately, the merit could be burnt away in a sudden flash of anger, or any of the other extreme negative actions or thoughts to which we are prey.
+
+> The “highest” of these methods is to welcome obstacles as blessings, but genuinely to
+
+> the practice of mandala offering, which is the most profound of all merit-making methods.
+
+> If offering things that do not belong to you makes you uncomfortable, always remember that the way you perceive your world is wholly and completely your own, never anyone else’s. Include in your visualisation sources of wealth, such as Deutsche Bank, forests, iron ore, steel, all the material wealth human beings love to accumulate and the wealth of gods (which is usually represented as flying carpets and parasols, etc.). Add to it the wealth of the nagas (which sometimes appears in the form of the conch that can wage war), or a small shell that can transform itself into a kingdom or a palace, or wish-fulfilling trees and cows, or even beautiful men and women. You can elaborate as much as you like, and always endeavour to go beyond the limits of your imagination. To enhance your visualisation, make use of different substances that you consider precious, like the rice that Tibetans use a great deal in their offerings, and coins and precious metals like silver and gold.
+
+> shamatha practice, which is lethal to all kinds of “mental contamination”
+
+> there is no need to limit your offerings to that which is good and desirable. Offer everything, including sickness, bad news and loss, and remember that everything must be seen as a manifestation of your guru and his blessings.
+
+> try to avoid being distracted by other practices that at first glance appear more attractive than those you are already engaged in.
+
+> The supreme sign is that he no longer has any interest in material gain, fame, the respect of others, or being the centre of attention.
+
+> During an initiation we are introduced to an aspect of ourselves that already exists within us but that we have yet to recognise, and it is the activation of this recognition that we call “empowerment” or “initiation.”
+
+> As Tsele Natsok Rangdröl said, if you experience phenomena (the outer container and the inner contents) as “ordinary,” you have not received the vase abhisheka; if you fail to experience all sound as mantra, you have not received the secret abhisheka; if you do not experience all mental factors and discursive thoughts as wisdom, you have not received the wisdom abhisheka; and if you have not understood everything as the dharmakaya, you have not received the word abhisheka.
+
+> Pray to the nature of mind, rely on it exclusively and long to realise it. Dilgo Khyentse Rinpoche also said, if you pray from the bottom of your heart to the affectionate mother, Yeshe Tsogyal, there is no doubt that she will embrace you with her compassion and be inseparable from you in this life, the next life and as you pass through the bardos. So, when you receive teachings and abhishekas, consider you are receiving them from the mother,
+
+> Je Könchok Lhundrub said that by practising creation meditation it is possible for practitioners to use all worldly objects as their path, and practising completion meditation makes it possible to transform all emotions and use them as their path.
+
+> Alternatively you could try allowing your passions to drive your actions without becoming bound up by the obscurations that accompany them. As Buddha said, emotions are the race of the Tathagata. Never feel discouraged or overwhelmed by the sheer scale of the emotions you experience, or dwell on how difficult, even impossible, it will be to wade through them all before eventually recognising the nature of the mind.
+
+> Jamgön Kongtrul Lodrö Tayé taught the three yanas based on the three activities of “abandoning, transforming and knowing.”
+
+> “Aggression is really bad! But I am not the only one who suffers from it—all sentient beings do! So, may I take on the aggression, jealousy and pride of all sentient beings.” From a relative point of view, what happens when you take on the suffering of others in this way? Fundamentally, you go against the wishes of your ego. So, if your ego wants to be the holiest and most sublime of all beings so it can boast it has no desire or jealousy, this is exactly the practice you need to do to oppose and resist it. By continually applying it, the ego becomes smaller and smaller until finally it has nowhere to live.
+
+> A bodhisattva also knows that emotions are compounded phenomena and will therefore eventually be exhausted. Ultimately, since an emotion is not a truly or permanently existing entity, it is also empty of characteristics. If emotions were not inherently empty, transformation would not be possible because they would be “real.”
+
+> So, how should we deal with emotions? By not fabricating at all, just watch. And the moment you look at the emotion, it will disappear. Beginners will find the emotion reappears quite quickly, but that doesn’t matter. The important thing here is that the moment you start watching your emotions, they immediately disappear. And even if they only disappear for a split second, the fact an emotion has disappeared also means that wisdom has, momentarily, dawned. The recognition of this naked awareness is what “knowing” refers to.
+
+> Always make sure you begin by taking refuge and arousing bodhichitta, and end by dedicating your practice to the ultimate happiness and enlightenment of all sentient beings.
+
+> remain in the state of indivisibility for as long as possible.
+
+> The “king of all signs,” also known as the “sign of no-sign,” which was highly prized by the Kagyupa masters of the past, is when renunciation mind, sadness and devotion blaze in your mind.
+
+> The signs to be cherished most include an escalating appetite for dharma practice; noticing the futility of everything you do; ever-increasing conflicts as a result of old habits;
+
+> try to accept that your spiritual journey will never end. Your journey began with the wish that you, personally, bring all sentient beings to enlightenment, so until that wish is fulfilled, your activities as a bodhisattva will never cease.
