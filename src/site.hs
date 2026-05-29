@@ -98,8 +98,14 @@ languageContext l = map (\ (k, v) -> constField k v)
 defaultCtxWithLanguage :: Language -> Context String
 defaultCtxWithLanguage l = mconcat $ languageContext l ++ [defaultContext]
 
+langTagField :: String -> Context String
+langTagField key = field key $ \item ->
+    return $ if "/en/" `isInfixOf` toFilePath (itemIdentifier item)
+             then "EN" else "IT"
+
 postCtx :: Context String
 postCtx =
+    langTagField "lang" `mappend`
     dateField "created" "%d %m %Y" `mappend`
     modificationTimeField "modified" "%d %m %Y" `mappend`
     defaultContext
@@ -134,10 +140,10 @@ indexBehavior :: Language -> Rules ()
 indexBehavior l = do
   route idRoute
   compile $ do
-      enote    <- recentFirst =<< loadAll (fromGlob $ "mica/enote/"   ++ (show l) ++ "/*")
-      review   <- recentFirst =<< loadAll (fromGlob $ "mica/review/"  ++ (show l) ++ "/*")
-      poly     <- recentFirst =<< loadAll (fromGlob $ "mica/poly/"    ++ (show l) ++ "/*")
-      podcast  <- recentFirst =<< loadAll (fromGlob $ "mica/podcast/" ++ (show l) ++ "/*")
+      enote    <- recentFirst =<< loadAll ((fromGlob "mica/enote/en/*")   .||. (fromGlob "mica/enote/it/*"))
+      review   <- recentFirst =<< loadAll ((fromGlob "mica/review/en/*")  .||. (fromGlob "mica/review/it/*"))
+      poly     <- recentFirst =<< loadAll ((fromGlob "mica/poly/en/*")    .||. (fromGlob "mica/poly/it/*"))
+      podcast  <- recentFirst =<< loadAll ((fromGlob "mica/podcast/en/*") .||. (fromGlob "mica/podcast/it/*"))
       let ctx = indexCtx l enote review poly podcast
 
       getResourceBody
@@ -200,7 +206,8 @@ archiveBehavior :: String -> Language -> Rules ()
 archiveBehavior dirSubject l = do
     route idRoute
     compile $ do
-        items <- recentFirst =<< loadAll (fromGlob $ "mica/" ++ dirSubject ++ "/" ++ (show l) ++ "/*")
+        items <- recentFirst =<< loadAll ((fromGlob $ "mica/" ++ dirSubject ++ "/en/*") .||.
+                                          (fromGlob $ "mica/" ++ dirSubject ++ "/it/*"))
         let ctx = listField dirSubject postCtx (return items) `mappend`
                   defaultCtxWithLanguage l
 
@@ -218,7 +225,8 @@ feedBehavior :: (FeedConfiguration
 feedBehavior render dirSubject language = do
     route idRoute
     compile $
-        loadAllSnapshots (fromGlob $ "mica/" ++ dirSubject ++ "/" ++ (show language) ++ "/*") "content"
+        loadAllSnapshots ((fromGlob $ "mica/" ++ dirSubject ++ "/en/*") .||.
+                          (fromGlob $ "mica/" ++ dirSubject ++ "/it/*")) "content"
         >>= fmap (take 10) . recentFirst
         >>= mapM (applyFilter protectCDATA)
         >>= render (feedConfig language) feedCtx
