@@ -67,3 +67,12 @@ Le poesie si scrivono in `~/prj/poesie/AAAAMMGG/` (un `.md` per testo, titolo
 nella prima riga `# Titolo`, immagini nella stessa cartella). Per pubblicarle:
 
 `python3 scripts/importa_poesie.py` (poi `stack exec condenso build`)
+
+## Stazioni dei Viandanti
+
+Il libro vive in `~/prj/stazioni` (repository git). Si pubblica l'ultimo
+commit, con i versetti già inseriti da `linkme.py`:
+
+`python3 scripts/importa_stazioni.py` (poi `stack exec condenso build`)
+
+Quando l'edizione cartacea sarà su Lulu, impostare `LULU_URL` nello script.
