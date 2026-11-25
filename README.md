@@ -51,3 +51,19 @@ rsync -a --filter='P _site/'      \
          --delete-excluded        \
          _site/ .
 `
+
+## Spagyria
+
+`static/plants.json` contiene una scheda per pianta (con l'elenco delle sue
+`preparazioni`) ed è la fonte da curare a mano. Per aggiungere le nuove
+preparazioni dal registro:
+
+`python3 scripts/aggiorna_piante.py ~/prj/spagyria/plants.json` (anteprima)
+`python3 scripts/aggiorna_piante.py ~/prj/spagyria/plants.json --scrivi`
+
+## Poesie e riflessioni
+
+Le poesie si scrivono in `~/prj/poesie/AAAAMMGG/` (un `.md` per testo, titolo
+nella prima riga `# Titolo`, immagini nella stessa cartella). Per pubblicarle:
+
+`python3 scripts/importa_poesie.py` (poi `stack exec condenso build`)

@@ -30,6 +30,7 @@ dbTranslations = M.fromList
   , ("en"           , M.fromList [(English, "English"     ), (Italian, "Inglese"   )])
   , ("it"           , M.fromList [(English, "Italian"     ), (Italian, "Italiano"  )])
   , ("podcasts"     , M.fromList [(English, "Podcasts"    ), (Italian, "Podcast"   )])
+  , ("poems"        , M.fromList [(English, "Poems & reflections"), (Italian, "Poesie e riflessioni")])
   , ("notaudio"     , M.fromList [
 
       (English, "Preview of audio file not supported by your Browser" ),

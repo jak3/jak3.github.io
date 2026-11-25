@@ -7,6 +7,8 @@ import        Data.Map              (keys, elems, lookup)
 import        Data.Maybe            (mapMaybe)
 
 import        System.FilePath.Posix (splitFileName)
+import        Text.Pandoc.Options   (Extension (Ext_hard_line_breaks), ReaderOptions (..),
+                                     enableExtension)
 
 import        Config
 import        Multilang
@@ -19,7 +21,8 @@ main = hakyll $ do
         route   idRoute
         compile $ compressCssCompiler >>= relativizeUrls
 
-    match ((fromGlob "static/img/*")       .||.
+    match ((fromGlob "static/img/*")         .||.
+           (fromGlob "static/img/poesie/*")  .||.
            (fromGlob "static/*")
           ) $ do
         route   idRoute
@@ -45,6 +48,7 @@ main = hakyll $ do
       match (fromGlob $ "mica/review/"  ++ slang ++ "/*"    ) $ reviewBehavior  lang
       match (fromGlob $ "mica/poly/"    ++ slang ++ "/*"    ) $ polyBehavior    lang
       match (fromGlob $ "mica/podcast/" ++ slang ++ "/*"    ) $ podcastBehaviour lang
+      match (fromGlob $ "mica/poesie/"  ++ slang ++ "/*"    ) $ poesieBehavior  lang
 
       create [fromFilePath ("gen/" ++ slang ++ "/enote-archive.html")]  (archiveBehavior         "enote"  lang)
       create [fromFilePath ("gen/" ++ slang ++ "/rss.xml")]             (feedBehavior renderRss  "enote"  lang)
@@ -61,6 +65,10 @@ main = hakyll $ do
       create [fromFilePath ("gen/" ++ slang ++ "/podcast-archive.html")](archiveBehavior         "podcast" lang)
       create [fromFilePath ("gen/" ++ slang ++ "/podcast-rss.xml")]     (feedBehavior renderRss  "podcast" lang)
       create [fromFilePath ("gen/" ++ slang ++ "/podcast-atom.xml")]    (feedBehavior renderAtom "podcast" lang)
+
+      create [fromFilePath ("gen/" ++ slang ++ "/poesie-archive.html")] (archiveBehavior         "poesie" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/poesie-rss.xml")]      (feedBehavior renderRss  "poesie" lang)
+      create [fromFilePath ("gen/" ++ slang ++ "/poesie-atom.xml")]     (feedBehavior renderAtom "poesie" lang)
 
     match ((fromGlob "templates/*")       .||.
            (fromGlob "templates/*/*.html")
@@ -122,12 +130,14 @@ indexCtx :: Language
             -> [Item String]
             -> [Item String]
             -> [Item String]
+            -> [Item String]
             -> Context String
-indexCtx l enote review poly podcast = mconcat $ [
+indexCtx l enote review poly podcast poesie = mconcat $ [
                                               listField "enote"    postCtx (return enote),
                                               listField "review"   postCtx (return review),
                                               listField "poly"     postCtx (return poly),
                                               listField "podcast"  postCtx (return podcast),
+                                              listField "poesie"   postCtx (return poesie),
                                               defaultCtxWithLanguage l
                                            ]
 
@@ -144,7 +154,8 @@ indexBehavior l = do
       review   <- recentFirst =<< loadAll ((fromGlob "mica/review/en/*")  .||. (fromGlob "mica/review/it/*"))
       poly     <- recentFirst =<< loadAll ((fromGlob "mica/poly/en/*")    .||. (fromGlob "mica/poly/it/*"))
       podcast  <- recentFirst =<< loadAll ((fromGlob "mica/podcast/en/*") .||. (fromGlob "mica/podcast/it/*"))
-      let ctx = indexCtx l enote review poly podcast
+      poesie   <- fmap (take 5) . recentFirst =<< loadAll (fromGlob "mica/poesie/it/*")
+      let ctx = indexCtx l enote review poly podcast poesie
 
       getResourceBody
           >>= applyAsTemplate ctx
@@ -181,6 +192,21 @@ polyBehavior l = commonBehavior l "/poly.html"
 
 podcastBehaviour :: Language -> Rules ()
 podcastBehaviour l = commonBehavior l "/podcast.html"
+
+-- Poems: every line break in the source is kept, and there are no comments.
+poesieBehavior :: Language -> Rules ()
+poesieBehavior l = do
+  route   $ setExtension "html"
+  compile $ pandocCompilerWith readerOpts defaultHakyllWriterOptions
+      >>= saveSnapshot "content"
+      >>= loadAndApplyTemplate (fromFilePath $ "templates/" ++ (show l) ++ "/poesie.html") (postCtxWithLanguage l)
+      >>= loadAndApplyTemplate "templates/default.html"                                  (postCtxWithLanguage l)
+      >>= relativizeUrls
+      >>= removeIndexHtml
+  where
+    readerOpts = defaultHakyllReaderOptions
+      { readerExtensions = enableExtension Ext_hard_line_breaks
+                             (readerExtensions defaultHakyllReaderOptions) }
 
 spagyBehavior :: Language -> Rules ()
 spagyBehavior l = do

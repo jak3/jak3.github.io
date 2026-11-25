@@ -1,0 +1,237 @@
+/* Prontuario spagirico */
+.spg {
+  --spg-green: #3d6b45;
+  --spg-green-soft: #e6efe4;
+  --spg-green-line: #b9cfb6;
+  --spg-ink: #2b2b2b;
+  --spg-muted: #6b6b6b;
+  --spg-paper: #fffdf8;
+  --spg-warn: #8a4b00;
+  --spg-warn-bg: #fff4e0;
+  --spg-warn-line: #f0c27a;
+  color: var(--spg-ink);
+  text-align: left;
+}
+
+.spg button { font: inherit; cursor: pointer; }
+/* neutralise turretcss defaults on buttons/lists inside the widget */
+.spg button { height: auto; min-height: 0; min-width: 0; line-height: 1.35; margin: 0; text-transform: none; letter-spacing: normal; }
+.spg ul.spg-tags, .spg ul.spg-tags li { margin: 0; padding: 0; list-style: none; }
+.spg ul.spg-tags li::before { content: none; }
+.spg [hidden] { display: none !important; }
+
+.spg-disclaimer {
+  font-size: 0.85em;
+  color: var(--spg-muted);
+  border-left: 3px solid var(--spg-green-line);
+  padding: 0.25em 0 0.25em 0.75em;
+  margin: 1em 0;
+}
+
+/* ---------- toolbar ---------- */
+.spg-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--spg-paper);
+  border: 1px solid var(--spg-green-line);
+  border-radius: 8px;
+  padding: 0.75em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.spg-tabs { display: flex; gap: 0.25em; margin-bottom: 0.6em; }
+.spg-tab {
+  flex: 1;
+  border: 1px solid var(--spg-green-line);
+  background: transparent;
+  color: var(--spg-green);
+  border-radius: 6px;
+  padding: 0.35em 0.5em;
+  font-weight: 600;
+}
+.spg-tab[aria-selected="true"] { background: var(--spg-green); color: #fff; border-color: var(--spg-green); }
+
+.spg-search { position: relative; }
+.spg-search input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.05em;
+  padding: 0.55em 2.2em 0.55em 0.75em;
+  border: 1px solid var(--spg-green-line);
+  border-radius: 6px;
+  background: #fff;
+  margin: 0;
+}
+.spg-search input:focus { outline: 2px solid var(--spg-green); outline-offset: 0; }
+.spg-clear {
+  position: absolute; right: 0.4em; top: 50%; transform: translateY(-50%);
+  border: 0; background: transparent; color: var(--spg-muted); padding: 0.2em 0.4em;
+}
+
+.spg-planets { display: flex; flex-wrap: wrap; gap: 0.3em; margin: 0.6em 0 0.4em; }
+.spg-chip {
+  border: 1px solid var(--spg-green-line);
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.15em 0.7em;
+  font-size: 0.85em;
+  color: var(--spg-ink);
+}
+.spg-chip[aria-pressed="true"] { background: var(--spg-green); border-color: var(--spg-green); color: #fff; }
+
+.spg-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5em; font-size: 0.85em; }
+.spg-count { color: var(--spg-muted); }
+.spg-actions { display: flex; align-items: center; gap: 0.6em; }
+.spg-actions select { font: inherit; padding: 0.1em 0.3em; margin: 0; height: auto; width: auto; }
+.spg-link { border: 0; background: none; color: var(--spg-green); text-decoration: underline; padding: 0; }
+
+/* ---------- index ---------- */
+.spg-index { display: flex; flex-wrap: wrap; gap: 0.25em 0.9em; margin: 0 0 1em; font-size: 0.9em; line-height: 1.6; }
+.spg-index a { color: var(--spg-green); text-decoration: none; border-bottom: 1px dotted var(--spg-green-line); }
+.spg-index a:hover { border-bottom-style: solid; }
+
+/* ---------- cards ---------- */
+.spg-card {
+  background: var(--spg-paper);
+  border: 1px solid var(--spg-green-line);
+  border-radius: 8px;
+  margin: 0 0 0.6em;
+  scroll-margin-top: 12em;
+}
+.spg-card[open] { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07); }
+.spg-card > summary {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25em 1em;
+  padding: 0.7em 0.9em;
+  cursor: pointer;
+}
+.spg-card > summary::-webkit-details-marker { display: none; }
+.spg-card > summary::before {
+  content: "▸";
+  color: var(--spg-green);
+  margin-right: 0.4em;
+  transition: transform 0.15s;
+  display: inline-block;
+}
+.spg-card[open] > summary::before { transform: rotate(90deg); }
+.spg-card > summary:hover { background: var(--spg-green-soft); border-radius: 8px; }
+.spg-title { flex: 1 1 12em; }
+.spg-name { font-size: 1.15em; font-weight: 700; color: var(--spg-green); }
+.spg-alt { display: inline-block; margin-left: 0.5em; font-style: italic; color: var(--spg-muted); font-size: 0.9em; }
+.spg-meta { display: flex; align-items: center; gap: 0.35em; font-size: 0.95em; }
+.spg-sym { color: var(--spg-green); font-size: 1.1em; }
+.spg-seq { font-size: 0.75em; color: var(--spg-muted); border: 1px solid var(--spg-green-line); border-radius: 4px; padding: 0 0.35em; white-space: nowrap; }
+.spg-warn-dot {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.2em; height: 1.2em; border-radius: 50%;
+  background: var(--spg-warn-bg); color: var(--spg-warn); border: 1px solid var(--spg-warn-line);
+  font-size: 0.75em; font-weight: 700;
+}
+.spg-found { flex-basis: 100%; font-size: 0.78em; color: var(--spg-muted); font-style: italic; }
+.spg-found:empty { display: none; }
+
+.spg-body { padding: 0 1em 0.9em; border-top: 1px solid var(--spg-green-soft); }
+.spg-body section { margin-top: 1em; }
+.spg-body h4 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--spg-green);
+  margin: 0 0 0.35em;
+}
+.spg-body p { margin: 0 0 0.6em; line-height: 1.55; }
+
+.spg-astro { display: flex; flex-wrap: wrap; gap: 0.4em 1.5em; margin-top: 0.8em; font-size: 0.9em; }
+.spg-label { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.06em; color: var(--spg-muted); margin-right: 0.5em; }
+.spg-badge {
+  display: inline-block;
+  background: var(--spg-green-soft);
+  border-radius: 999px;
+  padding: 0.05em 0.6em;
+  margin: 0.15em 0.25em 0.15em 0;
+}
+
+.spg-warning {
+  margin-top: 1em;
+  background: var(--spg-warn-bg);
+  border: 1px solid var(--spg-warn-line);
+  border-left-width: 4px;
+  border-radius: 6px;
+  padding: 0.6em 0.8em 0.1em;
+  color: var(--spg-warn);
+}
+.spg-warning strong { display: block; margin-bottom: 0.3em; }
+
+.spg-tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.3em; }
+.spg-tags li { margin: 0; }
+.spg-tag {
+  border: 1px solid var(--spg-green-line);
+  background: #fff;
+  border-radius: 4px;
+  padding: 0.15em 0.55em;
+  font-size: 0.85em;
+  color: var(--spg-ink);
+  text-align: left;
+}
+.spg-tag:hover { background: var(--spg-green-soft); border-color: var(--spg-green); }
+
+.spg-sec-note p, .spg-sec-osservazioni p { font-style: italic; }
+.spg-sources ul { margin: 0; padding-left: 1.2em; font-size: 0.85em; }
+.spg-pending { color: var(--spg-muted); font-style: italic; margin-top: 1em; }
+.spg-cardfoot { margin-top: 1em; font-size: 0.8em; text-align: right; }
+.spg-permalink { color: var(--spg-muted); text-decoration: none; }
+.spg-permalink:hover { color: var(--spg-green); }
+
+/* ---------- by-ailment view ---------- */
+.spg-letter {
+  color: var(--spg-green);
+  border-bottom: 1px solid var(--spg-green-line);
+  margin: 1.2em 0 0.4em;
+  font-size: 1.2em;
+}
+.spg-ind { margin: 0; }
+.spg-ind dt { font-weight: 600; margin-top: 0.6em; }
+.spg-ind dd { margin: 0.15em 0 0 0; display: flex; flex-wrap: wrap; gap: 0.3em; }
+.spg-ind dd a {
+  background: var(--spg-green-soft);
+  color: var(--spg-green);
+  border-radius: 999px;
+  padding: 0.05em 0.65em;
+  font-size: 0.88em;
+  text-decoration: none;
+}
+.spg-ind dd a:hover { background: var(--spg-green); color: #fff; }
+
+.spg-empty { color: var(--spg-muted); font-style: italic; text-align: center; padding: 2em 0; }
+
+.spg-top {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  z-index: 30;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  border: 1px solid var(--spg-green);
+  background: var(--spg-green);
+  color: #fff;
+  font-size: 1.1em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .spg-toolbar { padding: 0.5em; font-size: 0.9em; }
+  .spg-tabs { margin-bottom: 0.4em; }
+  .spg-tab { padding: 0.25em 0.4em; }
+  .spg-search input { padding-top: 0.4em; padding-bottom: 0.4em; }
+  .spg-planets { margin: 0.4em 0 0.2em; }
+  .spg-planets { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 0.2em; }
+  .spg-chip { white-space: nowrap; }
+  .spg-body { padding: 0 0.7em 0.8em; }
+}
