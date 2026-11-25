@@ -42,6 +42,7 @@
             <li><i><a href="../../../gen/it/enote-archive.html">Estratti</a></i></li>
             <li><i><a href="../../../gen/it/podcast-archive.html">Podcast</a></i></li>
             <li><i><a href="../../../gen/it/poly-archive.html">Traduzioni</a></i></li>
+            <li><i><a href="../../../gen/it/poesie-archive.html">Poesie e riflessioni</a></i></li>
             <li><i><a href="../../../mica/global/it/art.html">Arte</a></i></li>
           </ul>
         </nav>
@@ -58,85 +59,54 @@ e disse una parola a bassa voce.</p>
 </blockquote>
 <p>Elenco <a href="../../../static/pages/prop.html"><strong>Disturbo -&gt; Pianta di guarigione</strong></a></p>
 
-<div class="group group-space-evenly group-m margin-m">
-  <ul>
-    <li>Filtra:</li>
-    <li><input type="text" id="search_input" placeholder="parola da cercare..." oninput="searchPlants()"></li>
-  </ul>
+<link rel="stylesheet" type="text/css" href="../../../static/spagyria.css" />
+
+<div class="spg" id="spg" data-lang="it">
+
+  <p class="spg-disclaimer" data-i18n="disclaimer"></p>
+
+  <div class="spg-toolbar" id="spg-toolbar">
+    <div class="spg-tabs" role="tablist">
+      <button type="button" role="tab" class="spg-tab" id="spg-tab-piante" data-view="piante" aria-selected="true" data-i18n="tabPlants"></button>
+      <button type="button" role="tab" class="spg-tab" id="spg-tab-disturbi" data-view="disturbi" aria-selected="false" data-i18n="tabIndications"></button>
+    </div>
+
+    <div class="spg-search">
+      <input type="search" id="spg-q" autocomplete="off" data-i18n-placeholder="searchPlaceholder" />
+      <button type="button" class="spg-clear" id="spg-clear" data-i18n-title="clear" hidden>✕</button>
+    </div>
+
+    <div class="spg-filters">
+      <div class="spg-planets" id="spg-planets" role="group"></div>
+      <div class="spg-row">
+        <span class="spg-count" id="spg-count" aria-live="polite"></span>
+        <span class="spg-actions" id="spg-plant-actions">
+          <select id="spg-sort" data-i18n-title="sort">
+            <option value="az" data-i18n="sortAz"></option>
+            <option value="seq" data-i18n="sortSeq"></option>
+          </select>
+          <button type="button" class="spg-link" id="spg-expand" data-i18n="expandAll"></button>
+          <button type="button" class="spg-link" id="spg-collapse" data-i18n="collapseAll"></button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="spg-view-piante">
+    <nav class="spg-index" id="spg-index" data-i18n-aria-label="index"></nav>
+    <div id="spg-cards"></div>
+  </div>
+
+  <div id="spg-view-disturbi" hidden>
+    <div id="spg-indications"></div>
+  </div>
+
+  <p class="spg-empty" id="spg-empty" data-i18n="noResults" hidden></p>
+
+  <button type="button" class="spg-top" id="spg-top" data-i18n-title="backToTop" hidden>↑</button>
 </div>
 
-<button class="border border-radius cursor-pointer z-index-high display-none
-               transition-medium position-fixed position-bottom-right margin-s
-               border-color-success-100 font-size-l font-weight-extra-bold" id="back-to-list" onclick="scrollToPlantsList()" title="Torna all'elenco">↑</button>
-
-<div class="group group-m group-column border border-radius background-light-50 border-color-success-100 margin-m padding-m" id="plants_list"></div>
-<div id="plants"></div>
-
-<script>
-  function plantTemplate(pianta) {
-    return `
-        <div class="group group-m group-column border border-radius background-light-50 border-color-success-100 margin-m padding-m" id="pianta-${pianta.nome}">
-            <h3>${pianta.nome}</h3>
-            ${pianta.pianeti ? `<p><strong>Pianeti:</strong> ${pianta.pianeti}</p>` : ""}
-            ${pianta.segni ? `<p><strong>Segni:</strong> ${pianta.segni}</p>` : ""}
-            <p>${pianta.descrizione.replace(/\n/g, "<br />")}</p>
-        </div>
-        `;
-  }
-
-  function searchPlants() {
-    const input = document.getElementById('search_input');
-    const filter = input.value.toUpperCase();
-    const plantCards = document.querySelectorAll('[id^=pianta]');
-
-    plantCards.forEach(pianta => {
-      const content = pianta.textContent.replace(/\s+/g, '').toUpperCase();
-      pianta.style.display = content.includes(filter) ? "" : "none";
-    });
-  }
-
-  function scrollToPlantsList() {
-    const plantsList = document.getElementById('plants_list');
-    plantsList.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  function toggleBackToListButton() {
-    const backToListButton = document.getElementById('back-to-list');
-    const plantsList = document.getElementById('plants_list');
-
-    const shouldShowButton = window.scrollY > plantsList.offsetHeight + plantsList.offsetTop;
-    backToListButton.style.display = shouldShowButton ? 'flex' : 'none';
-  }
-
-  $(document).ready(function() {
-
-    window.addEventListener('scroll', toggleBackToListButton);
-
-    $.getJSON("/static/plants.json", function(plants) {
-      // Filtra solo le piante con seq numerico
-      plants = plants.filter(plant => !isNaN(plant.seq));
-
-      // Crea la lista dei bottoni con i nomi delle piante
-      const plantNames = [...new Set(plants.map(plant => plant.nome))].sort();
-      const plantListHTML = plantNames.map(plant =>
-        `<button onclick="scrollToPianta('${plant}')" class="border
-        border-radius margin-xxs" id="pianta-${plant}-btn"><b class="padding-xxs">${plant}</b></button >`
-      ).join('');
-      $('#plants_list').html(plantListHTML);
-
-      // Crea i dettagli delle piante
-      const plantsHTML = plants.map(plantTemplate).join('');
-      $('#plants').html(plantsHTML);
-    });
-  });
-
-  function scrollToPianta(nomePianta) {
-    const pianta = document.getElementById(`pianta-${nomePianta}`);
-    if (pianta) {
-      pianta.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-</script>
+<script src="../../../static/spagyria.js"></script>
 
 
 <center class="padding-top-m">

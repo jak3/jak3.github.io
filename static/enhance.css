@@ -2,3 +2,19 @@ blockquote {
   font-style: italic;
   font-size: smaller;
 }
+
+/* Poesie e riflessioni */
+.poesia {
+  text-align: left;
+  max-width: 40em;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.poesia h1 { text-align: center; }
+.poesia img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em auto;
+  border-radius: 4px;
+}
